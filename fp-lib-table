@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name NARA_Lib)(type KiCad)(uri "$(KIPRJMOD)/NARA_Lib.pretty")(options "")(descr ""))
+)

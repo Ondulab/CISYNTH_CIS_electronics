@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C_220nF
+D 220nF, C-0603, 25V, X7R
+K C, 220nF, C-0603
+$ENDCMP
+#
+$CMP C_470nF
+D 100nF, C-0402, 25V, X7R
+K C, 100nF, C-0402
+$ENDCMP
+#
+$CMP C_47uF
+D 47uF, EIA-7343–31, 25V, TANTALE
+K C, 47uF, EIA-7343–31
+$ENDCMP
+#
+$CMP K_FPC_52435-2471
+D 52435-2471, FPC_52435-2471, Molex, CONN, FPC female SMD R/A, 24p, 1ppr
+K flex 
+$ENDCMP
+#
+$CMP K_KK-41791-02
+D CTB93HE/2, CTB93HE-2, Camdenboss, CONN, Terminal block female R/A, 2p, 1ppr
+$ENDCMP
+#
+$CMP K_PicoSPOX-3
+D 874380343 , PicoSPOX-3, Molex, 3p, 5ppr, 3A, fem
+K K, K_0002, PicoSPOX-5
+$ENDCMP
+#
+$CMP LTC2944
+D LTC2944, DFN-8-1EP_3x3mm_Pitch0.5mm, Linear Technology, MONITORING, FUEL GAUGE / I2C, 60Vin, null, 100uA, 1%, -40° to 85°
+K U, LTC2944, DFN-8-1EP_3x3mm_Pitch0.5mm
+$ENDCMP
+#
+$CMP STM32H743VITx
+D Core: ARM Cortex-M7, Package: LQFP100, Flash: 2 MB, RAM: 1 MB, Frequency: 400 MHz, Voltage: 1.7..3.6V, I/O pins: 82
+K ARM Cortex-M7 STM32H7 STM32H7x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00166114.pdf
+$ENDCMP
+#
+$CMP SW_KMR2
+D Generic button 
+K but, button, switch, sIdProduct, keywords...
+$ENDCMP
+#
+$CMP SW_SKQG
+D Generic button 
+K but, button, switch, sIdProduct, keywords...
+$ENDCMP
+#
+$CMP U_AP2204K-5.0TRG1
+D LP2992AIM5-5.0/NOPB, SOT_23-5, Texas Instruments, REGULATOR, LDO / EN / 5Vout, 2.2V to 16Vin, 5Vout, 250mA, 1uA, 1 %, -40° to 125°
+K U, LP2992AIM5-5.0/NOPB, SOT_23-5
+$ENDCMP
+#
+$CMP U_LT8610ABIMSE-3.3
+D LT8610ABIMSE-5, MSOP_16-EP_3x4_P0.5, Linear Technology, REGULATOR, DC/DC STEP DOWN / EN, 42Vin, 5Vout, 3.5A, 2.5uA, 200Khz to 2.2Mhz, -40° to 125°
+K U, LT8610ABIMSE-5, MSOP_16-EP_3x4_P0.5
+$ENDCMP
+#
+#End Doc Library

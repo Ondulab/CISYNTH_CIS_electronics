@@ -1,0 +1,1347 @@
+Cmp-Mod V01 Created by PcbNew   date = mer. 11 avril 2018 23:03:50 CEST
+
+BeginCmp
+TimeStamp = 5ACC12A8
+Path = /5AC17471
+Reference = C1;
+ValeurCmp = C_0038;
+IdModule  = DVB_Capacitors_Ceramic:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC12B9
+Path = /5AC174EA
+Reference = C2;
+ValeurCmp = C_0001;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC12CA
+Path = /5AC36D73
+Reference = C3;
+ValeurCmp = C_0056;
+IdModule  = DVB_Capacitors_Ceramic:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC12DE
+Path = /5ACCC654
+Reference = C4;
+ValeurCmp = C_47uF;
+IdModule  = DVB_Capacitors_Tantalum:CP_EIA-7343-31;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC12F2
+Path = /5ACCD43A
+Reference = C5;
+ValeurCmp = C_47uF;
+IdModule  = DVB_Capacitors_Tantalum:CP_EIA-7343-31;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1303
+Path = /5AC17549
+Reference = C6;
+ValeurCmp = C_0037;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1317
+Path = /5ACCCA46
+Reference = C7;
+ValeurCmp = C_47uF;
+IdModule  = DVB_Capacitors_Tantalum:CP_EIA-7343-31;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC132B
+Path = /5ACCE01F
+Reference = C8;
+ValeurCmp = C_47uF;
+IdModule  = DVB_Capacitors_Tantalum:CP_EIA-7343-31;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC133C
+Path = /5AC423EB
+Reference = C9;
+ValeurCmp = C_0033;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC134D
+Path = /5AC4C608
+Reference = C10;
+ValeurCmp = C_0033;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC135E
+Path = /5AC17836
+Reference = C11;
+ValeurCmp = C_0002;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC136F
+Path = /5AC3B138
+Reference = C12;
+ValeurCmp = C_0034;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1380
+Path = /5AC4C53B
+Reference = C13;
+ValeurCmp = C_0034;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1391
+Path = /5AC3801E
+Reference = C14;
+ValeurCmp = C_0045;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC13A2
+Path = /5AC3B3B9
+Reference = C15;
+ValeurCmp = C_0056;
+IdModule  = DVB_Capacitors_Ceramic:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC13B3
+Path = /5AC4C545
+Reference = C16;
+ValeurCmp = C_0056;
+IdModule  = DVB_Capacitors_Ceramic:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC13C4
+Path = /5AC7D494
+Reference = C17;
+ValeurCmp = C_0056;
+IdModule  = DVB_Capacitors_Ceramic:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC13D5
+Path = /5ACBBF79
+Reference = C18;
+ValeurCmp = C_220nF;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC13E6
+Path = /5ACBC811
+Reference = C19;
+ValeurCmp = C_220nF;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC13F7
+Path = /5AC17647
+Reference = C20;
+ValeurCmp = C_0001;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1408
+Path = /5AC860E7
+Reference = C21;
+ValeurCmp = C_0033;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1419
+Path = /5AC17764
+Reference = C22;
+ValeurCmp = C_0040;
+IdModule  = DVB_Capacitors_Ceramic:C_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC142A
+Path = /5AC1770C
+Reference = C23;
+ValeurCmp = C_0040;
+IdModule  = DVB_Capacitors_Ceramic:C_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC143B
+Path = /5AC8BB04
+Reference = C24;
+ValeurCmp = C_0002;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC144C
+Path = /5AD0A9AE
+Reference = C25;
+ValeurCmp = C_0001;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC145D
+Path = /5ACC772B
+Reference = C26;
+ValeurCmp = C_0037;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC146E
+Path = /5ACD10FB
+Reference = C27;
+ValeurCmp = C_0043;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC147F
+Path = /5ACC754C
+Reference = C28;
+ValeurCmp = C_0002;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1490
+Path = /5ACBB53B
+Reference = C29;
+ValeurCmp = C_0007;
+IdModule  = DVB_Capacitors_Ceramic:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC14A1
+Path = /5ACB7AFC
+Reference = C30;
+ValeurCmp = C_0045;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC14B2
+Path = /5ACBB379
+Reference = C31;
+ValeurCmp = C_0007;
+IdModule  = DVB_Capacitors_Ceramic:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC14C3
+Path = /5ACD1712
+Reference = C32;
+ValeurCmp = C_0043;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC14D4
+Path = /5ACB531D
+Reference = C33;
+ValeurCmp = C_0045;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC14E5
+Path = /5ACBAA90
+Reference = C34;
+ValeurCmp = C_0007;
+IdModule  = DVB_Capacitors_Ceramic:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC14F6
+Path = /5ACB9F48
+Reference = C35;
+ValeurCmp = C_0007;
+IdModule  = DVB_Capacitors_Ceramic:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1507
+Path = /5ACBA8DE
+Reference = C36;
+ValeurCmp = C_0007;
+IdModule  = DVB_Capacitors_Ceramic:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1518
+Path = /5AC32699
+Reference = C37;
+ValeurCmp = C_0037;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1529
+Path = /5AC32A4E
+Reference = C38;
+ValeurCmp = C_0037;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC153A
+Path = /5AD138B4
+Reference = C39;
+ValeurCmp = C_0037;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC154B
+Path = /5AD138BE
+Reference = C40;
+ValeurCmp = C_0037;
+IdModule  = DVB_Capacitors_Ceramic:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC155C
+Path = /5AC55922
+Reference = C41;
+ValeurCmp = C_0001;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC156D
+Path = /5AC5730D
+Reference = C42;
+ValeurCmp = C_0045;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC157E
+Path = /5AC57673
+Reference = C43;
+ValeurCmp = C_0002;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC158F
+Path = /5AD227B3
+Reference = C44;
+ValeurCmp = C_0002;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC15A0
+Path = /5ACBAB0C
+Reference = C45;
+ValeurCmp = C_470nF;
+IdModule  = DVB_Capacitors_Ceramic:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC15B8
+Path = /5AC4197A
+Reference = D1;
+ValeurCmp = D_0022;
+IdModule  = DVB_Diodes:D_SOD-523;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC15D0
+Path = /5AC4C5F8
+Reference = D2;
+ValeurCmp = D_0022;
+IdModule  = DVB_Diodes:D_SOD-523;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC15E8
+Path = /5AC40867
+Reference = D3;
+ValeurCmp = D_0022;
+IdModule  = DVB_Diodes:D_SOD-523;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1600
+Path = /5AC4C5EB
+Reference = D4;
+ValeurCmp = D_0022;
+IdModule  = DVB_Diodes:D_SOD-523;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1615
+Path = /5ACF1CF9
+Reference = D5;
+ValeurCmp = D_0001;
+IdModule  = DVB_LED:LED_0603-red;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC162A
+Path = /5ACFC9DA
+Reference = D6;
+ValeurCmp = D_0001;
+IdModule  = DVB_LED:LED_0603-red;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC163F
+Path = /5ACF896E
+Reference = D7;
+ValeurCmp = D_0001;
+IdModule  = DVB_LED:LED_0603-red;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1654
+Path = /5AD04140
+Reference = D8;
+ValeurCmp = D_0001;
+IdModule  = DVB_LED:LED_0603-red;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1669
+Path = /5AD04734
+Reference = D9;
+ValeurCmp = D_0001;
+IdModule  = DVB_LED:LED_0603-red;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC167E
+Path = /5AD04753
+Reference = D10;
+ValeurCmp = D_0001;
+IdModule  = DVB_LED:LED_0603-red;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1693
+Path = /5ACD492D
+Reference = D11;
+ValeurCmp = D_0001;
+IdModule  = DVB_LED:LED_0603-red;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC16A1
+Path = /5AC4D46D
+Reference = F1;
+ValeurCmp = F_001;
+IdModule  = DVB_F:F-OMNI-BLOCK;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC16B7
+Path = /5ACDBD38
+Reference = K1;
+ValeurCmp = K_KK-41791-02;
+IdModule  = Connectors_Molex:Molex_KK-41791-02_02x3.96mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC16CD
+Path = /5ACE0FE9
+Reference = K2;
+ValeurCmp = PW_MOT;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC16E4
+Path = /5ACE88A1
+Reference = K3;
+ValeurCmp = PROG;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1706
+Path = /5AC33EFD
+Reference = K6;
+ValeurCmp = K_0002;
+IdModule  = DVB_Connectors:K_PicoSPOX-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1728
+Path = /5AC4C4F0
+Reference = K8;
+ValeurCmp = K_0002;
+IdModule  = DVB_Connectors:K_PicoSPOX-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC174A
+Path = /5ACB394B
+Reference = K9;
+ValeurCmp = TOF_LF;
+IdModule  = NARA_Lib:GYVL53L0X;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC176C
+Path = /5ACB5F1C
+Reference = K10;
+ValeurCmp = TOF_LD;
+IdModule  = NARA_Lib:GYVL53L0X;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC178E
+Path = /5ACB67F9
+Reference = K11;
+ValeurCmp = TOF_LS;
+IdModule  = NARA_Lib:GYVL53L0X;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC17B0
+Path = /5ACB481F
+Reference = K12;
+ValeurCmp = TOF_RF;
+IdModule  = NARA_Lib:GYVL53L0X;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC17D2
+Path = /5ACB518B
+Reference = K13;
+ValeurCmp = TOF_RD;
+IdModule  = NARA_Lib:GYVL53L0X;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC17F4
+Path = /5ACB6EFC
+Reference = K14;
+ValeurCmp = TOF_RS;
+IdModule  = NARA_Lib:GYVL53L0X;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC180C
+Path = /5ACEFB05
+Reference = K15;
+ValeurCmp = UART;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1826
+Path = /5ACBACF6
+Reference = K16;
+ValeurCmp = OLED_128x32;
+IdModule  = NARA_Lib:OLED_128x32;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1839
+Path = /5AC177A2
+Reference = L1;
+ValeurCmp = L_0002;
+IdModule  = DVB_Inductors:L_5030-Coilcraft;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC184A
+Path = /5ACCDB39
+Reference = L2;
+ValeurCmp = L_0010;
+IdModule  = DVB_Inductors:L_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC185F
+Path = /5AD061F6
+Reference = Q1;
+ValeurCmp = Q_0004;
+IdModule  = DVB_SOT:SOT_23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1874
+Path = /5AC98801
+Reference = Q2;
+ValeurCmp = Q_0007;
+IdModule  = DVB_SOT:SOT_23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1889
+Path = /5AC9D006
+Reference = Q3;
+ValeurCmp = Q_0007;
+IdModule  = DVB_SOT:SOT_23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC189E
+Path = /5AC9DAB8
+Reference = Q4;
+ValeurCmp = Q_0007;
+IdModule  = DVB_SOT:SOT_23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC18B3
+Path = /5AC9C474
+Reference = Q5;
+ValeurCmp = Q_0007;
+IdModule  = DVB_SOT:SOT_23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC18C8
+Path = /5AC9D437
+Reference = Q6;
+ValeurCmp = Q_0007;
+IdModule  = DVB_SOT:SOT_23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC18DD
+Path = /5AC9DF41
+Reference = Q7;
+ValeurCmp = Q_0007;
+IdModule  = DVB_SOT:SOT_23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC18F2
+Path = /5AC2BAD2
+Reference = Q8;
+ValeurCmp = Q_0004;
+IdModule  = DVB_SOT:SOT_23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1907
+Path = /5AD13839
+Reference = Q9;
+ValeurCmp = Q_0004;
+IdModule  = DVB_SOT:SOT_23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1918
+Path = /5AC3E27F
+Reference = R1;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1929
+Path = /5AC4C5C3
+Reference = R2;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC193A
+Path = /5AC3E26F
+Reference = R3;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC194B
+Path = /5AC4C5B3
+Reference = R4;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC195C
+Path = /5AC3E117
+Reference = R5;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC196D
+Path = /5AC4C5A3
+Reference = R6;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC197E
+Path = /5AC76466
+Reference = R7;
+ValeurCmp = R_0111;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC198F
+Path = /5ACF3114
+Reference = R8;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC19A0
+Path = /5AC3E107
+Reference = R9;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC19B1
+Path = /5AC4C593
+Reference = R10;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC19C2
+Path = /5AC7632F
+Reference = R11;
+ValeurCmp = R_0111;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC19D3
+Path = /5AC3E00C
+Reference = R12;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC19E4
+Path = /5AC4C583
+Reference = R13;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC19F5
+Path = /5AC755CC
+Reference = R14;
+ValeurCmp = R_0111;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A06
+Path = /5AC3D9F3
+Reference = R15;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A17
+Path = /5AC4C573
+Reference = R16;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A28
+Path = /5AC175D6
+Reference = R17;
+ValeurCmp = R_0030;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A39
+Path = /5AC71ED8
+Reference = R18;
+ValeurCmp = R_0088;
+IdModule  = DVB_Resistors:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A4A
+Path = /5AC4605D
+Reference = R19;
+ValeurCmp = R_0093;
+IdModule  = DVB_Resistors:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A5B
+Path = /5AC4C65C
+Reference = R20;
+ValeurCmp = R_0093;
+IdModule  = DVB_Resistors:R_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A6C
+Path = /5AC68257
+Reference = R21;
+ValeurCmp = R_0015;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A7D
+Path = /5AC67EC6
+Reference = R22;
+ValeurCmp = R_0015;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A8E
+Path = /5ACF82CD
+Reference = R23;
+ValeurCmp = R_0118;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1A9F
+Path = /5ACFBDD3
+Reference = R24;
+ValeurCmp = R_0015;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1AB0
+Path = /5ACF86D6
+Reference = R25;
+ValeurCmp = R_0104;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1AC1
+Path = /5AD04131
+Reference = R26;
+ValeurCmp = R_0104;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1AD2
+Path = /5AD04725
+Reference = R27;
+ValeurCmp = R_0104;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1AE3
+Path = /5AD04744
+Reference = R28;
+ValeurCmp = R_0104;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1AF4
+Path = /5AC86C36
+Reference = R29;
+ValeurCmp = R_0105;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B05
+Path = /5AC8779A
+Reference = R30;
+ValeurCmp = R_0105;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B16
+Path = /5AC3A9E4
+Reference = R31;
+ValeurCmp = R_0015;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B27
+Path = /5AC3ABDB
+Reference = R32;
+ValeurCmp = R_0015;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B38
+Path = /5AC3AC83
+Reference = R33;
+ValeurCmp = R_0015;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B49
+Path = /5AC4C51D
+Reference = R34;
+ValeurCmp = R_0015;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B5A
+Path = /5AC4C527
+Reference = R35;
+ValeurCmp = R_0015;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B6B
+Path = /5AC4C531
+Reference = R36;
+ValeurCmp = R_0015;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B7C
+Path = /5AD06A92
+Reference = R37;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B8D
+Path = /5AD0D139
+Reference = R38;
+ValeurCmp = R_0076;
+IdModule  = DVB_Resistors:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1B9E
+Path = /5AC9112E
+Reference = R39;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1BAF
+Path = /5AC9CFF4
+Reference = R40;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1BC0
+Path = /5AC9DAA6
+Reference = R41;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1BD1
+Path = /5AC9C462
+Reference = R42;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1BE2
+Path = /5AC9D425
+Reference = R43;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1BF3
+Path = /5AC9DF2F
+Reference = R44;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C04
+Path = /5AC2D810
+Reference = R45;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C15
+Path = /5AD13878
+Reference = R46;
+ValeurCmp = R_0002;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C26
+Path = /5AC2CB29
+Reference = R47;
+ValeurCmp = R_0033;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C37
+Path = /5AC2E157
+Reference = R48;
+ValeurCmp = R_0033;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C48
+Path = /5AD1384F
+Reference = R49;
+ValeurCmp = R_0033;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C59
+Path = /5AD1388E
+Reference = R50;
+ValeurCmp = R_0033;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C6A
+Path = /5AC80473
+Reference = R51;
+ValeurCmp = R_0003;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C7B
+Path = /5AC7FFE2
+Reference = R52;
+ValeurCmp = R_0003;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C8C
+Path = /5AC2D149
+Reference = R53;
+ValeurCmp = R_0105;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1C9D
+Path = /5AC2E16D
+Reference = R54;
+ValeurCmp = R_0105;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1CAE
+Path = /5AD13865
+Reference = R55;
+ValeurCmp = R_0105;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1CBF
+Path = /5AD138A4
+Reference = R56;
+ValeurCmp = R_0105;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1CD0
+Path = /5ACD5571
+Reference = R57;
+ValeurCmp = R_0104;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1CE1
+Path = /5AD04C6E
+Reference = R58;
+ValeurCmp = R_0033;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1CF2
+Path = /5AD028B9
+Reference = R59;
+ValeurCmp = R_0105;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1D03
+Path = /5AD06B82
+Reference = R60;
+ValeurCmp = R_0105;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1D14
+Path = /5AD061A6
+Reference = R61;
+ValeurCmp = R_0033;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1D25
+Path = /5ACFC380
+Reference = R62;
+ValeurCmp = R_0111;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1D36
+Path = /5ACFC376
+Reference = R63;
+ValeurCmp = R_0111;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1D47
+Path = /5ACF0534
+Reference = R64;
+ValeurCmp = R_0111;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1D58
+Path = /5ACEF4DC
+Reference = R65;
+ValeurCmp = R_0111;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1D69
+Path = /5ACF1FF6
+Reference = R66;
+ValeurCmp = R_0111;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1D7A
+Path = /5ACF1FEC
+Reference = R67;
+ValeurCmp = R_0111;
+IdModule  = DVB_Resistors:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1D91
+Path = /5AD05371
+Reference = SP1;
+ValeurCmp = SP_0001;
+IdModule  = DVB_Buzzers:SP_KSSG-5x5x3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1DA7
+Path = /5ACEA681
+Reference = SW1;
+ValeurCmp = SW_KMR2;
+IdModule  = Buttons_Switches_SMD:SW_SPST_KMR2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1DBD
+Path = /5ACE9DA9
+Reference = SW2;
+ValeurCmp = SW_KMR2;
+IdModule  = Buttons_Switches_SMD:SW_SPST_KMR2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1DD3
+Path = /5ACEC486
+Reference = SW3;
+ValeurCmp = SW_KMR2;
+IdModule  = Buttons_Switches_SMD:SW_SPST_KMR2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1DE9
+Path = /5ACEC6E7
+Reference = SW4;
+ValeurCmp = SW_KMR2;
+IdModule  = Buttons_Switches_SMD:SW_SPST_KMR2;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1E0F
+Path = /5ACCEC6F
+Reference = U1;
+ValeurCmp = U_LT8610ABIMSE-3.3;
+IdModule  = DVB_SSOP:MSOP_16-1EP_3x4_P0.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1E24
+Path = /5ACF757F
+Reference = U2;
+ValeurCmp = U_AP2204K-5.0TRG1;
+IdModule  = DVB_SOT:SOT_23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1E3F
+Path = /5AC70AEB
+Reference = U3;
+ValeurCmp = LTC2944;
+IdModule  = Housings_DFN_QFN:DFN-8-1EP_3x3mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1F35
+Path = /5ACC5B00
+Reference = U6;
+ValeurCmp = LTC2955TS8-1;
+IdModule  = TO_SOT_Packages_SMD:SOT-23-8;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1FB0
+Path = /5ACC5437
+Reference = U7;
+ValeurCmp = STM32H743VITx;
+IdModule  = Housings_QFP:LQFP-100_14x14mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1FE0
+Path = /5ACC1E78
+Reference = U8;
+ValeurCmp = ICM-20689;
+IdModule  = Housings_DFN_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC2000
+Path = /5ACC8EAA
+Reference = U9;
+ValeurCmp = QRE1113GR;
+IdModule  = NARA_Lib:QRE1113GR;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC2020
+Path = /5ACC96EC
+Reference = U10;
+ValeurCmp = QRE1113GR;
+IdModule  = NARA_Lib:QRE1113GR;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC2040
+Path = /5ACC992E
+Reference = U11;
+ValeurCmp = QRE1113GR;
+IdModule  = NARA_Lib:QRE1113GR;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC2060
+Path = /5ACC9EE2
+Reference = U12;
+ValeurCmp = QRE1113GR;
+IdModule  = NARA_Lib:QRE1113GR;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC2083
+Path = /5ACC3A25
+Reference = XO1;
+ValeurCmp = XO_8Z-16;
+IdModule  = DVB_Clock:XO_8Z;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC30EB
+Path = /5ACD3333
+Reference = K5;
+ValeurCmp = K_PicoSPOX-3;
+IdModule  = NARA_Lib:K_PicoSPOX-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC3105
+Path = /5ACD3AC0
+Reference = K7;
+ValeurCmp = K_PicoSPOX-3;
+IdModule  = NARA_Lib:K_PicoSPOX-3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1F1D
+Path = /5ACBFC39
+Reference = U5;
+ValeurCmp = L6234;
+IdModule  = NARA_Lib:PowerSO-20;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ACC1EAE
+Path = /5ACBF88D
+Reference = U4;
+ValeurCmp = L6234;
+IdModule  = NARA_Lib:PowerSO-20;
+EndCmp
+
+EndListe
