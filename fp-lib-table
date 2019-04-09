@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name NARA_Lib)(type KiCad)(uri "$(KIPRJMOD)/NARA_Lib.pretty")(options "")(descr ""))
+  (lib (name CISYNTH_Lib)(type KiCad)(uri "$(KIPRJMOD)/CISYNTH_Lib.pretty")(options "")(descr ""))
   (lib (name Battery)(type KiCad)(uri /home/zhonx/kicad/module/kicad-footprints/Battery.pretty)(options "")(descr ""))
   (lib (name Button_Switch_Keyboard)(type KiCad)(uri /home/zhonx/kicad/module/kicad-footprints/Button_Switch_Keyboard.pretty)(options "")(descr ""))
   (lib (name Button_Switch_SMD)(type KiCad)(uri /home/zhonx/kicad/module/kicad-footprints/Button_Switch_SMD.pretty)(options "")(descr ""))
