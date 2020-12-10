@@ -1,0 +1,4508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/hpc66-jo/Documents/MiniBox/hardware/p3/embedded/HM3/HM3.sch</source>
+    <date>jeu. 20 sept. 2018 11:13:41 CEST</date>
+    <tool>Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>HM3</title>
+        <company>DEVISUBOX</company>
+        <rev>3.2.2</rev>
+        <date>2018-04-03</date>
+        <source>HM3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C12">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">25V</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595BFDDF</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">25V</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C05E2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">25V</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C1075</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">25V</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C1324</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">25V</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C15D5</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>XO_0002</value>
+      <footprint>DVB_Clock:XO_FC-12M</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1734644.pdf</datasheet>
+      <fields>
+        <field name="Field1">X1A0000610003 FC-12M 32.768KHZ 12.5PF</field>
+        <field name="Field2">FC-12M</field>
+        <field name="Field3">Epson</field>
+        <field name="Field4">32.768Khz</field>
+        <field name="Field5">12.5pF</field>
+        <field name="Field6">90KR</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="XO_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CF80C</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>C_0042</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">12pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">C0G/N0P</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0042" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D4CD7</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>C_0042</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">12pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">C0G/N0P</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0042" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D53C6</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>C_0043</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">18pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">C0G/N0P</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0043" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D9CAB</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>C_0043</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">18pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">C0G/N0P</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0043" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595DA0FD</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">25V</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595DEE0D</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>C_0044</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0044" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595DF8B1</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E1345</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>C_0044</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0044" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E1D31</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L_0010</value>
+      <footprint>DVB_Inductors:L_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/84899.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field1">MMZ1608B121C</field>
+        <field name="Field2">L-0603</field>
+        <field name="Field3">TDK</field>
+        <field name="Field4">120ohm 100Mhz</field>
+        <field name="Field5">600mA</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="L_0010" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E4A7E</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>C_0045</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">2.2uF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0045" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E6E18</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>C_0045</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">2.2uF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0045" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E7468</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_0020</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0020" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E7D8F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_0046</value>
+      <footprint>DVB_Capacitors_Supercap:SUPERCAP_ELNA-DSK621</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">330mF</field>
+        <field name="Field2">SUPERCAP_ELNA-DSK621</field>
+        <field name="Field3">3.3V</field>
+        <field name="Field4">EDLC</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0046" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595BE1CE</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D_0020</value>
+      <footprint>DVB_Diodes:D_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2239358.pdf?_ga=2.179557988.1391353022.1498466693</datasheet>
+      <fields>
+        <field name="Field1">CD0603-B0230</field>
+        <field name="Field2">D_0603</field>
+        <field name="Field3">SCHOTTKY</field>
+        <field name="Field4">30V</field>
+        <field name="Field5">200mA</field>
+        <field name="Field6">0.5Vf</field>
+        <field name="Field7">12pF</field>
+        <field name="Field8">1-Chan</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="D_0020" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C01AD</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C3DB3</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_0002</value>
+      <footprint>DVB_Buttons:KSS221G</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/60/kss-965434.pdf</datasheet>
+      <fields>
+        <field name="Field1">KSS221G LFS</field>
+        <field name="Field2">KSS221G</field>
+        <field name="Field3">CK</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="SW_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595C58D0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D3053</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>K_0021</value>
+      <footprint>DVB_Connectors:K_MLE-110-01-G-DV-A</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/mle_sm.pdf</datasheet>
+      <fields>
+        <field name="Field1">MLE-110-01-G-DV-A</field>
+        <field name="Field2">MLE-110-01-G-DV-A</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">20p</field>
+        <field name="Field5">10ppr</field>
+        <field name="Field6">2.8A</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+        <field name="Field9">VBAT/USBFS/I2C1/RTC</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="K_0021" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595D5FB2</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>U_0075</value>
+      <footprint>DVB_SOT:SOT_353-SC_70-5</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/ae/09/87/c5/c7/6b/4e/8a/CD00002023.pdf/files/CD00002023.pdf/jcr:content/translations/en.CD00002023.pdf</datasheet>
+      <fields>
+        <field name="Field1">USBDF01W5</field>
+        <field name="Field2">SOT_353-SC_70-5</field>
+        <field name="Field3">ST Microelectronics</field>
+        <field name="Field4">Filter</field>
+        <field name="Field5">EMI/RFI Filter</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0075" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595DCAB3</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>K_0021</value>
+      <footprint>DVB_Connectors:K_MLE-110-01-G-DV-A</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/mle_sm.pdf</datasheet>
+      <fields>
+        <field name="Field1">MLE-110-01-G-DV-A</field>
+        <field name="Field2">MLE-110-01-G-DV-A</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">20p</field>
+        <field name="Field5">10ppr</field>
+        <field name="Field6">2.8A</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+        <field name="Field9">Wkup/USBHS/USART/I2C2</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="K_0021" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595DD608</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>U_0075</value>
+      <footprint>DVB_SOT:SOT_353-SC_70-5</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/ae/09/87/c5/c7/6b/4e/8a/CD00002023.pdf/files/CD00002023.pdf/jcr:content/translations/en.CD00002023.pdf</datasheet>
+      <fields>
+        <field name="Field1">USBDF01W5</field>
+        <field name="Field2">SOT_353-SC_70-5</field>
+        <field name="Field3">ST Microelectronics</field>
+        <field name="Field4">Filter</field>
+        <field name="Field5">EMI/RFI Filter</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0075" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E024A</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>K_0021</value>
+      <footprint>DVB_Connectors:K_MLE-110-01-G-DV-A</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/mle_sm.pdf</datasheet>
+      <fields>
+        <field name="Field1">MLE-110-01-G-DV-A</field>
+        <field name="Field2">MLE-110-01-G-DV-A</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">20p</field>
+        <field name="Field5">10ppr</field>
+        <field name="Field6">2.8A</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+        <field name="Field9">RST/ADC/GPIO</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="K_0021" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E0FD8</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>K_0022</value>
+      <footprint>DVB_Connectors:K_Header-1x12_P2.54_S</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2051027.pdf?_ga=2.159396733.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field1">SSW-112-01-G-S</field>
+        <field name="Field2">Header-1x12_P2.54_S</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">12</field>
+        <field name="Field5">12ppr</field>
+        <field name="Field6">5.7A</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+        <field name="Field9">GUI</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="K_0022" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E392C</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>K_0021</value>
+      <footprint>DVB_Connectors:K_MLE-110-01-G-DV-A</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/mle_sm.pdf</datasheet>
+      <fields>
+        <field name="Field1">MLE-110-01-G-DV-A</field>
+        <field name="Field2">MLE-110-01-G-DV-A</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">20p</field>
+        <field name="Field5">10ppr</field>
+        <field name="Field6">2.8A</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+        <field name="Field9">CAM_IO</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="K_0021" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E6954</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>K_0021</value>
+      <footprint>DVB_Connectors:K_MLE-110-01-G-DV-A</footprint>
+      <datasheet>http://suddendocs.samtec.com/catalog_english/mle_sm.pdf</datasheet>
+      <fields>
+        <field name="Field1">MLE-110-01-G-DV-A</field>
+        <field name="Field2">MLE-110-01-G-DV-A</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">20p</field>
+        <field name="Field5">10ppr</field>
+        <field name="Field6">2.8A</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+        <field name="Field9">CAM_CLK</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="K_0021" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E80A1</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>R_0015</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0015" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E9C76</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>R_0015</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0015" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E98D3</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>U_0049</value>
+      <footprint>DVB_SOT:SOT_143</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CD143A-SR28_33.pdf </datasheet>
+      <fields>
+        <field name="Field1">CD143A-SR3.3</field>
+        <field name="Field3">Bourns</field>
+        <field name="Field4">ESD</field>
+        <field name="Field5">0</field>
+        <field name="Field6">0</field>
+        <field name="Field7">0</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0049" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595F0AC4</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>U_0049</value>
+      <footprint>DVB_SOT:SOT_143</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CD143A-SR28_33.pdf </datasheet>
+      <fields>
+        <field name="Field1">CD143A-SR3.3</field>
+        <field name="Field3">Bourns</field>
+        <field name="Field4">ESD</field>
+        <field name="Field5">0</field>
+        <field name="Field6">0</field>
+        <field name="Field7">0</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0049" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595F2CBC</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>U_0049</value>
+      <footprint>DVB_SOT:SOT_143</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CD143A-SR28_33.pdf </datasheet>
+      <fields>
+        <field name="Field1">CD143A-SR3.3</field>
+        <field name="Field3">Bourns</field>
+        <field name="Field4">ESD</field>
+        <field name="Field5">0</field>
+        <field name="Field6">0</field>
+        <field name="Field7">0</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0049" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595F4070</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>U_0049</value>
+      <footprint>DVB_SOT:SOT_143</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CD143A-SR28_33.pdf </datasheet>
+      <fields>
+        <field name="Field1">CD143A-SR3.3</field>
+        <field name="Field3">Bourns</field>
+        <field name="Field4">ESD</field>
+        <field name="Field5">0</field>
+        <field name="Field6">0</field>
+        <field name="Field7">0</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0049" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595F5499</tstamp>
+    </comp>
+    <comp ref="SD1">
+      <value>K_0017</value>
+      <footprint>DVB_Connectors:K_SD_Card_PP</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/693063010911.pdf</datasheet>
+      <fields>
+        <field name="Field1">693063010911</field>
+        <field name="Field2">SD_Card_PP</field>
+        <field name="Field3">Wurth</field>
+        <field name="Field4">1p</field>
+        <field name="Field5">1ppr</field>
+        <field name="Field6">500mA</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="K_0017" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595F5F88</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_0105</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595FC5A6</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_0105</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595FCD7B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_0105</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595FD0E5</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_0105</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595FD33C</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_0105</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595FD766</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_0105</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595FDA13</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_0105</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">47K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0105" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595FDDE0</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D_0020</value>
+      <footprint>DVB_Diodes:D_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2239358.pdf?_ga=2.179557988.1391353022.1498466693</datasheet>
+      <fields>
+        <field name="Field1">CD0603-B0230</field>
+        <field name="Field2">D_0603</field>
+        <field name="Field3">SCHOTTKY</field>
+        <field name="Field4">30V</field>
+        <field name="Field5">200mA</field>
+        <field name="Field6">0.5Vf</field>
+        <field name="Field7">12pF</field>
+        <field name="Field8">1-Chan</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="D_0020" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595FEAB8</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>K_0023</value>
+      <footprint>DVB_Connectors:K_SHF-105-01-L-D-RA</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1810787.pdf?_ga=2.121651147.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field1">SHF-105-01-L-D-RA</field>
+        <field name="Field2">SHF-105-01-L-D-RA</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">10p</field>
+        <field name="Field5">5ppr</field>
+        <field name="Field6">350mA</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="K_0023" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59600DBA</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_0005</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0005" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596057F8</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5960645C</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>R_0005</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0005" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59608890</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59608B81</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>U_0056</value>
+      <footprint>DVB_BGA:TFBGA_54</footprint>
+      <datasheet>http://www.issi.com/WW/pdf/42-45S16400J.pdf </datasheet>
+      <fields>
+        <field name="Field1">IS42S16400J</field>
+        <field name="Field3">Issi</field>
+        <field name="Field4">Ram</field>
+        <field name="Field5">64Mbit</field>
+        <field name="Field6">null</field>
+        <field name="Field7">null</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0056" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59609D1B</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5960E531</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5960EBA9</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5960F45E</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5960F70F</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5960FB86</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5960FEED</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596101A2</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59610E0E</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>C_0031</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">6.3V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0031" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596124EF</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_0001</value>
+      <footprint>DVB_LED:LED_0603-red</footprint>
+      <datasheet>http://www.vishay.com/docs/83172/tlmo1000.pdf</datasheet>
+      <fields>
+        <field name="Field1">TLMS1000-GS08</field>
+        <field name="Field2">LED-0603</field>
+        <field name="Field3">LED</field>
+        <field name="Field4">2.6V</field>
+        <field name="Field5">2mA</field>
+        <field name="Field6">4mcd</field>
+        <field name="Field7">RED</field>
+        <field name="Field8">TOP</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="D_0001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596144EB</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R_0104</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">750</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">63mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0104" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59614D08</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_0037</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0037" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961611A</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_0005</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0005" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59616C5B</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961720B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59617E11</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>U_0005</value>
+      <footprint>DVB_SOT:SOT_23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp2992.pdf </datasheet>
+      <fields>
+        <field name="Field1">LP2992AIM5-3.3/NOPB</field>
+        <field name="Field3">Texas Instruments</field>
+        <field name="Field4">Regulator</field>
+        <field name="Field5">16Vin</field>
+        <field name="Field6">3.3Vout</field>
+        <field name="Field7">0.25Iout</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0005" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596183FC</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C_0001</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59618A66</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961A302</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>C_0036</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0036" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961AAA0</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_0001</value>
+      <footprint>DVB_LED:LED_0603-red</footprint>
+      <datasheet>http://www.vishay.com/docs/83172/tlmo1000.pdf</datasheet>
+      <fields>
+        <field name="Field1">TLMS1000-GS08</field>
+        <field name="Field2">LED-0603</field>
+        <field name="Field3">LED</field>
+        <field name="Field4">2.6V</field>
+        <field name="Field5">2mA</field>
+        <field name="Field6">4mcd</field>
+        <field name="Field7">RED</field>
+        <field name="Field8">TOP</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="D_0001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961BD30</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>R_0104</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">750</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">63mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0104" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961C082</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_0005</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0005" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961D38A</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961D6E8</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961E24A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>U_0005</value>
+      <footprint>DVB_SOT:SOT_23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp2992.pdf </datasheet>
+      <fields>
+        <field name="Field1">LP2992AIM5-3.3/NOPB</field>
+        <field name="Field3">Texas Instruments</field>
+        <field name="Field4">Regulator</field>
+        <field name="Field5">16Vin</field>
+        <field name="Field6">3.3Vout</field>
+        <field name="Field7">0.25Iout</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0005" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961EA32</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C_0001</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961EF9F</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>C_0036</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0036" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5962096E</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D_0001</value>
+      <footprint>DVB_LED:LED_0603-red</footprint>
+      <datasheet>http://www.vishay.com/docs/83172/tlmo1000.pdf</datasheet>
+      <fields>
+        <field name="Field1">TLMS1000-GS08</field>
+        <field name="Field2">LED-0603</field>
+        <field name="Field3">LED</field>
+        <field name="Field4">2.6V</field>
+        <field name="Field5">2mA</field>
+        <field name="Field6">4mcd</field>
+        <field name="Field7">RED</field>
+        <field name="Field8">TOP</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="D_0001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59620EE9</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>U_0074</value>
+      <footprint>DVB_SSOP:TSSOP_8-4.4x3_P0.65</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005215C.pdf</datasheet>
+      <fields>
+        <field name="Fabricant">MICROCHIP</field>
+        <field name="Field1">24AA256UID-I/ST</field>
+        <field name="Field2">TSSOP_8-4.4x3_P0.65</field>
+        <field name="Field3">Microchip</field>
+        <field name="Field4">Eeprom</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0074" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595E68E0</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_0001</value>
+      <footprint>DVB_SOT:SOT_363-SC_70-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30203.pdf</datasheet>
+      <fields>
+        <field name="Field1">BSS138DW</field>
+        <field name="Field2">SOT_363-SC_70-6</field>
+        <field name="Field3">Diodes Inc</field>
+        <field name="Field4">MOSFET</field>
+        <field name="Field5">50Vds</field>
+        <field name="Field6">200mA</field>
+        <field name="Field7">3.5Rds</field>
+        <field name="Field8">NN-Chan</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="Q_0001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59809F8F</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>XO_0001</value>
+      <footprint>DVB_Clock:XO_8Z</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1041872.pdf?_ga=2.231290079.1357639123.1536073321-1633818369.1526403009</datasheet>
+      <fields>
+        <field name="Field1">8Z-16.000MAAJ-T</field>
+        <field name="Field2">XO_8Z</field>
+        <field name="Field3">TXC</field>
+        <field name="Field4">16MHz</field>
+        <field name="Field5">18pF</field>
+        <field name="Field6">100R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="XO_0001-RESCUE-HM3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FC4B82</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>U_0049</value>
+      <footprint>DVB_SOT:SOT_143</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2004209.pdf?_ga=2.8833781.1188598177.1499070962-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field1">CD143A-SR3.3</field>
+        <field name="Field10">2-chan</field>
+        <field name="Field11">-55° to 125°</field>
+        <field name="Field2">SOT_143</field>
+        <field name="Field3">Bourns</field>
+        <field name="Field4">PROTECTION</field>
+        <field name="Field5">ESD / D-ARRAY </field>
+        <field name="Field6">3.3Vcc</field>
+        <field name="Field7">4.5Vbr</field>
+        <field name="Field8">4.5pF</field>
+        <field name="Field9">5uA</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0049" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC3EBC2</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>U_0049</value>
+      <footprint>DVB_SOT:SOT_143</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2004209.pdf?_ga=2.8833781.1188598177.1499070962-421346633.1483631847</datasheet>
+      <fields>
+        <field name="Field1">CD143A-SR3.3</field>
+        <field name="Field10">2-chan</field>
+        <field name="Field11">-55° to 125°</field>
+        <field name="Field2">SOT_143</field>
+        <field name="Field3">Bourns</field>
+        <field name="Field4">PROTECTION</field>
+        <field name="Field5">ESD / D-ARRAY </field>
+        <field name="Field6">3.3Vcc</field>
+        <field name="Field7">4.5Vbr</field>
+        <field name="Field8">4.5pF</field>
+        <field name="Field9">5uA</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0049" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC3EF03</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_0020</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0020" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B5D1226</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B622120</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B622271</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>C_0037</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0037" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B624D24</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>C_0036</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">470pF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0036" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B626195</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B6254EC</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B64E188</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B64E567</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>C</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1812</footprint>
+      <datasheet>n.c</datasheet>
+      <fields>
+        <field name="details">2kV</field>
+        <field name="fabricant">n.c</field>
+        <field name="sIdProduct">C_</field>
+        <field name="value">1000pF</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B661F3C</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>U_0101</value>
+      <footprint>DVB_QFN_DFN:QFN-24-1EP_4x4mm_Pitch0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf</datasheet>
+      <fields>
+        <field name="Field4">LAN8742A-CZ-TR</field>
+        <field name="Field5">INTERFACE</field>
+        <field name="Field6">TRANCEIVER</field>
+        <field name="Field7">ETHERNET</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0101" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B700079</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>R_0020</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0020" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7097A9</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>R_0020</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0020" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B709BF0</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>R_0020</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0020" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B709D95</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>R_0118</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1.5K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0118" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B71773D</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>R_0020</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0020" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B718AB4</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>L</value>
+      <footprint>DVB_Inductors:L_0402</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Field1">value</field>
+        <field name="Field2">case</field>
+        <field name="Field3">fabricant</field>
+        <field name="Field4">refManufacturer</field>
+        <field name="Field5">maxAmp</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B768EF3</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>C_0003</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0003" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B607095</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>U_0073-RESCUE-HM3</value>
+      <footprint>DVB_BGA:UFBGA_176</footprint>
+      <datasheet>http://www.mouser.com/ds/2/389/en.DM00273119-1099364.pdf</datasheet>
+      <fields>
+        <field name="Field1">STM32F767IIK6_v4</field>
+        <field name="Field10">null</field>
+        <field name="Field11">-40° to 85°</field>
+        <field name="Field2">UFBGA_176</field>
+        <field name="Field3">ST Microelectronics</field>
+        <field name="Field4">MCU</field>
+        <field name="Field5">CORTEX M7+ 32-BIT / FLASH 2Mbit / RAM 512Kbit / EEPROM 4K / 140-I/O</field>
+        <field name="Field6">1.7V to 3.6Vcc</field>
+        <field name="Field7">Vio=Vcc</field>
+        <field name="Field8">25mA</field>
+        <field name="Field9">2.6uA</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0073-RESCUE-HM3" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B61C27C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C_0037</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0037" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5961CA91</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596202E4</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>R_0104</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">750</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">63mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0104" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59621243</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>R_0005</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0005" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC00D</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC017</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>R_0002</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC027</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>U_0005</value>
+      <footprint>DVB_SOT:SOT_23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp2992.pdf </datasheet>
+      <fields>
+        <field name="Field1">LP2992AIM5-3.3/NOPB</field>
+        <field name="Field3">Texas Instruments</field>
+        <field name="Field4">Regulator</field>
+        <field name="Field5">16Vin</field>
+        <field name="Field6">3.3Vout</field>
+        <field name="Field7">0.25Iout</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0005" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC033</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>C_0001</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">10nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC03D</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>C_0036</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0036" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC059</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_0001</value>
+      <footprint>DVB_LED:LED_0603-red</footprint>
+      <datasheet>http://www.vishay.com/docs/83172/tlmo1000.pdf</datasheet>
+      <fields>
+        <field name="Field1">TLMS1000-GS08</field>
+        <field name="Field2">LED-0603</field>
+        <field name="Field3">LED</field>
+        <field name="Field4">2.6V</field>
+        <field name="Field5">2mA</field>
+        <field name="Field6">4mcd</field>
+        <field name="Field7">RED</field>
+        <field name="Field8">TOP</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="D_0001" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC06D</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>C_0037</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0037" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC094</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC0A2</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>R_0104</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">750</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">63mW</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="R_0104" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCFC0AC</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8B0D16</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>U_0049</value>
+      <footprint>DVB_SOT:SOT_143</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CD143A-SR28_33.pdf </datasheet>
+      <fields>
+        <field name="Field1">CD143A-SR3.3</field>
+        <field name="Field3">Bourns</field>
+        <field name="Field4">ESD</field>
+        <field name="Field5">0</field>
+        <field name="Field6">0</field>
+        <field name="Field7">0</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0049" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDB9921</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>U_0049</value>
+      <footprint>DVB_SOT:SOT_143</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CD143A-SR28_33.pdf </datasheet>
+      <fields>
+        <field name="Field1">CD143A-SR3.3</field>
+        <field name="Field3">Bourns</field>
+        <field name="Field4">ESD</field>
+        <field name="Field5">0</field>
+        <field name="Field6">0</field>
+        <field name="Field7">0</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="U_0049" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDBA647</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>C_0002</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0002" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BE7FA50</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>K_0043</value>
+      <footprint>mod:RJ45_SMD-15.7x16.4x13.4_noLeds</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2637080.pdf?_ga=2.73717522.1476736256.1535356961-1633818369.1526403009</datasheet>
+      <fields>
+        <field name="Field4">1455220000</field>
+        <field name="Field5">8p</field>
+        <field name="Field6">FEM</field>
+        <field name="Field7">RA</field>
+      </fields>
+      <libsource lib="tmp-library" part="K_0043" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8A2A11</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>C_0043</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">18pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">C0G/N0P</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0043" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B93614F</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>C_0043</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field1">18pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">C0G/N0P</field>
+      </fields>
+      <libsource lib="HM3-rescue" part="C_0043" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B936CD1</tstamp>
+    </comp>
+    <comp ref="TR1">
+      <value>TR_0001</value>
+      <footprint>DVB_Transfo:LAN_8-13x7_P1.27</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2169310.pdf?_ga=2.143284469.1959824070.1537187081-1633818369.1526403009</datasheet>
+      <fields>
+        <field name="Field4">SM13072APEL</field>
+        <field name="Field5">LAN TRANSFORMER</field>
+        <field name="Field6">8-Chan</field>
+        <field name="Field7">350µH</field>
+      </fields>
+      <libsource lib="DVB_TR" part="TR_0001" description="DVB_Transfo:LAN_8-13x7_P1.27, SM13072APEL, LAN TRANSFORMER, 8-Chan, 350µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA5B232</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>R_0132</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">75</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0132" description="DVB_Resistors:R_0402, 75, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA5D287</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>R_0132</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">75</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0132" description="DVB_Resistors:R_0402, 75, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA5E8FB</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>R_0132</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">75</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0132" description="DVB_Resistors:R_0402, 75, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA5ECAC</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>R_0132</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">75</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0132" description="DVB_Resistors:R_0402, 75, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA5E4E3</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R_0133</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">12.1K</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0133" description="DVB_Resistors:R_0402, 75, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA951A3</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>R_0134</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">33</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0134" description="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BACD0DF</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>R_0134</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">33</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0134" description="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BACEF9B</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>R_0134</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">33</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0134" description="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BACFE5D</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>R_0134</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">33</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0134" description="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BAD041D</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>R_0117</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">49.9K</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0117" description="DVB_Resistors:R_0402, 49.9K, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA68D58</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>R_0117</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">49.9K</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0117" description="DVB_Resistors:R_0402, 49.9K, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA6A88C</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>R_0117</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">49.9K</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0117" description="DVB_Resistors:R_0402, 49.9K, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA6A9DE</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>R_0117</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">49.9K</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0117" description="DVB_Resistors:R_0402, 49.9K, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA6AB36</tstamp>
+    </comp>
+    <comp ref="XO1">
+      <value>XO_0004</value>
+      <footprint>DVB_Clock:XO_7M</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1794111.pdf?_ga=2.11692657.498774000.1532426249-676124820.1530775119&amp;_gac=1.208937254.1532426249.EAIaIQobChMIxe79z7y33AIVhLHtCh2hGg5WEAAYAiAAEgLqofD_BwE</datasheet>
+      <fields>
+        <field name="Field4">7M-25.000MEEQ-T</field>
+        <field name="Field5">25Mhz</field>
+      </fields>
+      <libsource lib="DVB_XO" part="XO_0004" description="DVB_Clock:XO_7M, 7M-25.000MEEQ-T, 25Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB9E92E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="DVB_R" part="R_0117">
+      <description>DVB_Resistors:R_0402, 49.9K, 1%, 100mW</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0117</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field4">49.9K</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0132">
+      <description>DVB_Resistors:R_0402, 75, 1%, 63mW</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0132</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field4">75</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0133">
+      <description>DVB_Resistors:R_0402, 75, 1%, 63mW</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0133</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field4">12.1K</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0134">
+      <description>DVB_Resistors:R_0402, 33, 1%, 63mW</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0134</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field4">33</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_TR" part="TR_0001">
+      <description>DVB_Transfo:LAN_8-13x7_P1.27, SM13072APEL, LAN TRANSFORMER, 8-Chan, 350µH</description>
+      <fields>
+        <field name="Reference">TR</field>
+        <field name="Value">TR_0001</field>
+        <field name="Footprint">DVB_Transfo:LAN_8-13x7_P1.27</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2169310.pdf?_ga=2.143284469.1959824070.1537187081-1633818369.1526403009</field>
+        <field name="Field4">SM13072APEL</field>
+        <field name="Field5">LAN TRANSFORMER</field>
+        <field name="Field6">8-Chan</field>
+        <field name="Field7">350µH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TD+" type="input"/>
+        <pin num="2" name="CT" type="input"/>
+        <pin num="3" name="TD-" type="input"/>
+        <pin num="6" name="RD+" type="input"/>
+        <pin num="7" name="CT" type="input"/>
+        <pin num="8" name="RD" type="input"/>
+        <pin num="9" name="RX-" type="input"/>
+        <pin num="10" name="CT" type="input"/>
+        <pin num="11" name="RX+" type="input"/>
+        <pin num="14" name="TX-" type="input"/>
+        <pin num="15" name="CT" type="input"/>
+        <pin num="16" name="TX+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_XO" part="XO_0004">
+      <description>DVB_Clock:XO_7M, 7M-25.000MEEQ-T, 25Mhz</description>
+      <fields>
+        <field name="Reference">XO</field>
+        <field name="Value">XO_0004</field>
+        <field name="Footprint">DVB_Clock:XO_7M</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1794111.pdf?_ga=2.11692657.498774000.1532426249-676124820.1530775119&amp;_gac=1.208937254.1532426249.EAIaIQobChMIxe79z7y33AIVhLHtCh2hGg5WEAAYAiAAEgLqofD_BwE</field>
+        <field name="Field4">7M-25.000MEEQ-T</field>
+        <field name="Field5">25Mhz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint">n.c</field>
+        <field name="Datasheet">n.c</field>
+        <field name="sIdProduct">C_</field>
+        <field name="value">capacity</field>
+        <field name="details">voltage</field>
+        <field name="fabricant">n.c</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0001">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0001</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">10nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0002">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0002</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">100nF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0003">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0003</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0603</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">10uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0031">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0031</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_1210</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">100uF</field>
+        <field name="Field2">C-1210</field>
+        <field name="Field3">6.3V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0036">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0036</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0603</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">4.7uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0037">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0037</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0603</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0603</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0042">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0042</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">12pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">C0G/N0P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0043">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0043</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">18pF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">50V</field>
+        <field name="Field4">C0G/N0P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0044">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0044</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">1uF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0045">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0045</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">2.2uF</field>
+        <field name="Field2">C-0402</field>
+        <field name="Field3">25V</field>
+        <field name="Field4">X5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="C_0046">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0046</field>
+        <field name="Footprint">DVB_Capacitors_Supercap:SUPERCAP_ELNA-DSK621</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">330mF</field>
+        <field name="Field2">SUPERCAP_ELNA-DSK621</field>
+        <field name="Field3">3.3V</field>
+        <field name="Field4">EDLC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="D_0001">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_0001</field>
+        <field name="Footprint">DVB_LED:LED_0603-red</field>
+        <field name="Datasheet">http://www.vishay.com/docs/83172/tlmo1000.pdf</field>
+        <field name="Field1">TLMS1000-GS08</field>
+        <field name="Field2">LED-0603</field>
+        <field name="Field3">VISHAY</field>
+        <field name="Field4">LED</field>
+        <field name="Field5">2.6V</field>
+        <field name="Field6">2mA</field>
+        <field name="Field7">4mcd</field>
+        <field name="Field8">RED</field>
+        <field name="Field9">TOP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="D_0020">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_0020</field>
+        <field name="Footprint">DVB_Diodes:D_0603</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2239358.pdf?_ga=2.179557988.1391353022.1498466693</field>
+        <field name="Field1">CD0603-B0230</field>
+        <field name="Field2">D_0603</field>
+        <field name="Field3">BOURNS</field>
+        <field name="Field4">SCHOTTKY</field>
+        <field name="Field5">30V</field>
+        <field name="Field6">200mA</field>
+        <field name="Field7">0.5Vf</field>
+        <field name="Field8">12pF</field>
+        <field name="Field9">1-Chan</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="K_0017">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">K_0017</field>
+        <field name="Footprint">DVB_Connectors:K_SD_Card_PP</field>
+        <field name="Datasheet">http://katalog.we-online.de/em/datasheet/693063010911.pdf</field>
+        <field name="Field1">693063010911</field>
+        <field name="Field2">SD_Card_PP</field>
+        <field name="Field3">Wurth</field>
+        <field name="Field4">1p</field>
+        <field name="Field5">1ppr</field>
+        <field name="Field6">500mA</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CD/DAT3" type="BiDi"/>
+        <pin num="2" name="CMD" type="passive"/>
+        <pin num="3" name="VSS1" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+        <pin num="5" name="CLK" type="BiDi"/>
+        <pin num="6" name="VSS2" type="input"/>
+        <pin num="7" name="DAT0" type="BiDi"/>
+        <pin num="8" name="DAT1" type="BiDi"/>
+        <pin num="9" name="DAT2" type="BiDi"/>
+        <pin num="10" name="WP" type="passive"/>
+        <pin num="11" name="CD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="K_0021">
+      <footprints>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+        <fp>IDC_Header_Straight_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">K_0021</field>
+        <field name="Footprint">DVB_Connectors:K_MLE-110-01-G-DV-A</field>
+        <field name="Datasheet">http://suddendocs.samtec.com/catalog_english/mle_sm.pdf</field>
+        <field name="Field1">MLE-110-01-G-DV-A</field>
+        <field name="Field2">MLE-110-01-G-DV-A</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">20p</field>
+        <field name="Field5">10ppr</field>
+        <field name="Field6">2.8A</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="K_0022">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">K_0022</field>
+        <field name="Footprint">DVB_Connectors:K_Header-1x12_P2.54_S</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2051027.pdf?_ga=2.159396733.1318262782.1499092899-695518372.1495123464</field>
+        <field name="Field1">SSW-112-01-G-S</field>
+        <field name="Field2">Header-1x12_P2.54_S</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">12</field>
+        <field name="Field5">12ppr</field>
+        <field name="Field6">5.7A</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="K_0023">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">K_0023</field>
+        <field name="Footprint">DVB_Connectors:K_SHF-105-01-L-D-RA</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1810787.pdf?_ga=2.121651147.1318262782.1499092899-695518372.1495123464</field>
+        <field name="Field1">SHF-105-01-L-D-RA</field>
+        <field name="Field2">SHF-105-01-L-D-RA</field>
+        <field name="Field3">Samtec</field>
+        <field name="Field4">10p</field>
+        <field name="Field5">5ppr</field>
+        <field name="Field6">350mA</field>
+        <field name="Field7">fem</field>
+        <field name="Field8">null</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="L">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint">DVB_Inductors:L_0402</field>
+        <field name="Datasheet">datasheet</field>
+        <field name="Field1">value</field>
+        <field name="Field2">case</field>
+        <field name="Field3">fabricant</field>
+        <field name="Field4">refManufacturer</field>
+        <field name="Field5">maxAmp</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="L_0010">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0010</field>
+        <field name="Footprint">DVB_Inductors:L_0603</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/84899.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</field>
+        <field name="Field1">MMZ1608B121C</field>
+        <field name="Field2">L-0603</field>
+        <field name="Field3">TDK</field>
+        <field name="Field4">120ohm 100Mhz</field>
+        <field name="Field5">600mA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="Q_0001">
+      <footprints>
+        <fp>SOT_23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_0001</field>
+        <field name="Footprint">DVB_SOT:SOT_363-SC_70-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds30203.pdf</field>
+        <field name="Field1">BSS138DW</field>
+        <field name="Field2">SOT_363-SC_70-6</field>
+        <field name="Field3">Diodes Inc</field>
+        <field name="Field4">MOSFET</field>
+        <field name="Field5">50Vds</field>
+        <field name="Field6">200mA</field>
+        <field name="Field7">3.5Rds</field>
+        <field name="Field8">NN-Chan</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S2" type="input"/>
+        <pin num="2" name="G2" type="input"/>
+        <pin num="3" name="D1" type="input"/>
+        <pin num="4" name="S1" type="input"/>
+        <pin num="5" name="G1" type="input"/>
+        <pin num="6" name="D2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="R_0002">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0002</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">1M</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="R_0005">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0005</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">1K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="R_0015">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0015</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">4.7K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="R_0020">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0020</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">10K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="R_0104">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0104</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">750</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">63mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="R_0105">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0105</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">47K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="R_0118">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0118</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field1">1.5K</field>
+        <field name="Field2">R-0402</field>
+        <field name="Field3">1%</field>
+        <field name="Field4">62.5mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="SW_0002">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_0002</field>
+        <field name="Footprint">DVB_Buttons:KSS221G</field>
+        <field name="Datasheet">https://www.mouser.fr/datasheet/2/60/kss-965434.pdf</field>
+        <field name="Field1">KSS221G LFS</field>
+        <field name="Field2">KSS221G</field>
+        <field name="Field3">CK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="U_0005">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0005</field>
+        <field name="Footprint">DVB_SOT:SOT_23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lp2992.pdf</field>
+        <field name="Field1">LP2992A-3.3</field>
+        <field name="Field2">SOT_23-5</field>
+        <field name="Field3">Texas Instruments</field>
+        <field name="Field4">REGULATOR</field>
+        <field name="Field5">LDO / EN</field>
+        <field name="Field6">16Vin</field>
+        <field name="Field7">3.3Vout</field>
+        <field name="Field8">250mA</field>
+        <field name="Field9">1uA</field>
+        <field name="Field10">1%</field>
+        <field name="Field11">-40° to 125°</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="ON/~OFF" type="input"/>
+        <pin num="4" name="BYPASS" type="input"/>
+        <pin num="5" name="Vout" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="U_0049">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0049</field>
+        <field name="Footprint">DVB_SOT:SOT_143</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2004209.pdf?_ga=2.8833781.1188598177.1499070962-421346633.1483631847</field>
+        <field name="Field1">CD143A-SR3.3</field>
+        <field name="Field2">SOT_143</field>
+        <field name="Field3">Bourns</field>
+        <field name="Field4">PROTECTION</field>
+        <field name="Field5">ESD / D-ARRAY </field>
+        <field name="Field6">3.3Vcc</field>
+        <field name="Field7">4.5Vbr</field>
+        <field name="Field8">4.5pF</field>
+        <field name="Field9">5uA</field>
+        <field name="Field10">2-chan</field>
+        <field name="Field11">-55° to 125°</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="IO1" type="input"/>
+        <pin num="3" name="IO2" type="input"/>
+        <pin num="4" name="Vdd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="U_0056">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0056</field>
+        <field name="Footprint">DVB_BGA:TFBGA_54</field>
+        <field name="Datasheet">http://www.issi.com/WW/pdf/42-45S16400J.pdf</field>
+        <field name="Field1">IS42S16400J</field>
+        <field name="Field2">TFBGA_54</field>
+        <field name="Field3">Issi</field>
+        <field name="Field4">MEMORY</field>
+        <field name="Field5">RAM / 64Mbit / 143Mhz / 7ns</field>
+        <field name="Field6">3.3Vcc</field>
+        <field name="Field7">null</field>
+        <field name="Field8">null</field>
+        <field name="Field9">2mA</field>
+        <field name="Field10">null</field>
+        <field name="Field11">0° to 70°</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="input"/>
+        <pin num="A2" name="DQ15" type="BiDi"/>
+        <pin num="A3" name="GNDQ" type="input"/>
+        <pin num="A7" name="VDDQ" type="input"/>
+        <pin num="A8" name="DQ0" type="BiDi"/>
+        <pin num="A9" name="VDD" type="input"/>
+        <pin num="B1" name="DQ14" type="BiDi"/>
+        <pin num="B2" name="DQ13" type="BiDi"/>
+        <pin num="B3" name="VDDQ" type="input"/>
+        <pin num="B7" name="GNDQ" type="input"/>
+        <pin num="B8" name="DQ2" type="BiDi"/>
+        <pin num="B9" name="DQ1" type="BiDi"/>
+        <pin num="C1" name="DQ12" type="BiDi"/>
+        <pin num="C2" name="DQ11" type="BiDi"/>
+        <pin num="C3" name="GNDQ" type="input"/>
+        <pin num="C7" name="VDDQ" type="input"/>
+        <pin num="C8" name="DQ4" type="BiDi"/>
+        <pin num="C9" name="DQ3" type="BiDi"/>
+        <pin num="D1" name="DQ10" type="BiDi"/>
+        <pin num="D2" name="DQ9" type="BiDi"/>
+        <pin num="D3" name="VDDQ" type="input"/>
+        <pin num="D7" name="GNDQ" type="input"/>
+        <pin num="D8" name="DQ6" type="BiDi"/>
+        <pin num="D9" name="DQ5" type="BiDi"/>
+        <pin num="E1" name="DQ8" type="BiDi"/>
+        <pin num="E2" name="NC" type="input"/>
+        <pin num="E3" name="GND" type="input"/>
+        <pin num="E7" name="VDD" type="input"/>
+        <pin num="E8" name="DQML" type="BiDi"/>
+        <pin num="E9" name="DQ7" type="BiDi"/>
+        <pin num="F1" name="DQMH" type="BiDi"/>
+        <pin num="F2" name="CLK" type="BiDi"/>
+        <pin num="F3" name="CKE" type="BiDi"/>
+        <pin num="F7" name="~CAS" type="BiDi"/>
+        <pin num="F8" name="~RAS" type="BiDi"/>
+        <pin num="F9" name="~WE" type="BiDi"/>
+        <pin num="G1" name="NC(A12)" type="BiDi"/>
+        <pin num="G2" name="A11" type="BiDi"/>
+        <pin num="G3" name="A9" type="BiDi"/>
+        <pin num="G7" name="BA0" type="BiDi"/>
+        <pin num="G8" name="BA1" type="BiDi"/>
+        <pin num="G9" name="~CS" type="BiDi"/>
+        <pin num="H1" name="A8" type="BiDi"/>
+        <pin num="H2" name="A7" type="BiDi"/>
+        <pin num="H3" name="A6" type="BiDi"/>
+        <pin num="H7" name="A0" type="BiDi"/>
+        <pin num="H8" name="A1" type="BiDi"/>
+        <pin num="H9" name="A10" type="BiDi"/>
+        <pin num="J1" name="GND" type="input"/>
+        <pin num="J2" name="A5" type="BiDi"/>
+        <pin num="J3" name="A4" type="BiDi"/>
+        <pin num="J7" name="A3" type="BiDi"/>
+        <pin num="J8" name="A2" type="BiDi"/>
+        <pin num="J9" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="U_0073-RESCUE-HM3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0073-RESCUE-HM3</field>
+        <field name="Footprint">DVB_BGA:UFBGA_176</field>
+        <field name="Datasheet">http://www.mouser.com/ds/2/389/en.DM00273119-1099364.pdf</field>
+        <field name="Field1">STM32F767IIK6_v4</field>
+        <field name="Field2">UFBGA_176</field>
+        <field name="Field3">ST Microelectronics</field>
+        <field name="Field4">MCU</field>
+        <field name="Field5">CORTEX M7+ 32-BIT / FLASH 2Mbit / RAM 512Kbit / EEPROM 4K / 140-I/O</field>
+        <field name="Field6">1.7V to 3.6Vcc</field>
+        <field name="Field7">Vio=Vcc</field>
+        <field name="Field8">25mA</field>
+        <field name="Field9">2.6uA</field>
+        <field name="Field10">null</field>
+        <field name="Field11">-40° to 85°</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="PE3" type="input"/>
+        <pin num="A2" name="PE2" type="input"/>
+        <pin num="A3" name="FMC_NBL1/PE1" type="input"/>
+        <pin num="A4" name="FMC_NBL0/PE0" type="input"/>
+        <pin num="A5" name="I2C1_SCL/PB8" type="input"/>
+        <pin num="A6" name="PB5" type="input"/>
+        <pin num="A7" name="ETH_TXD1/PG14" type="input"/>
+        <pin num="A8" name="ETH_TXD0/PG13" type="input"/>
+        <pin num="A9" name="PB4" type="input"/>
+        <pin num="A10" name="SYS_JTDO-SWO/PB3" type="input"/>
+        <pin num="A11" name="PD7" type="input"/>
+        <pin num="A12" name="SDIO_CK/PC12" type="input"/>
+        <pin num="A13" name="PA15" type="input"/>
+        <pin num="A14" name="JTCK_SWCLK/PA14" type="input"/>
+        <pin num="A15" name="JTMS_SWDIO/PA13" type="input"/>
+        <pin num="B1" name="DCMI_D4/PE4" type="input"/>
+        <pin num="B2" name="DCMI_D6/PE5" type="input"/>
+        <pin num="B3" name="DCMI_D7/PE6" type="input"/>
+        <pin num="B4" name="I2C1_SDA/PB9" type="input"/>
+        <pin num="B5" name="DCMI_VSYNC/PB7" type="input"/>
+        <pin num="B6" name="FMC_SDNE1/PB6" type="input"/>
+        <pin num="B7" name="FMC_SDNCAS/PG15" type="input"/>
+        <pin num="B8" name="PG12" type="input"/>
+        <pin num="B9" name="DCMI_D3/PG11" type="input"/>
+        <pin num="B10" name="DCMI_D2/PG10" type="input"/>
+        <pin num="B11" name="USART2_RX/PD6" type="input"/>
+        <pin num="B12" name="FMC_D2/PD0" type="input"/>
+        <pin num="B13" name="SDIO_D3/PC11" type="input"/>
+        <pin num="B14" name="SDIO_D2/PC10" type="input"/>
+        <pin num="B15" name="USB_OTG_FS_DP/PA12" type="input"/>
+        <pin num="C1" name="VBAT" type="passive"/>
+        <pin num="C2" name="PI7" type="input"/>
+        <pin num="C3" name="PI6" type="input"/>
+        <pin num="C4" name="TIM8_CH1/PI5" type="input"/>
+        <pin num="C5" name="VDD" type="power_in"/>
+        <pin num="C6" name="PDR_ON" type="input"/>
+        <pin num="C7" name="VDD" type="power_in"/>
+        <pin num="C8" name="VDD" type="power_in"/>
+        <pin num="C9" name="VDD" type="power_in"/>
+        <pin num="C10" name="PG9" type="input"/>
+        <pin num="C11" name="USART2_TX/PD5" type="input"/>
+        <pin num="C12" name="FMC_D3/PD1" type="input"/>
+        <pin num="C13" name="DCMI_D10/PI3" type="input"/>
+        <pin num="C14" name="DCMI_D9/PI2" type="input"/>
+        <pin num="C15" name="USB_OTG_FS_DM/PA11" type="input"/>
+        <pin num="D1" name="ANTI_TAMP/PC13" type="input"/>
+        <pin num="D2" name="PI8" type="input"/>
+        <pin num="D3" name="PI9" type="input"/>
+        <pin num="D4" name="DCMI_D5/PI4" type="input"/>
+        <pin num="D5" name="VSS" type="power_in"/>
+        <pin num="D6" name="BOOT0" type="input"/>
+        <pin num="D7" name="VSS" type="power_in"/>
+        <pin num="D8" name="VSS" type="power_in"/>
+        <pin num="D9" name="VSS" type="power_in"/>
+        <pin num="D10" name="USART2_RTS/PD4" type="input"/>
+        <pin num="D11" name="USART2_CTS/PD3" type="input"/>
+        <pin num="D12" name="SDIO_CMD/PD2" type="input"/>
+        <pin num="D13" name="DCMI_D11/PH15" type="input"/>
+        <pin num="D14" name="DCMI_D8/PI1" type="input"/>
+        <pin num="D15" name="USB_OTG_FS_ID/PA10" type="input"/>
+        <pin num="E1" name="PC14-OSC32_IN" type="input"/>
+        <pin num="E2" name="FMC_A0/PF0" type="input"/>
+        <pin num="E3" name="PI10" type="input"/>
+        <pin num="E4" name="PI11" type="input"/>
+        <pin num="E12" name="PH13" type="input"/>
+        <pin num="E13" name="PH14" type="input"/>
+        <pin num="E14" name="DCMI_D13/PI0" type="input"/>
+        <pin num="E15" name="USB_OTG_FS_VBUS/PA9" type="input"/>
+        <pin num="F1" name="PC15-OSC32_OUT" type="input"/>
+        <pin num="F2" name="VSS" type="power_in"/>
+        <pin num="F3" name="VDD" type="power_in"/>
+        <pin num="F4" name="PH2" type="input"/>
+        <pin num="F6" name="VSS" type="power_in"/>
+        <pin num="F7" name="VSS" type="power_in"/>
+        <pin num="F8" name="VSS" type="power_in"/>
+        <pin num="F9" name="VSS" type="power_in"/>
+        <pin num="F10" name="VSS" type="power_in"/>
+        <pin num="F12" name="VSS" type="power_in"/>
+        <pin num="F13" name="VCAP2" type="input"/>
+        <pin num="F14" name="SDIO_D1/PC9" type="input"/>
+        <pin num="F15" name="PA8" type="input"/>
+        <pin num="G1" name="PH0-OSC_IN" type="input"/>
+        <pin num="G2" name="VSS" type="power_in"/>
+        <pin num="G3" name="VDD" type="power_in"/>
+        <pin num="G4" name="PH3" type="input"/>
+        <pin num="G6" name="VSS" type="power_in"/>
+        <pin num="G7" name="VSS" type="power_in"/>
+        <pin num="G8" name="VSS" type="power_in"/>
+        <pin num="G9" name="VSS" type="power_in"/>
+        <pin num="G10" name="VSS" type="power_in"/>
+        <pin num="G12" name="VSS" type="power_in"/>
+        <pin num="G13" name="VDD" type="power_in"/>
+        <pin num="G14" name="SDIO_D0/PC8" type="input"/>
+        <pin num="G15" name="DCMI_D1/PC7" type="input"/>
+        <pin num="H1" name="PH1-OSC_OUT" type="input"/>
+        <pin num="H2" name="FMC_A2/PF2" type="input"/>
+        <pin num="H3" name="FMC_A1/PF1" type="input"/>
+        <pin num="H4" name="I2C2_SCL/PH4" type="input"/>
+        <pin num="H6" name="VSS" type="power_in"/>
+        <pin num="H7" name="VSS" type="power_in"/>
+        <pin num="H8" name="VSS" type="power_in"/>
+        <pin num="H9" name="VSS" type="power_in"/>
+        <pin num="H10" name="VSS" type="power_in"/>
+        <pin num="H12" name="VSS" type="power_in"/>
+        <pin num="H13" name="VDD" type="power_in"/>
+        <pin num="H14" name="FMC_SDCLK/PG8" type="input"/>
+        <pin num="H15" name="DCMI_D0/PC6" type="input"/>
+        <pin num="J1" name="NRST" type="input"/>
+        <pin num="J2" name="FMC_A3/PF3" type="input"/>
+        <pin num="J3" name="FMC_A4/PF4" type="input"/>
+        <pin num="J4" name="I2C2_SDA/PH5" type="input"/>
+        <pin num="J6" name="VSS" type="power_in"/>
+        <pin num="J7" name="VSS" type="power_in"/>
+        <pin num="J8" name="VSS" type="power_in"/>
+        <pin num="J9" name="VSS" type="power_in"/>
+        <pin num="J10" name="VSS" type="power_in"/>
+        <pin num="J12" name="VDD" type="power_in"/>
+        <pin num="J13" name="VDD" type="power_in"/>
+        <pin num="J14" name="PG7" type="input"/>
+        <pin num="J15" name="DCMI_D12/PG6" type="input"/>
+        <pin num="K1" name="UART7_TX/PF7" type="input"/>
+        <pin num="K2" name="UART7_RX/PF6" type="input"/>
+        <pin num="K3" name="FMC_A5/PF5" type="input"/>
+        <pin num="K4" name="VDD" type="power_in"/>
+        <pin num="K6" name="VSS" type="power_in"/>
+        <pin num="K7" name="VSS" type="power_in"/>
+        <pin num="K8" name="VSS" type="power_in"/>
+        <pin num="K9" name="VSS" type="power_in"/>
+        <pin num="K10" name="VSS" type="power_in"/>
+        <pin num="K12" name="PH12" type="input"/>
+        <pin num="K13" name="FMC_BA1/PG5" type="input"/>
+        <pin num="K14" name="FMC_BA0/PG4" type="input"/>
+        <pin num="K15" name="PG3" type="input"/>
+        <pin num="L1" name="PF10" type="input"/>
+        <pin num="L2" name="PF9" type="input"/>
+        <pin num="L3" name="PF8" type="input"/>
+        <pin num="L4" name="BYPASS_REG" type="input"/>
+        <pin num="L12" name="PH11" type="input"/>
+        <pin num="L13" name="PH10" type="input"/>
+        <pin num="L14" name="FMC_D1/PD15" type="input"/>
+        <pin num="L15" name="FMC_A12/PG2" type="input"/>
+        <pin num="M1" name="VSSA" type="power_in"/>
+        <pin num="M2" name="FMC_SDNWE/PC0" type="input"/>
+        <pin num="M3" name="ETH_MDC/PC1" type="input"/>
+        <pin num="M4" name="SPI2_MISO/PC2" type="input"/>
+        <pin num="M5" name="SPI3_MOSI/PC3" type="input"/>
+        <pin num="M6" name="DCMI_GPIOB2/PB2" type="input"/>
+        <pin num="M7" name="FMC_A11/PG1" type="input"/>
+        <pin num="M8" name="VSS" type="power_in"/>
+        <pin num="M9" name="VSS" type="power_in"/>
+        <pin num="M10" name="VCAP1" type="input"/>
+        <pin num="M11" name="PH6" type="input"/>
+        <pin num="M12" name="DCMI_HSYNC/PH8" type="input"/>
+        <pin num="M13" name="PH9" type="input"/>
+        <pin num="M14" name="FMC_D0/PD14" type="input"/>
+        <pin num="M15" name="PD13" type="input"/>
+        <pin num="N1" name="VREF-" type="power_in"/>
+        <pin num="N2" name="ETH_REF_CLK/PA1" type="input"/>
+        <pin num="N3" name="WKUP/PA0" type="input"/>
+        <pin num="N4" name="ADC1_IN4/PA4" type="input"/>
+        <pin num="N5" name="ETH_RXD0/PC4" type="input"/>
+        <pin num="N6" name="FMC_A7/PF13" type="input"/>
+        <pin num="N7" name="FMC_A10/PG0" type="input"/>
+        <pin num="N8" name="VDD" type="power_in"/>
+        <pin num="N9" name="VDD" type="power_in"/>
+        <pin num="N10" name="VDD" type="power_in"/>
+        <pin num="N11" name="FMC_D10/PE13" type="input"/>
+        <pin num="N12" name="FMC_SDCKE1/PH7" type="input"/>
+        <pin num="N13" name="PD12" type="input"/>
+        <pin num="N14" name="PD11" type="input"/>
+        <pin num="N15" name="FMC_D15/PD10" type="input"/>
+        <pin num="P1" name="VREF+" type="power_in"/>
+        <pin num="P2" name="ETH_MDIO/PA2" type="input"/>
+        <pin num="P3" name="DCMI_PIXCK/PA6" type="input"/>
+        <pin num="P4" name="PA5" type="input"/>
+        <pin num="P5" name="ETH_RXD1/PC5" type="input"/>
+        <pin num="P6" name="FMC_A6/PF12" type="input"/>
+        <pin num="P7" name="FMC_A9/PF15" type="input"/>
+        <pin num="P8" name="FMC_D5/PE8" type="input"/>
+        <pin num="P9" name="FMC_D6/PE9" type="input"/>
+        <pin num="P10" name="FMC_D8/PE11" type="input"/>
+        <pin num="P11" name="FMC_D11/PE14" type="input"/>
+        <pin num="P12" name="USB_OTG_HS_ID/PB12" type="input"/>
+        <pin num="P13" name="USB_OTG_HS_VBUS/PB13" type="input"/>
+        <pin num="P14" name="FMC_D14/PD9" type="input"/>
+        <pin num="P15" name="FMC_D13/PD8" type="input"/>
+        <pin num="R1" name="VDDA" type="power_in"/>
+        <pin num="R2" name="ADC1_IN3/PA3" type="input"/>
+        <pin num="R3" name="ETH_CRS_DV/PA7" type="input"/>
+        <pin num="R4" name="DCMI_GPIOB1/PB1" type="input"/>
+        <pin num="R5" name="DCMI_STANDBY/PB0" type="input"/>
+        <pin num="R6" name="FMC_SDNRAS/PF11" type="input"/>
+        <pin num="R7" name="FMC_A8/PF14" type="input"/>
+        <pin num="R8" name="FMC_D4/PE7" type="input"/>
+        <pin num="R9" name="FMC_D7/PE10" type="input"/>
+        <pin num="R10" name="FMC_D9/PE12" type="input"/>
+        <pin num="R11" name="FMC_D12/PE15" type="input"/>
+        <pin num="R12" name="SPI2_SCK/PB10" type="input"/>
+        <pin num="R13" name="ETH_TX_EN/PB11" type="input"/>
+        <pin num="R14" name="USB_OTG_HS_DM/PB14" type="input"/>
+        <pin num="R15" name="USB_OTG_HS_DP/PB15" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="U_0074">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0074</field>
+        <field name="Footprint">DVB_SSOP:TSSOP_8-4.4x3_P0.65</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20005215C.pdf</field>
+        <field name="Field1">24AA256UID-I/ST</field>
+        <field name="Field2">TSSOP_8-4.4x3_P0.65</field>
+        <field name="Field3">Microchip</field>
+        <field name="Field4">MEMORY</field>
+        <field name="Field5">EEPROM / I2C / 256K / 32bits ID</field>
+        <field name="Field6">1.7V to 5.5Vcc</field>
+        <field name="Field7">null</field>
+        <field name="Field8">null</field>
+        <field name="Field9">1uA</field>
+        <field name="Field10">null</field>
+        <field name="Field11">-40° to 85°</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="VSS" type="input"/>
+        <pin num="5" name="SDA" type="input"/>
+        <pin num="6" name="SCL" type="input"/>
+        <pin num="7" name="NC" type="input"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="U_0075">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0075</field>
+        <field name="Footprint">DVB_SOT:SOT_353-SC_70-5</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/ae/09/87/c5/c7/6b/4e/8a/CD00002023.pdf/files/CD00002023.pdf/jcr:content/translations/en.CD00002023.pdf</field>
+        <field name="Field1">USBDF01W5</field>
+        <field name="Field2">SOT_353-SC_70-5</field>
+        <field name="Field3">ST Microelectronics</field>
+        <field name="Field4">PROTECTION</field>
+        <field name="Field5">ESD / USB FILTER</field>
+        <field name="Field6">0</field>
+        <field name="Field7">6Vbr</field>
+        <field name="Field8">47pF</field>
+        <field name="Field9">nc</field>
+        <field name="Field10">2-chan</field>
+        <field name="Field11">-40° to 85°</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D+IN" type="BiDi"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="D-IN" type="BiDi"/>
+        <pin num="4" name="D-OUT" type="BiDi"/>
+        <pin num="5" name="D+OUT" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="U_0101">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0101</field>
+        <field name="Footprint">DVB_QFN_DFN:QFN-24-1EP_4x4mm_Pitch0.5mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf</field>
+        <field name="Field4">LAN8742A-CZ-TR</field>
+        <field name="Field5">INTERFACE</field>
+        <field name="Field6">TRANCEIVER</field>
+        <field name="Field7">ETHERNET</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD2A" type="BiDi"/>
+        <pin num="2" name="LED2/nINT/nPME/nINTSEL" type="BiDi"/>
+        <pin num="3" name="LED1/nINT/nPME/REGOFF" type="BiDi"/>
+        <pin num="4" name="XTAL2" type="BiDi"/>
+        <pin num="5" name="XTAL1/CLKIN" type="BiDi"/>
+        <pin num="6" name="VDDCR" type="BiDi"/>
+        <pin num="7" name="RXD1/MODE1" type="BiDi"/>
+        <pin num="8" name="RXD0/MODE0" type="BiDi"/>
+        <pin num="9" name="VDDIO" type="passive"/>
+        <pin num="10" name="RXER/PHYAD0" type="BiDi"/>
+        <pin num="11" name="CRS_DV/MODE2" type="BiDi"/>
+        <pin num="12" name="MDIO" type="BiDi"/>
+        <pin num="13" name="MCD" type="BiDi"/>
+        <pin num="14" name="nINT/REFCLKO" type="BiDi"/>
+        <pin num="15" name="nRST" type="BiDi"/>
+        <pin num="16" name="TXEN" type="BiDi"/>
+        <pin num="17" name="TXD0" type="BiDi"/>
+        <pin num="18" name="TXD1" type="BiDi"/>
+        <pin num="19" name="VDD1A" type="BiDi"/>
+        <pin num="20" name="TXN" type="BiDi"/>
+        <pin num="21" name="TXP" type="BiDi"/>
+        <pin num="22" name="RXN" type="BiDi"/>
+        <pin num="23" name="RXP" type="BiDi"/>
+        <pin num="24" name="RBIAS" type="BiDi"/>
+        <pin num="25" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="XO_0001-RESCUE-HM3">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XO</field>
+        <field name="Value">XO_0001-RESCUE-HM3</field>
+        <field name="Footprint">DVB_Clock:XO_8Z</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1754353.pdf?_ga=2.108802754.1391353022.1498466693 -695518372.1495123464</field>
+        <field name="Field1">ABM3-8.000MHZ-D2Y-T</field>
+        <field name="Field2">XO_8Z</field>
+        <field name="Field3">Abracon</field>
+        <field name="Field4">8MHz</field>
+        <field name="Field5">18pF</field>
+        <field name="Field6">140R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HM3-rescue" part="XO_0002">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XO</field>
+        <field name="Value">XO_0002</field>
+        <field name="Footprint">DVB_Clock:XO_FC-12M</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1734644.pdf</field>
+        <field name="Field1">X1A0000610003 FC-12M 32.768KHZ 12.5PF</field>
+        <field name="Field2">Fc-12M</field>
+        <field name="Field3">Epson</field>
+        <field name="Field4">32.768Khz</field>
+        <field name="Field5">12.5pF</field>
+        <field name="Field6">90KR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tmp-library" part="K_0043">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">K_0043</field>
+        <field name="Footprint">mod:RJ45_SMD-15.7x16.4x13.4_noLeds</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2637080.pdf?_ga=2.73717522.1476736256.1535356961-1633818369.1526403009</field>
+        <field name="Field4">1455220000</field>
+        <field name="Field5">8p</field>
+        <field name="Field6">FEM</field>
+        <field name="Field7">RA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX+_D1" type="BiDi"/>
+        <pin num="2" name="TX-_D1" type="BiDi"/>
+        <pin num="3" name="RX+_D2" type="BiDi"/>
+        <pin num="4" name="BI+_D3" type="BiDi"/>
+        <pin num="5" name="BI-_D3" type="BiDi"/>
+        <pin num="6" name="RX-_D2" type="BiDi"/>
+        <pin num="7" name="BI+_D4" type="BiDi"/>
+        <pin num="8" name="BI-_D4" type="BiDi"/>
+        <pin num="SH" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="DVB_R">
+      <uri>/home/hpc66-jo/Documents/MiniBox/hardware/kicad/Lib/Lib_Kicount/DVB_lib/DVB_R.lib</uri>
+    </library>
+    <library logical="DVB_TR">
+      <uri>/home/hpc66-jo/Documents/MiniBox/hardware/kicad/Lib/Lib_Kicount/DVB_lib/DVB_TR.lib</uri>
+    </library>
+    <library logical="DVB_XO">
+      <uri>/home/hpc66-jo/Documents/MiniBox/hardware/kicad/Lib/Lib_Kicount/DVB_lib/DVB_XO.lib</uri>
+    </library>
+    <library logical="HM3-rescue">
+      <uri>/home/hpc66-jo/Documents/MiniBox/hardware/p3/embedded/HM3/HM3-rescue.lib</uri>
+    </library>
+    <library logical="tmp-library">
+      <uri>/home/hpc66-jo/Documents/MiniBox/hardware/p3/embedded/HM3/Lib/schem/tmp-library.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C39-Pad1)">
+      <node ref="C39" pin="1"/>
+      <node ref="U14" pin="6"/>
+      <node ref="C41" pin="1"/>
+    </net>
+    <net code="2" name="/HS-D+">
+      <node ref="P1" pin="18"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="3" name="/HS-D-">
+      <node ref="P1" pin="16"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="4" name="/FS-D+">
+      <node ref="P7" pin="16"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="5" name="/FS-D-">
+      <node ref="U7" pin="4"/>
+      <node ref="P7" pin="14"/>
+    </net>
+    <net code="6" name="/SDRAM_POWER_V2">
+      <node ref="U6" pin="A9"/>
+    </net>
+    <net code="7" name="/FMC-DQML">
+      <node ref="U6" pin="A4"/>
+      <node ref="U2" pin="E8"/>
+    </net>
+    <net code="8" name="/FMC-DQMH">
+      <node ref="U2" pin="F1"/>
+      <node ref="U6" pin="A3"/>
+    </net>
+    <net code="9" name="/SDCARD_PRESENCE_DETECTION">
+      <node ref="U11" pin="3"/>
+      <node ref="SD1" pin="11"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U6" pin="D2"/>
+    </net>
+    <net code="10" name="/SDCARD_WRITEPROTECTION_DETECTION">
+      <node ref="R7" pin="2"/>
+      <node ref="SD1" pin="10"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U6" pin="C2"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="U15" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="R42" pin="2"/>
+      <node ref="C50" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U16" pin="1"/>
+      <node ref="U17" pin="1"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="P7" pin="15"/>
+      <node ref="U2" pin="E3"/>
+      <node ref="P7" pin="13"/>
+      <node ref="P7" pin="12"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="P7" pin="6"/>
+      <node ref="P7" pin="19"/>
+      <node ref="P7" pin="18"/>
+      <node ref="P7" pin="17"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="XO1" pin="4"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="XO1" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="SD1" pin="6"/>
+      <node ref="R14" pin="2"/>
+      <node ref="SD1" pin="3"/>
+      <node ref="P3" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="P6" pin="9"/>
+      <node ref="P6" pin="7"/>
+      <node ref="C43" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P6" pin="19"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="B7"/>
+      <node ref="U2" pin="D7"/>
+      <node ref="U2" pin="C3"/>
+      <node ref="U2" pin="A3"/>
+      <node ref="U2" pin="A1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="U2" pin="J1"/>
+      <node ref="P6" pin="17"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="P4" pin="19"/>
+      <node ref="P4" pin="17"/>
+      <node ref="P4" pin="15"/>
+      <node ref="P4" pin="13"/>
+      <node ref="P4" pin="11"/>
+      <node ref="P1" pin="17"/>
+      <node ref="P1" pin="15"/>
+      <node ref="P1" pin="14"/>
+      <node ref="P1" pin="13"/>
+      <node ref="P1" pin="11"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="P2" pin="15"/>
+      <node ref="P2" pin="13"/>
+      <node ref="P2" pin="11"/>
+      <node ref="P2" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="P5" pin="1"/>
+      <node ref="P2" pin="9"/>
+      <node ref="P2" pin="7"/>
+      <node ref="U5" pin="2"/>
+      <node ref="P2" pin="19"/>
+      <node ref="P2" pin="17"/>
+      <node ref="P4" pin="5"/>
+      <node ref="P6" pin="15"/>
+      <node ref="P6" pin="13"/>
+      <node ref="P6" pin="11"/>
+      <node ref="P6" pin="10"/>
+      <node ref="P4" pin="9"/>
+      <node ref="P4" pin="7"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U14" pin="25"/>
+      <node ref="C47" pin="2"/>
+      <node ref="P1" pin="20"/>
+      <node ref="P1" pin="9"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="19"/>
+      <node ref="P6" pin="16"/>
+      <node ref="X1" pin="2"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="X1" pin="4"/>
+      <node ref="U6" pin="G10"/>
+      <node ref="U6" pin="H12"/>
+      <node ref="U6" pin="H10"/>
+      <node ref="U6" pin="G9"/>
+      <node ref="U6" pin="F9"/>
+      <node ref="U6" pin="H6"/>
+      <node ref="U6" pin="G12"/>
+      <node ref="U6" pin="G2"/>
+      <node ref="U6" pin="G6"/>
+      <node ref="U6" pin="G7"/>
+      <node ref="U6" pin="H8"/>
+      <node ref="U6" pin="H7"/>
+      <node ref="U6" pin="F12"/>
+      <node ref="U6" pin="M8"/>
+      <node ref="U6" pin="M9"/>
+      <node ref="U6" pin="J10"/>
+      <node ref="U6" pin="J8"/>
+      <node ref="U6" pin="D7"/>
+      <node ref="U6" pin="D6"/>
+      <node ref="U6" pin="G8"/>
+      <node ref="U6" pin="J6"/>
+      <node ref="C46" pin="2"/>
+      <node ref="U6" pin="F2"/>
+      <node ref="U6" pin="F6"/>
+      <node ref="U6" pin="J9"/>
+      <node ref="U6" pin="F10"/>
+      <node ref="U6" pin="D8"/>
+      <node ref="U6" pin="D9"/>
+      <node ref="U6" pin="H9"/>
+      <node ref="U6" pin="K8"/>
+      <node ref="U6" pin="J7"/>
+      <node ref="U6" pin="K9"/>
+      <node ref="U6" pin="N1"/>
+      <node ref="U6" pin="K7"/>
+      <node ref="U6" pin="K6"/>
+      <node ref="U6" pin="M1"/>
+      <node ref="U6" pin="F8"/>
+      <node ref="U6" pin="F7"/>
+      <node ref="U6" pin="K10"/>
+      <node ref="U6" pin="D5"/>
+    </net>
+    <net code="12" name="/MAIN_POWER_5V_V2">
+      <node ref="U6" pin="A13"/>
+    </net>
+    <net code="13" name="/LED1_V2">
+      <node ref="U6" pin="A1"/>
+    </net>
+    <net code="14" name="/LED2_V2">
+      <node ref="U6" pin="A2"/>
+    </net>
+    <net code="15" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="17" name="Net-(Q1-Pad5)">
+      <node ref="Q1" pin="5"/>
+      <node ref="R24" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="18" name="/SDIO-D0">
+      <node ref="R10" pin="2"/>
+      <node ref="U10" pin="2"/>
+      <node ref="U6" pin="G14"/>
+      <node ref="SD1" pin="7"/>
+    </net>
+    <net code="19" name="Net-(C22-Pad1)">
+      <node ref="X1" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U6" pin="G1"/>
+    </net>
+    <net code="20" name="Net-(C24-Pad1)">
+      <node ref="U6" pin="F13"/>
+      <node ref="C24" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1"/>
+      <node ref="U6" pin="F1"/>
+      <node ref="X2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C26-Pad1)">
+      <node ref="U6" pin="E1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="X2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1"/>
+      <node ref="U6" pin="M10"/>
+    </net>
+    <net code="24" name="Net-(R4-Pad2)">
+      <node ref="U6" pin="L4"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C23-Pad2)">
+      <node ref="C23" pin="2"/>
+      <node ref="U6" pin="H1"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="26" name="/SDRAM_POWER_V3">
+      <node ref="C11" pin="2"/>
+      <node ref="U6" pin="E15"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="27" name="/USB-FS-ID">
+      <node ref="U6" pin="D15"/>
+    </net>
+    <net code="28" name="/USART-CTS">
+      <node ref="U6" pin="D11"/>
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="29" name="/USART-TX">
+      <node ref="U6" pin="C11"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="30" name="/DCMI-VSYNC">
+      <node ref="P6" pin="14"/>
+      <node ref="U6" pin="B5"/>
+    </net>
+    <net code="31" name="/DCMI-D6">
+      <node ref="U6" pin="B2"/>
+      <node ref="P4" pin="14"/>
+    </net>
+    <net code="32" name="/USART-RX">
+      <node ref="U6" pin="B11"/>
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="33" name="/DCMI-HSYNC">
+      <node ref="P6" pin="12"/>
+      <node ref="U6" pin="M12"/>
+    </net>
+    <net code="34" name="/FMC-A12">
+      <node ref="U6" pin="L15"/>
+      <node ref="U2" pin="G1"/>
+    </net>
+    <net code="35" name="Net-(C28-Pad1)">
+      <node ref="U6" pin="P1"/>
+      <node ref="U6" pin="R1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="37" name="/FMC-D0">
+      <node ref="U2" pin="A8"/>
+      <node ref="U6" pin="M14"/>
+    </net>
+    <net code="38" name="/FMC-A11">
+      <node ref="U6" pin="M7"/>
+      <node ref="U2" pin="G2"/>
+    </net>
+    <net code="39" name="/FMC-A10">
+      <node ref="U6" pin="N7"/>
+      <node ref="U2" pin="H9"/>
+    </net>
+    <net code="40" name="/FMC-A9">
+      <node ref="U2" pin="G3"/>
+      <node ref="U6" pin="P7"/>
+    </net>
+    <net code="41" name="/FMC-A8">
+      <node ref="U6" pin="R7"/>
+      <node ref="U2" pin="H1"/>
+    </net>
+    <net code="42" name="/FMC-A7">
+      <node ref="U6" pin="N6"/>
+      <node ref="U2" pin="H2"/>
+    </net>
+    <net code="43" name="/FMC-A6">
+      <node ref="U6" pin="P6"/>
+      <node ref="U2" pin="H3"/>
+    </net>
+    <net code="44" name="/FMC-A5">
+      <node ref="U6" pin="K3"/>
+      <node ref="U2" pin="J2"/>
+    </net>
+    <net code="45" name="/FMC-A4">
+      <node ref="U6" pin="J3"/>
+      <node ref="U2" pin="J3"/>
+    </net>
+    <net code="46" name="/FMC-A3">
+      <node ref="U6" pin="J2"/>
+      <node ref="U2" pin="J7"/>
+    </net>
+    <net code="47" name="/FMC-A2">
+      <node ref="U2" pin="J8"/>
+      <node ref="U6" pin="H2"/>
+    </net>
+    <net code="48" name="/FMC-A1">
+      <node ref="U2" pin="H8"/>
+      <node ref="U6" pin="H3"/>
+    </net>
+    <net code="49" name="/FMC-A0">
+      <node ref="U6" pin="E2"/>
+      <node ref="U2" pin="H7"/>
+    </net>
+    <net code="50" name="/FMC-D1">
+      <node ref="U2" pin="B9"/>
+      <node ref="U6" pin="L14"/>
+    </net>
+    <net code="51" name="/FMC-D15">
+      <node ref="U2" pin="A2"/>
+      <node ref="U6" pin="N15"/>
+    </net>
+    <net code="52" name="/FMC-D14">
+      <node ref="U6" pin="P14"/>
+      <node ref="U2" pin="B1"/>
+    </net>
+    <net code="53" name="/FMC-D13">
+      <node ref="U2" pin="B2"/>
+      <node ref="U6" pin="P15"/>
+    </net>
+    <net code="54" name="/FMC-D12">
+      <node ref="U2" pin="C1"/>
+      <node ref="U6" pin="R11"/>
+    </net>
+    <net code="55" name="/FMC-D11">
+      <node ref="U6" pin="P11"/>
+      <node ref="U2" pin="C2"/>
+    </net>
+    <net code="56" name="/FMC-D10">
+      <node ref="U6" pin="N11"/>
+      <node ref="U2" pin="D1"/>
+    </net>
+    <net code="57" name="/FMC-D9">
+      <node ref="U2" pin="D2"/>
+      <node ref="U6" pin="R10"/>
+    </net>
+    <net code="58" name="/FMC-D8">
+      <node ref="U2" pin="E1"/>
+      <node ref="U6" pin="P10"/>
+    </net>
+    <net code="59" name="/FMC-D7">
+      <node ref="U6" pin="R9"/>
+      <node ref="U2" pin="E9"/>
+    </net>
+    <net code="60" name="/FMC-D6">
+      <node ref="U6" pin="P9"/>
+      <node ref="U2" pin="D8"/>
+    </net>
+    <net code="61" name="/FMC-D5">
+      <node ref="U2" pin="D9"/>
+      <node ref="U6" pin="P8"/>
+    </net>
+    <net code="62" name="/FMC-D4">
+      <node ref="U6" pin="R8"/>
+      <node ref="U2" pin="C8"/>
+    </net>
+    <net code="63" name="/FMC-D3">
+      <node ref="U2" pin="C9"/>
+      <node ref="U6" pin="C12"/>
+    </net>
+    <net code="64" name="/FMC-D2">
+      <node ref="U6" pin="B12"/>
+      <node ref="U2" pin="B8"/>
+    </net>
+    <net code="65" name="/MAIN_POWER_5V_V3">
+      <node ref="U6" pin="B8"/>
+      <node ref="P7" pin="4"/>
+    </net>
+    <net code="66" name="/SIMCARD_DETECT">
+      <node ref="U6" pin="E4"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="67" name="/MODEM_RINGING">
+      <node ref="P2" pin="10"/>
+      <node ref="U6" pin="E3"/>
+    </net>
+    <net code="68" name="/DCMI-D13">
+      <node ref="U6" pin="E14"/>
+    </net>
+    <net code="69" name="/DCMI-ANALOG_POWER">
+      <node ref="P6" pin="8"/>
+      <node ref="U6" pin="E13"/>
+    </net>
+    <net code="70" name="/DCMI-STANDBY">
+      <node ref="U6" pin="E12"/>
+      <node ref="P6" pin="6"/>
+    </net>
+    <net code="71" name="Net-(U6-PadD3)">
+      <node ref="U6" pin="D3"/>
+    </net>
+    <net code="72" name="/DCMI-D8">
+      <node ref="U6" pin="D14"/>
+    </net>
+    <net code="73" name="/DCMI-D11">
+      <node ref="U6" pin="D13"/>
+    </net>
+    <net code="74" name="Net-(U6-PadC3)">
+      <node ref="U6" pin="C3"/>
+    </net>
+    <net code="75" name="/DCMI-D9">
+      <node ref="U6" pin="C14"/>
+    </net>
+    <net code="76" name="/DCMI-D10">
+      <node ref="U6" pin="C13"/>
+    </net>
+    <net code="77" name="Net-(U6-PadC10)">
+      <node ref="U6" pin="C10"/>
+    </net>
+    <net code="78" name="Net-(U6-PadF15)">
+      <node ref="U6" pin="F15"/>
+    </net>
+    <net code="79" name="/I2C_EXTERNAL_SDA">
+      <node ref="U12" pin="3"/>
+      <node ref="P7" pin="10"/>
+      <node ref="U6" pin="B4"/>
+    </net>
+    <net code="80" name="/LED_POWER">
+      <node ref="R11" pin="2"/>
+      <node ref="U6" pin="A6"/>
+    </net>
+    <net code="81" name="/I2C_EXTERNAL_SCL">
+      <node ref="P7" pin="8"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U6" pin="A5"/>
+    </net>
+    <net code="82" name="/SPI_CS2">
+      <node ref="P5" pin="6"/>
+      <node ref="U6" pin="A11"/>
+    </net>
+    <net code="83" name="/SWO">
+      <node ref="U6" pin="A10"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="84" name="DGND">
+      <node ref="C48" pin="1"/>
+      <node ref="K1" pin="SH"/>
+    </net>
+    <net code="85" name="/MODEM_RESET">
+      <node ref="U6" pin="L3"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="86" name="/DCMI_IO_POWER">
+      <node ref="U6" pin="P4"/>
+      <node ref="P4" pin="20"/>
+    </net>
+    <net code="87" name="/ETH_MDIO">
+      <node ref="U14" pin="12"/>
+      <node ref="U6" pin="P2"/>
+      <node ref="R38" pin="2"/>
+    </net>
+    <net code="88" name="/USB-HS-VBUS">
+      <node ref="U6" pin="P13"/>
+    </net>
+    <net code="89" name="/USB-HS-ID">
+      <node ref="U6" pin="P12"/>
+    </net>
+    <net code="90" name="/RXD0">
+      <node ref="R34" pin="1"/>
+      <node ref="U6" pin="N5"/>
+    </net>
+    <net code="91" name="/WAKEUP_BROADCAST">
+      <node ref="U6" pin="N4"/>
+      <node ref="P2" pin="16"/>
+    </net>
+    <net code="92" name="/MCU_WAKE_UP">
+      <node ref="P2" pin="18"/>
+      <node ref="U6" pin="N3"/>
+    </net>
+    <net code="93" name="/ETH_REF_CLK">
+      <node ref="U6" pin="N2"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="94" name="Net-(U6-PadN14)">
+      <node ref="U6" pin="N14"/>
+    </net>
+    <net code="95" name="/SDCARD_POWER">
+      <node ref="R2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U6" pin="N13"/>
+    </net>
+    <net code="96" name="/ETH_POWER_V3">
+      <node ref="U6" pin="M6"/>
+      <node ref="C50" pin="2"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="97" name="/ETH_MDC">
+      <node ref="U6" pin="M3"/>
+      <node ref="U14" pin="13"/>
+    </net>
+    <net code="98" name="Net-(U6-PadM15)">
+      <node ref="U6" pin="M15"/>
+    </net>
+    <net code="99" name="Net-(U6-PadM13)">
+      <node ref="U6" pin="M13"/>
+    </net>
+    <net code="100" name="Net-(U6-PadM11)">
+      <node ref="U6" pin="M11"/>
+    </net>
+    <net code="101" name="/MODEM_POWER">
+      <node ref="P2" pin="6"/>
+      <node ref="U6" pin="L2"/>
+    </net>
+    <net code="102" name="Net-(U6-PadL13)">
+      <node ref="U6" pin="L13"/>
+    </net>
+    <net code="103" name="/MAIN_POWER_GOOD_5V">
+      <node ref="P2" pin="8"/>
+      <node ref="U6" pin="L1"/>
+    </net>
+    <net code="104" name="Net-(U6-PadK15)">
+      <node ref="U6" pin="K15"/>
+    </net>
+    <net code="105" name="/DCMI-D12">
+      <node ref="U6" pin="J15"/>
+    </net>
+    <net code="106" name="Net-(U6-PadJ14)">
+      <node ref="U6" pin="J14"/>
+    </net>
+    <net code="107" name="/GUI_POWER">
+      <node ref="U6" pin="G4"/>
+      <node ref="P5" pin="4"/>
+    </net>
+    <net code="108" name="/OLED_RESET">
+      <node ref="P5" pin="5"/>
+      <node ref="U6" pin="F4"/>
+    </net>
+    <net code="109" name="Net-(R19-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="TR1" pin="10"/>
+    </net>
+    <net code="110" name="/RXD1">
+      <node ref="U6" pin="P5"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="111" name="/RX_P">
+      <node ref="U17" pin="3"/>
+      <node ref="U14" pin="23"/>
+      <node ref="TR1" pin="6"/>
+      <node ref="R30" pin="2"/>
+    </net>
+    <net code="112" name="/RX_N">
+      <node ref="R31" pin="2"/>
+      <node ref="U17" pin="2"/>
+      <node ref="U14" pin="22"/>
+      <node ref="TR1" pin="8"/>
+    </net>
+    <net code="113" name="Net-(R36-Pad2)">
+      <node ref="R37" pin="1"/>
+      <node ref="U14" pin="11"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="114" name="Net-(R39-Pad2)">
+      <node ref="R40" pin="1"/>
+      <node ref="U14" pin="14"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="115" name="Net-(R17-Pad2)">
+      <node ref="U14" pin="24"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="116" name="Net-(C48-Pad2)">
+      <node ref="R22" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="C48" pin="2"/>
+    </net>
+    <net code="117" name="/RX_-">
+      <node ref="K1" pin="6"/>
+      <node ref="TR1" pin="9"/>
+    </net>
+    <net code="118" name="Net-(C21-Pad1)">
+      <node ref="XO1" pin="3"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U14" pin="4"/>
+    </net>
+    <net code="119" name="Net-(C17-Pad1)">
+      <node ref="XO1" pin="1"/>
+      <node ref="U14" pin="5"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="120" name="/TX_N">
+      <node ref="TR1" pin="3"/>
+      <node ref="U14" pin="20"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U16" pin="2"/>
+    </net>
+    <net code="121" name="/TX_+">
+      <node ref="K1" pin="1"/>
+      <node ref="TR1" pin="16"/>
+    </net>
+    <net code="122" name="Net-(C44-Pad1)">
+      <node ref="U14" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="TR1" pin="7"/>
+      <node ref="TR1" pin="2"/>
+      <node ref="R28" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="U14" pin="19"/>
+      <node ref="U17" pin="4"/>
+      <node ref="R29" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="U16" pin="4"/>
+      <node ref="L2" pin="2"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C49" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="123" name="Net-(K1-Pad7)">
+      <node ref="R27" pin="1"/>
+      <node ref="K1" pin="8"/>
+      <node ref="K1" pin="7"/>
+    </net>
+    <net code="124" name="Net-(K1-Pad4)">
+      <node ref="K1" pin="5"/>
+      <node ref="R23" pin="1"/>
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="125" name="/TX_-">
+      <node ref="K1" pin="2"/>
+      <node ref="TR1" pin="14"/>
+    </net>
+    <net code="126" name="/RX_+">
+      <node ref="K1" pin="3"/>
+      <node ref="TR1" pin="11"/>
+    </net>
+    <net code="127" name="Net-(R22-Pad1)">
+      <node ref="TR1" pin="15"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="128" name="/MODEM_POWER_GOOD">
+      <node ref="U6" pin="R5"/>
+      <node ref="P2" pin="12"/>
+    </net>
+    <net code="129" name="/ETH_CRS_DV">
+      <node ref="R37" pin="2"/>
+      <node ref="U6" pin="R3"/>
+    </net>
+    <net code="130" name="/BUZZER_CLOCK">
+      <node ref="P2" pin="14"/>
+      <node ref="U6" pin="R2"/>
+    </net>
+    <net code="131" name="/USB-HS-D+">
+      <node ref="U6" pin="R15"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="132" name="/USB-HS-D-">
+      <node ref="U6" pin="R14"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="133" name="/TX_P">
+      <node ref="U16" pin="3"/>
+      <node ref="U14" pin="21"/>
+      <node ref="R28" pin="2"/>
+      <node ref="TR1" pin="1"/>
+    </net>
+    <net code="134" name="+5V">
+      <node ref="C4" pin="1"/>
+      <node ref="P6" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P7" pin="1"/>
+      <node ref="P7" pin="3"/>
+      <node ref="U4" pin="1"/>
+      <node ref="P7" pin="5"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U15" pin="1"/>
+      <node ref="P6" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="P5" pin="12"/>
+    </net>
+    <net code="135" name="Net-(R41-Pad1)">
+      <node ref="U15" pin="3"/>
+      <node ref="R41" pin="1"/>
+      <node ref="R42" pin="1"/>
+    </net>
+    <net code="136" name="GND_LED">
+      <node ref="P4" pin="3"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="P4" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="P2" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="137" name="Net-(D2-Pad1)">
+      <node ref="R43" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="138" name="ETH_+3.3V">
+      <node ref="D2" pin="2"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="U14" pin="9"/>
+      <node ref="U15" pin="5"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="139" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2"/>
+      <node ref="U14" pin="8"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="140" name="Net-(R33-Pad2)">
+      <node ref="U14" pin="7"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="141" name="Net-(C51-Pad1)">
+      <node ref="C51" pin="1"/>
+      <node ref="U15" pin="4"/>
+    </net>
+    <net code="142" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="143" name="RAM_+3.3V">
+      <node ref="U2" pin="C7"/>
+      <node ref="U2" pin="J9"/>
+      <node ref="U2" pin="A7"/>
+      <node ref="U2" pin="A9"/>
+      <node ref="U2" pin="B3"/>
+      <node ref="U2" pin="D3"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U2" pin="E7"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="144" name="+3.3V">
+      <node ref="U6" pin="F3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R25" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="D6" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U6" pin="G3"/>
+      <node ref="U6" pin="N10"/>
+      <node ref="P6" pin="5"/>
+      <node ref="U6" pin="C6"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U6" pin="C9"/>
+      <node ref="U6" pin="C5"/>
+      <node ref="U6" pin="C8"/>
+      <node ref="U6" pin="G13"/>
+      <node ref="R26" pin="1"/>
+      <node ref="U6" pin="C7"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U6" pin="N9"/>
+      <node ref="C3" pin="1"/>
+      <node ref="P7" pin="7"/>
+      <node ref="P7" pin="11"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U6" pin="H13"/>
+      <node ref="P7" pin="9"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="U12" pin="4"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U6" pin="N8"/>
+      <node ref="U6" pin="J12"/>
+      <node ref="U6" pin="J13"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U6" pin="K4"/>
+    </net>
+    <net code="145" name="/Vbat">
+      <node ref="P7" pin="20"/>
+      <node ref="U6" pin="C1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="146" name="/PW_MODEM">
+      <node ref="P7" pin="2"/>
+      <node ref="U6" pin="D1"/>
+    </net>
+    <net code="147" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="148" name="/SPI-SCK">
+      <node ref="U6" pin="R12"/>
+      <node ref="P5" pin="9"/>
+    </net>
+    <net code="149" name="/SPI-D/C">
+      <node ref="P5" pin="8"/>
+      <node ref="U6" pin="K12"/>
+    </net>
+    <net code="150" name="/SPI_CS1">
+      <node ref="P5" pin="7"/>
+      <node ref="U6" pin="L12"/>
+    </net>
+    <net code="151" name="/SPI-MISO">
+      <node ref="P5" pin="11"/>
+      <node ref="U6" pin="M4"/>
+    </net>
+    <net code="152" name="/SPI-MOSI">
+      <node ref="P5" pin="10"/>
+      <node ref="U6" pin="M5"/>
+    </net>
+    <net code="153" name="/DCMI-D3">
+      <node ref="P4" pin="8"/>
+      <node ref="U6" pin="B9"/>
+    </net>
+    <net code="154" name="/DCMI-D2">
+      <node ref="U6" pin="B10"/>
+      <node ref="P4" pin="6"/>
+    </net>
+    <net code="155" name="/DCMI-D1">
+      <node ref="U6" pin="G15"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="156" name="/DCMI-D0">
+      <node ref="U6" pin="H15"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="157" name="/DCMI_RESET">
+      <node ref="U6" pin="R4"/>
+      <node ref="P4" pin="18"/>
+    </net>
+    <net code="158" name="/DCMI-D7">
+      <node ref="U6" pin="B3"/>
+      <node ref="P4" pin="16"/>
+    </net>
+    <net code="159" name="/DCMI-D5">
+      <node ref="U6" pin="D4"/>
+      <node ref="P4" pin="12"/>
+    </net>
+    <net code="160" name="/DCMI-D4">
+      <node ref="U6" pin="B1"/>
+      <node ref="P4" pin="10"/>
+    </net>
+    <net code="161" name="/USART-RTS">
+      <node ref="P1" pin="10"/>
+      <node ref="U6" pin="D10"/>
+    </net>
+    <net code="162" name="/USB-FS-D-">
+      <node ref="U6" pin="C15"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="163" name="/USB-FS-D+">
+      <node ref="U6" pin="B15"/>
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="164" name="Net-(U2-PadE2)">
+      <node ref="U2" pin="E2"/>
+    </net>
+    <net code="166" name="Net-(C13-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="167" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="168" name="SD_+3.3V">
+      <node ref="U9" pin="4"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U10" pin="4"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="SD1" pin="4"/>
+      <node ref="U11" pin="4"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U8" pin="4"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="169" name="SWD_+3.3V">
+      <node ref="P3" pin="9"/>
+      <node ref="P3" pin="10"/>
+      <node ref="D6" pin="2"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="170" name="/ETH_TXD0">
+      <node ref="U6" pin="A8"/>
+      <node ref="U14" pin="17"/>
+    </net>
+    <net code="171" name="Net-(U14-Pad3)">
+      <node ref="U14" pin="3"/>
+    </net>
+    <net code="172" name="Net-(U14-Pad2)">
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="173" name="/ETH_TXD1">
+      <node ref="U6" pin="A7"/>
+      <node ref="U14" pin="18"/>
+    </net>
+    <net code="174" name="/ETH_TX_EN">
+      <node ref="U14" pin="16"/>
+      <node ref="U6" pin="R13"/>
+    </net>
+    <net code="175" name="Net-(R1-Pad1)">
+      <node ref="U14" pin="10"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="176" name="/DEBUG_RX">
+      <node ref="U6" pin="K2"/>
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="177" name="/DEBUG_TX">
+      <node ref="U6" pin="K1"/>
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="178" name="/SWD-CLK">
+      <node ref="P3" pin="5"/>
+      <node ref="U6" pin="A14"/>
+    </net>
+    <net code="179" name="/RST">
+      <node ref="U6" pin="J1"/>
+      <node ref="U14" pin="15"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P2" pin="20"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C40" pin="1"/>
+    </net>
+    <net code="180" name="/SWD-IO">
+      <node ref="P3" pin="3"/>
+      <node ref="U6" pin="A15"/>
+    </net>
+    <net code="181" name="/SDIO-D2">
+      <node ref="U6" pin="B14"/>
+      <node ref="U8" pin="3"/>
+      <node ref="R15" pin="2"/>
+      <node ref="SD1" pin="9"/>
+    </net>
+    <net code="182" name="/SDIO-D3">
+      <node ref="SD1" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U6" pin="B13"/>
+    </net>
+    <net code="183" name="/I2C_INTERNAL_SDA">
+      <node ref="P6" pin="4"/>
+      <node ref="U13" pin="2"/>
+      <node ref="P5" pin="3"/>
+      <node ref="P1" pin="4"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U6" pin="J4"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="184" name="/I2C_INTERNAL_SCL">
+      <node ref="U6" pin="H4"/>
+      <node ref="U13" pin="3"/>
+      <node ref="P6" pin="2"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R25" pin="2"/>
+      <node ref="P5" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="185" name="/DCMI-CLK">
+      <node ref="U6" pin="C4"/>
+      <node ref="P6" pin="20"/>
+    </net>
+    <net code="186" name="/DCMI-PIXCK">
+      <node ref="U6" pin="P3"/>
+      <node ref="P6" pin="18"/>
+    </net>
+    <net code="187" name="/SDIO-CMD">
+      <node ref="U9" pin="3"/>
+      <node ref="U6" pin="D12"/>
+      <node ref="SD1" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="188" name="/SDIO-CK">
+      <node ref="U9" pin="2"/>
+      <node ref="SD1" pin="5"/>
+      <node ref="U6" pin="A12"/>
+    </net>
+    <net code="189" name="/SDIO-D1">
+      <node ref="R9" pin="2"/>
+      <node ref="U6" pin="F14"/>
+      <node ref="SD1" pin="8"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="190" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="191" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="192" name="/FMC-BA1">
+      <node ref="U2" pin="G8"/>
+      <node ref="U6" pin="K13"/>
+    </net>
+    <net code="193" name="/FMC-~CS">
+      <node ref="U6" pin="B6"/>
+      <node ref="U2" pin="G9"/>
+    </net>
+    <net code="194" name="/FMC-BA0">
+      <node ref="U2" pin="G7"/>
+      <node ref="U6" pin="K14"/>
+    </net>
+    <net code="195" name="/FMC-~WE">
+      <node ref="U2" pin="F9"/>
+      <node ref="U6" pin="M2"/>
+    </net>
+    <net code="196" name="/FMC-~RAS">
+      <node ref="U6" pin="R6"/>
+      <node ref="U2" pin="F8"/>
+    </net>
+    <net code="197" name="/FMC-~CAS">
+      <node ref="U6" pin="B7"/>
+      <node ref="U2" pin="F7"/>
+    </net>
+    <net code="198" name="/FMC-CKE">
+      <node ref="U6" pin="N12"/>
+      <node ref="U2" pin="F3"/>
+    </net>
+    <net code="199" name="/FMC-CLK">
+      <node ref="U2" pin="F2"/>
+      <node ref="U6" pin="H14"/>
+    </net>
+  </nets>
+</export>
