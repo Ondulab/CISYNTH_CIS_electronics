@@ -4786,7 +4786,7 @@ Text Label 20400 9525 0    39   ~ 0
 FMC_D1
 Text Label 20400 9425 0    39   ~ 0
 FMC_D0
-Text Label 15650 4525 2    39   ~ 0
+Text Label 15650 4125 2    39   ~ 0
 DAC_DEMP
 Text Label 15650 9325 2    39   ~ 0
 DAC_LRCK
@@ -4800,9 +4800,9 @@ Text Label 20400 6325 0    39   ~ 0
 DAC_XSMT
 Text Label 15650 7825 2    39   ~ 0
 DAC_FMT
-Text Label 15650 8125 2    39   ~ 0
+Text Label 15650 5725 2    39   ~ 0
 5V_EN
-Text Label 15650 7525 2    39   ~ 0
+Text Label 15650 6025 2    39   ~ 0
 12V_EN
 Text Label 15650 10325 2    39   ~ 0
 SW_LEFT
@@ -4828,7 +4828,7 @@ Text Label 20400 8325 0    39   ~ 0
 MEMS_SCLK
 Text Label 20400 5325 0    39   ~ 0
 MEMS_CS
-Text Label 15650 6325 2    39   ~ 0
+Text Label 20400 8825 0    39   ~ 0
 MEMS_INT
 Text Label 20400 4225 0    39   ~ 0
 MEMS_FSYNC
@@ -4880,7 +4880,7 @@ NoConn ~ 20400 7525
 NoConn ~ 20400 7725
 NoConn ~ 20400 7825
 NoConn ~ 20400 8225
-NoConn ~ 20400 8825
+NoConn ~ 15650 6325
 NoConn ~ 20400 8925
 NoConn ~ 20400 9025
 NoConn ~ 20400 9125
@@ -4907,10 +4907,8 @@ NoConn ~ 15650 6525
 NoConn ~ 15650 6425
 NoConn ~ 15650 6225
 NoConn ~ 15650 6125
-NoConn ~ 15650 6025
 NoConn ~ 15650 5925
 NoConn ~ 15650 5825
-NoConn ~ 15650 5725
 NoConn ~ 15650 5625
 NoConn ~ 15650 5525
 NoConn ~ 15650 5325
@@ -4922,7 +4920,7 @@ NoConn ~ 15650 4725
 NoConn ~ 15650 4625
 NoConn ~ 15650 4325
 NoConn ~ 15650 4225
-NoConn ~ 15650 4125
+NoConn ~ 15650 4525
 NoConn ~ 15650 4025
 $Comp
 L CIS-rescue:GND-HM3-rescue #PWR0148
@@ -6069,4 +6067,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/pcm5102.pdf" H 9475 4425 50  0001 C CNN
 	1    9525 3675
 	1    0    0    -1  
 $EndComp
+NoConn ~ 15650 8125
+NoConn ~ 15650 7525
 $EndSCHEMATC
