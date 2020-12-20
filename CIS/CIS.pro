@@ -1,4 +1,4 @@
-update=dim. 20 déc. 2020 00:32:12
+update=dim. 20 déc. 2020 22:55:25
 version=1
 last_client=kicad
 [general]
@@ -49,9 +49,9 @@ TrackWidth9=2
 ViaDiameter1=0.45
 ViaDrill1=0.2
 ViaDiameter2=0.45
-ViaDrill2=0.1
+ViaDrill2=0.2
 ViaDiameter3=0.6
-ViaDrill3=0.25
+ViaDrill3=0.35
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -258,6 +258,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
+Name=AUDIO
+Clearance=0.091
+TrackWidth=0.2
+ViaDiameter=0.6
+ViaDrill=0.35
+uViaDiameter=0.508
+uViaDrill=0.127
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
 Name=ETH
 Clearance=0.127
 TrackWidth=0.15
@@ -268,9 +279,9 @@ uViaDrill=0.127
 dPairWidth=0.15
 dPairGap=0.127
 dPairViaGap=0.25
-[pcbnew/Netclasses/2]
+[pcbnew/Netclasses/3]
 Name=GND
-Clearance=0.125
+Clearance=0.091
 TrackWidth=0.125
 ViaDiameter=0.6
 ViaDrill=0.35
@@ -279,10 +290,21 @@ uViaDrill=0.127
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/4]
 Name=POWER
-Clearance=0.125
+Clearance=0.091
 TrackWidth=0.125
+ViaDiameter=0.6
+ViaDrill=0.35
+uViaDiameter=0.508
+uViaDrill=0.127
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/5]
+Name=VREF
+Clearance=0.091
+TrackWidth=0.4
 ViaDiameter=0.6
 ViaDrill=0.35
 uViaDiameter=0.508
