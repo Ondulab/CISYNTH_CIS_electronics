@@ -1,4 +1,4 @@
-19437245198948358
+19448517782029358
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49777,13 +49777,6 @@ XO_FC-12M
 2
 2
 DVB_Connectors
-3-2328724-1‎
-footprint_template StepUp generated footprint
-
-0
-33
-31
-DVB_Connectors
 52435-3071
 Connector ZIF FFC/FPC 30pins
 FFC FPC ZIF
@@ -49980,6 +49973,13 @@ Through hole socket strip THT 2x20 2.54mm double row
 40
 40
 DVB_Connectors
+Jack_3.5mm_CUI_SJ1-3533NG_Horizontal
+TRS 3.5mm, horizontal, through-hole, https://www.cui.com/product/resource/sj1-353xng.pdf
+TRS audio jack stereo horizontal
+0
+3
+3
+DVB_Connectors
 LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm
 LFCSP, 8 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-8/CP_8_13.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 LFCSP DFN_QFN
@@ -50014,6 +50014,13 @@ Molex_FPC_5025983993_2x39_P0.3mm
 0
 7
 1
+DVB_Connectors
+Molex_PicoBlade_53048-1210_1x12_P1.25mm_Horizontal
+Molex PicoBlade Connector System, 53048-1210, 12 Pins per row (http://www.molex.com/pdm_docs/sd/530480210_sd.pdf), generated with kicad-footprint-generator
+connector Molex PicoBlade top entry
+0
+12
+12
 DVB_Connectors
 MultiTerminal_SONY
 
@@ -50140,6 +50147,13 @@ QSH-060-01-H-D-A
 0
 128
 128
+DVB_Connectors
+RJ45_Abracon_ARJP11A-MA_Horizontal
+Shielded RJ45 ethernet connector with transformer and POE (https://abracon.com/Magnetics/lan/ARJP11A.PDF)
+ethernet 8p8c transformer poe rj45
+0
+15
+14
 DVB_Connectors
 RJ45_SMD-15.7x16.4x13.4_noLeds
 
@@ -50294,6 +50308,13 @@ TD5640_DF30
 0
 32
 32
+DVB_Connectors
+TE_3-2328724-1‎
+footprint_template StepUp generated footprint
+
+0
+33
+31
 DVB_Connectors
 TMMH_105_01_L_D
 
@@ -50526,7 +50547,7 @@ OLED128x128-1P5
 36
 31
 DVB_Displays
-OLED256x64-2P1_HOLE
+OLED256x64-2P1_HOLE_TE_3-2328724-1‎
 footprint_template StepUp generated footprint
 
 0
@@ -50792,6 +50813,13 @@ lga land grid array
 8
 8
 DVB_LGA
+LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y
+LGA, 16 Pin (http://www.st.com/resource/en/datasheet/lis331hh.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LGA NoLead
+0
+16
+16
+DVB_LGA
 LGA_SARA-U2
 
 
@@ -50863,6 +50891,27 @@ LogoUher1
 0
 DVB_Mechanicals
 LogoUher2
+
+
+0
+0
+0
+DVB_Mechanicals
+RESO-NANCE_LOGO
+
+
+0
+0
+0
+DVB_Mechanicals
+RESO-NANCE_SSS-2_LOGO
+
+
+0
+0
+0
+DVB_Mechanicals
+RESO-NANCE_SSS_LOGO
 
 
 0
