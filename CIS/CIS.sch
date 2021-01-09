@@ -3232,7 +3232,7 @@ F 3 "" H 7300 3225 50  0001 C CNN
 	1    7300 3475
 	1    0    0    -1  
 $EndComp
-Text Label 4475 4150 2    39   ~ 0
+Text Label 4475 4350 2    39   ~ 0
 CIS_CP
 Text Label 6800 2825 1    39   ~ 0
 CIS_VLED_G
@@ -3672,7 +3672,7 @@ F 7 "25V" H 10550 4000 50  0001 L CNN "Field4"
 	1    0    0    1   
 $EndComp
 Connection ~ 4550 7475
-Text Label 5475 4450 0    39   ~ 0
+Text Label 5475 4150 0    39   ~ 0
 CIS_RS_TTL
 Text Label 5475 4250 0    39   ~ 0
 CIS_SP_TTL
@@ -3714,14 +3714,12 @@ F 3 "" H 4175 3750 50  0001 C CNN
 	1    4175 4000
 	0    1    1    0   
 $EndComp
-NoConn ~ 5475 4350
 Text Label 4475 4250 2    39   ~ 0
 CIS_SP
-Text Label 5475 4150 0    39   ~ 0
+Text Label 5475 4350 0    39   ~ 0
 CIS_CP_TTL
-Text Label 4475 4450 2    39   ~ 0
+Text Label 4475 4150 2    39   ~ 0
 CIS_RS
-NoConn ~ 4475 4350
 $Comp
 L CIS-rescue:+3.3V-HM3-rescue #PWR0228
 U 1 1 5FFF331E
@@ -3891,17 +3889,6 @@ Text Label 4125 2975 2    39   ~ 0
 CIS_ADC_2
 Text Label 4125 2750 2    39   ~ 0
 CIS_ADC_3
-$Comp
-L Connector_Generic:Conn_01x12 J1
-U 1 1 60501103
-P 5275 2550
-F 0 "J1" H 5275 3150 50  0000 C CNN
-F 1 "Conn_01x12" V 5375 2500 50  0000 C CNN
-F 2 "DVB_Connectors:Molex_PicoBlade_53048-1210_1x12_P1.25mm_Horizontal" H 5275 2550 50  0001 C CNN
-F 3 "~" H 5275 2550 50  0001 C CNN
-	1    5275 2550
-	0    -1   -1   0   
-$EndComp
 $Comp
 L DVB_R:R_0134 R15
 U 1 1 6047C3B4
@@ -4833,8 +4820,6 @@ Text Label 15650 6925 2    39   ~ 0
 RMII_TXD1
 Text Label 20400 6725 0    39   ~ 0
 RMII_RXD0
-Text Label 20400 6825 0    39   ~ 0
-RMII_RXD1
 Text Label 20400 6225 0    39   ~ 0
 RMII_MDC
 Text Label 20400 2725 0    39   ~ 0
@@ -6073,10 +6058,28 @@ F 3 "" H 15775 13725 50  0001 C CNN
 	1    15775 13975
 	0    -1   1    0   
 $EndComp
-Text Label 20400 6925 0    39   ~ 0
-CIS_LED_R
 Text Label 20400 9325 0    39   ~ 0
-CIS_LED_G
+CIS_LED_R
 Text Label 15650 5025 2    39   ~ 0
+CIS_LED_G
+Text Notes 4500 2300 0    60   ~ 0
+150mm Molex cable : 0151341202‎ 
+$Comp
+L DVB_K:K_9998 J1
+U 1 1 5FF53592
+P 5375 2550
+F 0 "J1" H 5375 3150 50  0000 C CNN
+F 1 "K_9998" V 5725 2550 50  0001 C CNN
+F 2 "DVB_Connectors:Molex_PicoBlade_53261-1271_1x12-1MP_P1.25mm_Horizontal" V 5625 2550 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/532611271_sd.pdf" H 5375 2550 50  0001 C CNN
+F 4 "532611271" V 5475 2550 50  0000 C CNN "Field4"
+	1    5375 2550
+	0    1    -1   0   
+$EndComp
+NoConn ~ 5475 4450
+NoConn ~ 4475 4450
+Text Label 20400 6925 0    39   ~ 0
 CIS_LED_B
+Text Label 20400 6825 0    39   ~ 0
+RMII_RXD1
 $EndSCHEMATC
