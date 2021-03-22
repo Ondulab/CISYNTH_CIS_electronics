@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/zhonx/Documents/LFO/CISYNTH/Electronique/sss-cis_electronics/CIS.sch</source>
-    <date>jeu. 28 janv. 2021 23:33:49</date>
+    <source>/home/zhonx/Documents/Projets_PRE/CISYNTH/Electronique/sss-cis_electronics/CIS.sch</source>
+    <date>lun. 22 mars 2021 14:09:52</date>
     <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -294,20 +294,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5B718AB4</tstamp>
     </comp>
-    <comp ref="L2">
-      <value>L</value>
-      <footprint>DVB_Inductors:L_0402</footprint>
-      <fields>
-        <field name="Field1">value</field>
-        <field name="Field2">case</field>
-        <field name="Field3">fabricant</field>
-        <field name="Field4">refManufacturer</field>
-        <field name="Field5">maxAmp</field>
-      </fields>
-      <libsource lib="CIS-rescue" part="L-HM3-rescue-CIS-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5B768EF3</tstamp>
-    </comp>
     <comp ref="C46">
       <value>C_0003</value>
       <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
@@ -540,14 +526,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5BB9E92E</tstamp>
     </comp>
-    <comp ref="U2">
-      <value>STM32H745IIKx</value>
-      <footprint>DVB_BGA:UFBGA_176</footprint>
-      <datasheet>https://www.st.com/resource/en/datasheet/stm32h745zg.pdf</datasheet>
-      <libsource lib="DVB_U" part="STM32H745IIKx" description="ARM Cortex-M7 + M4 MCU, 2048KB flash, 1024KB RAM, 480MHz + 240MHz, 1.7-3.6V, 140 GPIO, UFBGA-176"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FC7BFD4</tstamp>
-    </comp>
     <comp ref="C1">
       <value>C_0002</value>
       <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
@@ -592,21 +570,6 @@
       <libsource lib="DVB_C" part="C_0002" description="DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE1A4F9</tstamp>
-    </comp>
-    <comp ref="C36">
-      <value>C_</value>
-      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
-      <datasheet>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL05B471KB5NNNC-19.pdf</datasheet>
-      <fields>
-        <field name="Field4">CER</field>
-        <field name="Field5">470pF</field>
-        <field name="Field6">50V</field>
-        <field name="Field7">X7R</field>
-        <field name="Field8">10%</field>
-      </fields>
-      <libsource lib="DVB_C" part="C_0068" description="DVB_Capacitors_Ceramic:C_0402, CER, 470pF, 50V, X7R, 10%"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FEADC96</tstamp>
     </comp>
     <comp ref="R36">
       <value>R_0020</value>
@@ -706,34 +669,6 @@
       <libsource lib="DVB_C" part="C_0002" description="DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE1AF3B</tstamp>
-    </comp>
-    <comp ref="L5">
-      <value>L_</value>
-      <footprint>DVB_Inductors:L_0603</footprint>
-      <datasheet>http://www.farnell.com/datasheets/84899.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</datasheet>
-      <fields>
-        <field name="Field4">MMZ1608B121C</field>
-        <field name="Field5">600mA</field>
-        <field name="Field6">CHIP BEADS</field>
-        <field name="Field7">120ohm to 100Mhz</field>
-      </fields>
-      <libsource lib="DVB_L" part="L_0010" description="DVB_Inductors:L_0603, MMZ1608B121C, 600mA, CHIP BEADS, 120ohm to 100Mhz"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FB841C6</tstamp>
-    </comp>
-    <comp ref="L6">
-      <value>L_</value>
-      <footprint>DVB_Inductors:L_4018-Coilcraft</footprint>
-      <datasheet>http://www.farnell.com/datasheets/1805324.pdf?_ga=2.69630928.1318262782.1499092899-695518372.1495123464</datasheet>
-      <fields>
-        <field name="Field4">LPS4018-682MRB</field>
-        <field name="Field5">1.3A</field>
-        <field name="Field6">COIL</field>
-        <field name="Field7">6.8µH</field>
-      </fields>
-      <libsource lib="DVB_L" part="L_0011" description="DVB_Inductors:L_4018-Coilcraft, LPS4018-682MRB, 1.3A, COIL, 6.8µH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FBABA8A</tstamp>
     </comp>
     <comp ref="C71">
       <value>C_0053</value>
@@ -939,47 +874,6 @@
       <libsource lib="DVB_R" part="R_0053" description="DVB_Resistors:R_0402, 220, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>600DE53A</tstamp>
-    </comp>
-    <comp ref="R51">
-      <value>R_</value>
-      <footprint>DVB_Resistors:R_0402</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">470k</field>
-        <field name="Field5">5%</field>
-        <field name="Field6">63mW</field>
-      </fields>
-      <libsource lib="DVB_R" part="R_0075" description="DVB_Resistors:R_0402, 470k, 5%, 63mW"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FBA5149</tstamp>
-    </comp>
-    <comp ref="R50">
-      <value>R_</value>
-      <footprint>DVB_Resistors:R_0402</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">470k</field>
-        <field name="Field5">5%</field>
-        <field name="Field6">63mW</field>
-      </fields>
-      <libsource lib="DVB_R" part="R_0075" description="DVB_Resistors:R_0402, 470k, 5%, 63mW"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FBD931C</tstamp>
-    </comp>
-    <comp ref="C69">
-      <value>C_</value>
-      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">CER</field>
-        <field name="Field5">10nF</field>
-        <field name="Field6">25V</field>
-        <field name="Field7">X7R</field>
-        <field name="Field8">10%</field>
-      </fields>
-      <libsource lib="DVB_C" part="C_0001" description="DVB_Capacitors_Ceramic:C_0402, CER, 10nF, 25V, X7R, 10%"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FBDD500</tstamp>
     </comp>
     <comp ref="J3">
       <value>SJ1-3533NG</value>
@@ -1220,32 +1114,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>601DFF7C</tstamp>
     </comp>
-    <comp ref="R23">
-      <value>R_</value>
-      <footprint>DVB_Resistors:R_0402</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">36k</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
-      </fields>
-      <libsource lib="DVB_R" part="R_0130" description="DVB_Resistors:R_0402, 36k, 1%, 63mW"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60493B1C</tstamp>
-    </comp>
-    <comp ref="R25">
-      <value>R_</value>
-      <footprint>DVB_Resistors:R_0402</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">36k</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
-      </fields>
-      <libsource lib="DVB_R" part="R_0130" description="DVB_Resistors:R_0402, 36k, 1%, 63mW"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60499236</tstamp>
-    </comp>
     <comp ref="Q2">
       <value>Q_0002</value>
       <footprint>DVB_SOT:SOT_323-SC_70</footprint>
@@ -1259,19 +1127,6 @@
       <libsource lib="DVB_Q" part="Q_0002" description="DVB_SOT:SOT_323-SC_70, BSS138PW, MOSFET, N-chan, 320mA, 60Vds"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6049A758</tstamp>
-    </comp>
-    <comp ref="R44">
-      <value>R_</value>
-      <footprint>DVB_Resistors:R_0402</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">36k</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
-      </fields>
-      <libsource lib="DVB_R" part="R_0130" description="DVB_Resistors:R_0402, 36k, 1%, 63mW"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>604B932C</tstamp>
     </comp>
     <comp ref="Q3">
       <value>Q_0002</value>
@@ -1353,21 +1208,6 @@
       <libsource lib="DVB_U" part="U_0097" description="DVB_SSOP:TSSOP_14_4.4x5_P0.65, TXS0104EPWR, INTERFACE, LEVEL SHIFTER / 4-BIT, TTL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE1B452</tstamp>
-    </comp>
-    <comp ref="C68">
-      <value>C_</value>
-      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
-      <datasheet>generic</datasheet>
-      <fields>
-        <field name="Field4">CER</field>
-        <field name="Field5">10nF</field>
-        <field name="Field6">25V</field>
-        <field name="Field7">X7R</field>
-        <field name="Field8">10%</field>
-      </fields>
-      <libsource lib="DVB_C" part="C_0001" description="DVB_Capacitors_Ceramic:C_0402, CER, 10nF, 25V, X7R, 10%"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE71D48</tstamp>
     </comp>
     <comp ref="C65">
       <value>C_0002</value>
@@ -1860,14 +1700,6 @@
       <libsource lib="DVB_C" part="C_0002" description="DVB_Capacitors_Ceramic:C_0402, CER, 100nF, 25V, X7R, 10%"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A1FEB2</tstamp>
-    </comp>
-    <comp ref="U8">
-      <value>ICM-20602</value>
-      <footprint>Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</footprint>
-      <datasheet>http://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf</datasheet>
-      <libsource lib="Sensor_Motion" part="ICM-20602" description="High performance 6-Axis MEMS motion tracking, SPI/I2C interface, LGA-16"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FD4A4B4</tstamp>
     </comp>
     <comp ref="C70">
       <value>C_0002</value>
@@ -2492,14 +2324,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609F832B</tstamp>
     </comp>
-    <comp ref="U7">
-      <value>PCM5102</value>
-      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/pcm5102.pdf</datasheet>
-      <libsource lib="Audio" part="PCM5102" description="2VRMS DirectPath, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FBA0A8E</tstamp>
-    </comp>
     <comp ref="K2">
       <value>K_0072</value>
       <footprint>DVB_Connectors:Molex_PicoBlade_53261-1271_1x12-1MP_P1.25mm_Horizontal</footprint>
@@ -2556,69 +2380,202 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>595C05E2</tstamp>
     </comp>
+    <comp ref="C36">
+      <value>C_0080</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">220pF</field>
+        <field name="Field6">50V</field>
+        <field name="Field7">X7R</field>
+        <field name="Field8">10%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0080" description="DVB_Capacitors_Ceramic:C_0402, CER, 220pF, 50V, X7R, 10%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>602C0571</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>R_0169</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">470</field>
+        <field name="Field5">5%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0169" description="DVB_Resistors:R_0402, 470, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017C459</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>R_0169</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">470</field>
+        <field name="Field5">5%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0169" description="DVB_Resistors:R_0402, 470, 1%, 63mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017D0E9</tstamp>
+    </comp>
+    <comp ref="C69">
+      <value>C_0064</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">2nF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">C0G</field>
+        <field name="Field8">5%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0064" description="DVB_Capacitors_Ceramic:C_0402, CER, 2nF, 25V, C0G, 5%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601A0EB9</tstamp>
+    </comp>
+    <comp ref="C68">
+      <value>C_0064</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
+      <datasheet>https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf</datasheet>
+      <fields>
+        <field name="Field4">CER</field>
+        <field name="Field5">2nF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">C0G</field>
+        <field name="Field8">5%</field>
+      </fields>
+      <libsource lib="DVB_C" part="C_0064" description="DVB_Capacitors_Ceramic:C_0402, CER, 2nF, 25V, C0G, 5%"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601A3A0E</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>L_0016</value>
+      <footprint>DVB_Inductors:L_0402</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2575526.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field4">BLM15PX601SN1D</field>
+        <field name="Field5">900mA</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">600ohm</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0016" description="DVB_Inductors:L_0402, BLM15PX601SN1D, 900mA, BEADS, 600ohm to 100Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6024A577</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>L_0017</value>
+      <footprint>DVB_Inductors:L_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2575526.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field4">FBMJ1608HM180NTR</field>
+        <field name="Field5">7.5A</field>
+        <field name="Field6">BEADS</field>
+        <field name="Field7">18ohm</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0017" description="DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6016A046</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>L_0018</value>
+      <footprint>DVB_Inductors:L_4018-Coilcraft</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1805324.pdf?_ga=2.69630928.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field4">LPS4018-222MRB</field>
+        <field name="Field5">1.5A</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">2.2µH</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0018" description="DVB_Inductors:L_4018-Coilcraft, LPS4018-222MRB, 2.3A, COIL, 2.2µH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601A4E1D</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>R_0170</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">130</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0170" description="DVB_Resistors:R_0402, 130, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60170381</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>R_0171</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">75</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0171" description="DVB_Resistors:R_0402, 75, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017571E</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>R_0172</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
+      <datasheet>generic</datasheet>
+      <fields>
+        <field name="Field4">68</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <libsource lib="DVB_R" part="R_0172" description="DVB_Resistors:R_0402, 68, 1%, 100mW"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6017DBB1</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>U_0131</value>
+      <footprint>DVB_BGA:UFBGA_176</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32h745zg.pdf</datasheet>
+      <fields>
+        <field name="Field4">STM32H745IIKx</field>
+        <field name="Field5">MCU</field>
+        <field name="Field6">CORTEX M7 32-BIT</field>
+        <field name="Field7">1.6V to 3.6Vcc</field>
+      </fields>
+      <libsource lib="DVB_U" part="U_0131" description="DVB_BGA:UFBGA_176, STM32H745IIKx, MCU, RM Cortex-M7 + M4 MCU, 2048KB flash, 1024KB RAM, 480MHz + 240MHz, 1.7-3.6V, 140 GPIO, UFBGA-176"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>601B03A3</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>U_0132</value>
+      <footprint>DVB_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/pcm5102.pdf</datasheet>
+      <fields>
+        <field name="Field4">PCM5102</field>
+        <field name="Field5">DAC</field>
+        <field name="Field6">32 BITS STEREO</field>
+        <field name="Field7">1.7-3.6Vcc</field>
+      </fields>
+      <libsource lib="DVB_U" part="U_0132" description="DVB_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm, PCM5102, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6061C6E6</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>U_0133</value>
+      <footprint>DVB_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</footprint>
+      <datasheet>http://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf</datasheet>
+      <fields>
+        <field name="Field4">ICM-20602</field>
+        <field name="Field5">MEMS</field>
+        <field name="Field6">6-AXIS </field>
+        <field name="Field7">1.71-3.45Vcc</field>
+      </fields>
+      <libsource lib="DVB_U" part="U_0133" description="DVB_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y, ICM-2060, High performance 6-Axis MEMS motion tracking, SPI/I2C interface, LGA-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6066ADF7</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="Audio" part="PCM5100">
-      <aliases>
-        <alias>PCM5101</alias>
-        <alias>PCM5102</alias>
-      </aliases>
-      <description>2VRMS DirectPath, 100dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20</description>
-      <docs>http://www.ti.com/lit/ds/symlink/pcm5100.pdf</docs>
-      <footprints>
-        <fp>TSSOP*4.4x6.5mm*P0.65mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">PCM5100</field>
-        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
-      </fields>
-      <pins>
-        <pin num="1" name="CPVDD" type="passive"/>
-        <pin num="2" name="CAPP" type="passive"/>
-        <pin num="3" name="CPGND" type="power_in"/>
-        <pin num="4" name="CAPM" type="passive"/>
-        <pin num="5" name="VNEG" type="passive"/>
-        <pin num="6" name="OUTL" type="output"/>
-        <pin num="7" name="OUTR" type="output"/>
-        <pin num="8" name="AVDD" type="power_in"/>
-        <pin num="9" name="AGND" type="power_in"/>
-        <pin num="10" name="DEMP" type="input"/>
-        <pin num="11" name="FLT" type="input"/>
-        <pin num="12" name="SCK" type="input"/>
-        <pin num="13" name="BCK" type="input"/>
-        <pin num="14" name="DIN" type="input"/>
-        <pin num="15" name="LRCK" type="input"/>
-        <pin num="16" name="FMT" type="input"/>
-        <pin num="17" name="XSMT" type="input"/>
-        <pin num="18" name="LDOO" type="passive"/>
-        <pin num="19" name="DGND" type="power_in"/>
-        <pin num="20" name="DVDD" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="CIS-rescue" part="L-HM3-rescue-CIS-rescue">
-      <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L-HM3-rescue-CIS-rescue</field>
-        <field name="Footprint">DVB_Inductors:L_0402</field>
-        <field name="Datasheet">datasheet</field>
-        <field name="Field1">value</field>
-        <field name="Field2">case</field>
-        <field name="Field3">fabricant</field>
-        <field name="Field4">refManufacturer</field>
-        <field name="Field5">maxAmp</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="AudioJack3">
       <description>Audio Jack, 3 Poles (Stereo / TRS)</description>
       <docs>~</docs>
@@ -2880,15 +2837,33 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="DVB_C" part="C_0068">
-      <description>DVB_Capacitors_Ceramic:C_0402, CER, 470pF, 50V, X7R, 10%</description>
-      <docs>http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL05B471KB5NNNC-19.pdf</docs>
+    <libpart lib="DVB_C" part="C_0064">
+      <description>DVB_Capacitors_Ceramic:C_0402, CER, 2nF, 25V, C0G, 5%</description>
+      <docs>https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf</docs>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C_0068</field>
+        <field name="Value">C_0064</field>
         <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
         <field name="Field4">CER</field>
-        <field name="Field5">470pF</field>
+        <field name="Field5">2nF</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">C0G</field>
+        <field name="Field8">5%</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_C" part="C_0080">
+      <description>DVB_Capacitors_Ceramic:C_0402, CER, 220pF, 50V, X7R, 10%</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0080</field>
+        <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
+        <field name="Field4">CER</field>
+        <field name="Field5">220pF</field>
         <field name="Field6">50V</field>
         <field name="Field7">X7R</field>
         <field name="Field8">10%</field>
@@ -3110,7 +3085,7 @@
         <field name="Footprint">DVB_Inductors:L_0603</field>
         <field name="Field4">MMZ1608B121C</field>
         <field name="Field5">600mA</field>
-        <field name="Field6">CHIP BEADS</field>
+        <field name="Field6">BEADS</field>
         <field name="Field7">120ohm to 100Mhz</field>
       </fields>
       <pins>
@@ -3129,6 +3104,57 @@
         <field name="Field5">1.3A</field>
         <field name="Field6">COIL</field>
         <field name="Field7">6.8µH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_L" part="L_0016">
+      <description>DVB_Inductors:L_0402, BLM15PX601SN1D, 900mA, BEADS, 600ohm to 100Mhz</description>
+      <docs>http://www.farnell.com/datasheets/2575526.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0016</field>
+        <field name="Footprint">DVB_Inductors:L_0402</field>
+        <field name="Field4">BLM15PX601SN1D</field>
+        <field name="Field5">900mA</field>
+        <field name="Field6">BEADS</field>
+        <field name="Field7">600ohm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_L" part="L_0017">
+      <description>DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz</description>
+      <docs>https://www.digikey.fr/fr/datasheets/taiyo-yuden/taiyo-yuden-chipbeads01_e?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0017</field>
+        <field name="Footprint">DVB_Inductors:L_0603</field>
+        <field name="Field4">FBMJ1608HM180NTR</field>
+        <field name="Field5">7.5A</field>
+        <field name="Field6">BEADS</field>
+        <field name="Field7">18ohm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_L" part="L_0018">
+      <description>DVB_Inductors:L_4018-Coilcraft, LPS4018-222MRB, 2.3A, COIL, 2.2µH</description>
+      <docs>http://www.farnell.com/datasheets/1805324.pdf?_ga=2.69630928.1318262782.1499092899-695518372.1495123464</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_0018</field>
+        <field name="Footprint">DVB_Inductors:L_4018-Coilcraft</field>
+        <field name="Field4">LPS4018-222MRB</field>
+        <field name="Field5">2.3A</field>
+        <field name="Field6">COIL</field>
+        <field name="Field7">2.2µH</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -3285,22 +3311,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="DVB_R" part="R_0075">
-      <description>DVB_Resistors:R_0402, 470k, 5%, 63mW</description>
-      <docs>generic</docs>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_0075</field>
-        <field name="Footprint">DVB_Resistors:R_0402</field>
-        <field name="Field4">470k</field>
-        <field name="Field5">5%</field>
-        <field name="Field6">63mW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="DVB_R" part="R_0102">
       <description>DVB_Resistors:R_0402, 165k, 1%, 63mW</description>
       <docs>generic</docs>
@@ -3397,22 +3407,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="DVB_R" part="R_0130">
-      <description>DVB_Resistors:R_0402, 36k, 1%, 63mW</description>
-      <docs>generic</docs>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_0130</field>
-        <field name="Footprint">DVB_Resistors:R_0402</field>
-        <field name="Field4">36k</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="DVB_R" part="R_0133">
       <description>DVB_Resistors:R_0402, 12.1k, 1%, 63mW</description>
       <docs>generic</docs>
@@ -3445,6 +3439,70 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="DVB_R" part="R_0169">
+      <description>DVB_Resistors:R_0402, 470, 1%, 63mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0169</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">470</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">63mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0170">
+      <description>DVB_Resistors:R_0402, 130, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0170</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">130</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0171">
+      <description>DVB_Resistors:R_0402, 75, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0171</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">75</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0172">
+      <description>DVB_Resistors:R_0402, 68, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0172</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Field4">68</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="DVB_SW" part="SW_0003">
       <description>DVB_Buttons:PTS810, PTS810, PUSH BUTTON, DPST-NO, TOP</description>
       <docs>https://www.ckswitches.com/media/1476/pts810.pdf</docs>
@@ -3464,16 +3522,217 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="DVB_U" part="STM32H745IIKx">
-      <description>ARM Cortex-M7 + M4 MCU, 2048KB flash, 1024KB RAM, 480MHz + 240MHz, 1.7-3.6V, 140 GPIO, UFBGA-176</description>
+    <libpart lib="DVB_U" part="U_0049">
+      <description>DVB_SOT:SOT_143, CD143A-SR3.3, PROTECTION, ESD / D-ARRAY , 2-Chan</description>
+      <docs>http://www.farnell.com/datasheets/2004209.pdf?_ga=2.8833781.1188598177.1499070962-421346633.1483631847</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0049</field>
+        <field name="Footprint">DVB_SOT:SOT_143</field>
+        <field name="Field4">CD143A-SR3.3</field>
+        <field name="Field5">PROTECTION</field>
+        <field name="Field6">ESD / D-ARRAY </field>
+        <field name="Field7">2-Chan</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="IO1" type="input"/>
+        <pin num="3" name="IO2" type="input"/>
+        <pin num="4" name="Vdd" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0065">
+      <description>DVB_SSOP:MSOP_16-1EP_3x4_P0.5, LT8610ABIMSE-5, REGULATOR, DC/DC BUCK, 3.4V to 42Vcc, 5Vout, 3.5A</description>
+      <docs>http://cds.linear.com/docs/en/datasheet/8610abfa.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0065</field>
+        <field name="Footprint">DVB_SSOP:MSOP_16-1EP_3x4_P0.5</field>
+        <field name="Field4">LT8610ABIMSE-5</field>
+        <field name="Field5">REGULATOR</field>
+        <field name="Field6">DC/DC BUCK</field>
+        <field name="Field7">3.4V to 42Vcc</field>
+        <field name="Field8">5Vout</field>
+        <field name="Field9">3.5A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SYNC" type="input"/>
+        <pin num="2" name="TR/SS" type="input"/>
+        <pin num="3" name="RT" type="input"/>
+        <pin num="4" name="EN/UV" type="input"/>
+        <pin num="5" name="Vin" type="power_in"/>
+        <pin num="6" name="Vin" type="power_in"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="SW" type="input"/>
+        <pin num="10" name="SW" type="input"/>
+        <pin num="11" name="SW" type="power_out"/>
+        <pin num="12" name="BST" type="input"/>
+        <pin num="13" name="INTVcc" type="input"/>
+        <pin num="14" name="BIAS" type="input"/>
+        <pin num="15" name="PG" type="input"/>
+        <pin num="16" name="Vout" type="input"/>
+        <pin num="17" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0076">
+      <description>DVB_SOT:SOT_23-5, TPS61040DBVR, REGULATOR, DC/DC BOOST/EN, 1.8V to 6Vcc, ADJ 1.8V to 1Vout, 400mA</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61041</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0076</field>
+        <field name="Footprint">DVB_SOT:SOT_23-5</field>
+        <field name="Field4">TPS61040DBVR</field>
+        <field name="Field5">REGULATOR</field>
+        <field name="Field6">DC/DC BOOST/EN</field>
+        <field name="Field7">1.8V to 6Vcc</field>
+        <field name="Field8">ADJ 1.8V to 1Vout</field>
+        <field name="Field9">400mA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0081">
+      <description>DVB_DFN:DFN-8-1EP_2x2_P0.5, ADP125ACPZ-R7, REGULATOR, LDO, 2.3V to 5.5Vcc, ADJ 800mV to 5Vout, 500mA</description>
+      <docs>http://www.farnell.com/datasheets/1899965.pdf?_ga=2.34388068.415540020.1500900976-695518372.1495123464</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0081</field>
+        <field name="Footprint">DVB_DFN:DFN-8-1EP_2x2_P0.5</field>
+        <field name="Field4">ADP125ACPZ-R7</field>
+        <field name="Field5">REGULATOR</field>
+        <field name="Field6">LDO</field>
+        <field name="Field7">2.3V to 5.5Vcc</field>
+        <field name="Field8">ADJ 800mV to 5Vout</field>
+        <field name="Field9">500mA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="input"/>
+        <pin num="2" name="Vout" type="input"/>
+        <pin num="3" name="ADJ" type="input"/>
+        <pin num="4" name="Vss" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="Vin" type="input"/>
+        <pin num="8" name="Vin" type="input"/>
+        <pin num="9" name="Vss" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0097">
+      <description>DVB_SSOP:TSSOP_14_4.4x5_P0.65, TXS0104EPWR, INTERFACE, LEVEL SHIFTER / 4-BIT, TTL</description>
+      <docs>http://www.ti.com/lit/ds/symlink/txs0104e.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0097</field>
+        <field name="Footprint">DVB_SSOP:TSSOP_14_4.4x5_P0.65</field>
+        <field name="Field4">TXS0104EPWR</field>
+        <field name="Field5">INTERFACE</field>
+        <field name="Field6">LEVEL SHIFTER / 4-BIT</field>
+        <field name="Field7">TTL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VccA" type="power_in"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="output"/>
+        <pin num="4" name="A3" type="output"/>
+        <pin num="5" name="A4" type="output"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="OE" type="power_in"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="B4" type="output"/>
+        <pin num="11" name="B3" type="output"/>
+        <pin num="12" name="B2" type="output"/>
+        <pin num="13" name="B1" type="input"/>
+        <pin num="14" name="VccB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0101">
+      <description>DVB_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm, LAN8742A-CZ-TR, INTERFACE, TRANCEIVER, ETHERNET</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0101</field>
+        <field name="Footprint">DVB_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm</field>
+        <field name="Field4">LAN8742A-CZ-TR</field>
+        <field name="Field5">INTERFACE</field>
+        <field name="Field6">TRANCEIVER</field>
+        <field name="Field7">ETHERNET</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD2A" type="BiDi"/>
+        <pin num="2" name="LED2/nINT/nPME/nINTSEL" type="BiDi"/>
+        <pin num="3" name="LED1/nINT/nPME/REGOFF" type="BiDi"/>
+        <pin num="4" name="XTAL2" type="BiDi"/>
+        <pin num="5" name="XTAL1/CLKIN" type="BiDi"/>
+        <pin num="6" name="VDDCR" type="BiDi"/>
+        <pin num="7" name="RXD1/MODE1" type="BiDi"/>
+        <pin num="8" name="RXD0/MODE0" type="BiDi"/>
+        <pin num="9" name="VDDIO" type="passive"/>
+        <pin num="10" name="RXER/PHYAD0" type="BiDi"/>
+        <pin num="11" name="CRS_DV/MODE2" type="BiDi"/>
+        <pin num="12" name="MDIO" type="BiDi"/>
+        <pin num="13" name="MCD" type="BiDi"/>
+        <pin num="14" name="nINT/REFCLKO" type="BiDi"/>
+        <pin num="15" name="nRST" type="BiDi"/>
+        <pin num="16" name="TXEN" type="BiDi"/>
+        <pin num="17" name="TXD0" type="BiDi"/>
+        <pin num="18" name="TXD1" type="BiDi"/>
+        <pin num="19" name="VDD1A" type="BiDi"/>
+        <pin num="20" name="TXN" type="BiDi"/>
+        <pin num="21" name="TXP" type="BiDi"/>
+        <pin num="22" name="RXN" type="BiDi"/>
+        <pin num="23" name="RXP" type="BiDi"/>
+        <pin num="24" name="RBIAS" type="BiDi"/>
+        <pin num="25" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0103">
+      <description>DVB_SSOP:MSOP_10-3x3_P0.5, LT3970EMS-5, REGULATOR, DC/DC step down, 4.2V to 40Vcc, 5Vout, 350mA</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/3970fc.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">U_0103</field>
+        <field name="Footprint">DVB_SSOP:MSOP_10-3x3_P0.5</field>
+        <field name="Field4">LT3970EMS-5</field>
+        <field name="Field5">REGULATOR</field>
+        <field name="Field6">DC/DC step down</field>
+        <field name="Field7">4.2V to 40Vcc</field>
+        <field name="Field8">5Vout</field>
+        <field name="Field9">350mA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vout" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="Vin" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SW" type="power_out"/>
+        <pin num="7" name="BOOST" type="input"/>
+        <pin num="8" name="BD" type="input"/>
+        <pin num="9" name="PG" type="input"/>
+        <pin num="10" name="RT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_U" part="U_0131">
+      <description>DVB_BGA:UFBGA_176, STM32H745IIKx, MCU, RM Cortex-M7 + M4 MCU, 2048KB flash, 1024KB RAM, 480MHz + 240MHz, 1.7-3.6V, 140 GPIO, UFBGA-176</description>
       <docs>https://www.st.com/resource/en/datasheet/stm32h745zg.pdf</docs>
       <footprints>
         <fp>UFBGA*10x10mm*Layout15x15*P0.65mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">STM32H745IIKx</field>
+        <field name="Value">U_0131</field>
         <field name="Footprint">DVB_BGA:UFBGA_176</field>
+        <field name="Field4">STM32H745IIKx</field>
+        <field name="Field5">MCU</field>
+        <field name="Field6">CORTEX M7 32-BIT</field>
+        <field name="Field7">1.6V to 3.6Vcc</field>
       </fields>
       <pins>
         <pin num="A1" name="VSS" type="power_in"/>
@@ -3679,230 +3938,58 @@
         <pin num="R15" name="VSS" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="DVB_U" part="U_0049">
-      <description>DVB_SOT:SOT_143, CD143A-SR3.3, PROTECTION, ESD / D-ARRAY , 2-Chan</description>
-      <docs>http://www.farnell.com/datasheets/2004209.pdf?_ga=2.8833781.1188598177.1499070962-421346633.1483631847</docs>
+    <libpart lib="DVB_U" part="U_0132">
+      <description>DVB_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm, PCM5102, 112dB Audio Stereo DAC with 32-bit, 384kHz PCM Interface, TSSOP-20</description>
+      <docs>http://www.ti.com/lit/ds/symlink/pcm5102.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x6.5mm*P0.65mm*</fp>
+      </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">U_0049</field>
-        <field name="Footprint">DVB_SOT:SOT_143</field>
-        <field name="Field4">CD143A-SR3.3</field>
-        <field name="Field5">PROTECTION</field>
-        <field name="Field6">ESD / D-ARRAY </field>
-        <field name="Field7">2-Chan</field>
+        <field name="Value">U_0132</field>
+        <field name="Footprint">DVB_SSOP:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Field4">PCM5102</field>
+        <field name="Field5">DAC</field>
+        <field name="Field6">32 BITS STEREO</field>
+        <field name="Field7">1.7-3.6Vcc</field>
       </fields>
       <pins>
-        <pin num="1" name="GND" type="input"/>
-        <pin num="2" name="IO1" type="input"/>
-        <pin num="3" name="IO2" type="input"/>
-        <pin num="4" name="Vdd" type="input"/>
+        <pin num="1" name="CPVDD" type="passive"/>
+        <pin num="2" name="CAPP" type="passive"/>
+        <pin num="3" name="CPGND" type="power_in"/>
+        <pin num="4" name="CAPM" type="passive"/>
+        <pin num="5" name="VNEG" type="passive"/>
+        <pin num="6" name="OUTL" type="output"/>
+        <pin num="7" name="OUTR" type="output"/>
+        <pin num="8" name="AVDD" type="power_in"/>
+        <pin num="9" name="AGND" type="power_in"/>
+        <pin num="10" name="DEMP" type="input"/>
+        <pin num="11" name="FLT" type="input"/>
+        <pin num="12" name="SCK" type="input"/>
+        <pin num="13" name="BCK" type="input"/>
+        <pin num="14" name="DIN" type="input"/>
+        <pin num="15" name="LRCK" type="input"/>
+        <pin num="16" name="FMT" type="input"/>
+        <pin num="17" name="XSMT" type="input"/>
+        <pin num="18" name="LDOO" type="passive"/>
+        <pin num="19" name="DGND" type="power_in"/>
+        <pin num="20" name="DVDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="DVB_U" part="U_0065">
-      <description>DVB_SSOP:MSOP_16-1EP_3x4_P0.5, LT8610ABIMSE-5, REGULATOR, DC/DC BUCK, 3.4V to 42Vcc, 5Vout, 3.5A</description>
-      <docs>http://cds.linear.com/docs/en/datasheet/8610abfa.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">U_0065</field>
-        <field name="Footprint">DVB_SSOP:MSOP_16-1EP_3x4_P0.5</field>
-        <field name="Field4">LT8610ABIMSE-5</field>
-        <field name="Field5">REGULATOR</field>
-        <field name="Field6">DC/DC BUCK</field>
-        <field name="Field7">3.4V to 42Vcc</field>
-        <field name="Field8">5Vout</field>
-        <field name="Field9">3.5A</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SYNC" type="input"/>
-        <pin num="2" name="TR/SS" type="input"/>
-        <pin num="3" name="RT" type="input"/>
-        <pin num="4" name="EN/UV" type="input"/>
-        <pin num="5" name="Vin" type="power_in"/>
-        <pin num="6" name="Vin" type="power_in"/>
-        <pin num="7" name="NC" type="NotConnected"/>
-        <pin num="8" name="GND" type="input"/>
-        <pin num="9" name="SW" type="input"/>
-        <pin num="10" name="SW" type="input"/>
-        <pin num="11" name="SW" type="power_out"/>
-        <pin num="12" name="BST" type="input"/>
-        <pin num="13" name="INTVcc" type="input"/>
-        <pin num="14" name="BIAS" type="input"/>
-        <pin num="15" name="PG" type="input"/>
-        <pin num="16" name="Vout" type="input"/>
-        <pin num="17" name="GND" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="DVB_U" part="U_0076">
-      <description>DVB_SOT:SOT_23-5, TPS61040DBVR, REGULATOR, DC/DC BOOST/EN, 1.8V to 6Vcc, ADJ 1.8V to 1Vout, 400mA</description>
-      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps61041</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">U_0076</field>
-        <field name="Footprint">DVB_SOT:SOT_23-5</field>
-        <field name="Field4">TPS61040DBVR</field>
-        <field name="Field5">REGULATOR</field>
-        <field name="Field6">DC/DC BOOST/EN</field>
-        <field name="Field7">1.8V to 6Vcc</field>
-        <field name="Field8">ADJ 1.8V to 1Vout</field>
-        <field name="Field9">400mA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="SW" type="input"/>
-        <pin num="2" name="GND" type="input"/>
-        <pin num="3" name="FB" type="input"/>
-        <pin num="4" name="EN" type="input"/>
-        <pin num="5" name="VIN" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="DVB_U" part="U_0081">
-      <description>DVB_DFN:DFN-8-1EP_2x2_P0.5, ADP125ACPZ-R7, REGULATOR, LDO, 2.3V to 5.5Vcc, ADJ 800mV to 5Vout, 500mA</description>
-      <docs>http://www.farnell.com/datasheets/1899965.pdf?_ga=2.34388068.415540020.1500900976-695518372.1495123464</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">U_0081</field>
-        <field name="Footprint">DVB_DFN:DFN-8-1EP_2x2_P0.5</field>
-        <field name="Field4">ADP125ACPZ-R7</field>
-        <field name="Field5">REGULATOR</field>
-        <field name="Field6">LDO</field>
-        <field name="Field7">2.3V to 5.5Vcc</field>
-        <field name="Field8">ADJ 800mV to 5Vout</field>
-        <field name="Field9">500mA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Vout" type="input"/>
-        <pin num="2" name="Vout" type="input"/>
-        <pin num="3" name="ADJ" type="input"/>
-        <pin num="4" name="Vss" type="input"/>
-        <pin num="5" name="EN" type="input"/>
-        <pin num="6" name="NC" type="NotConnected"/>
-        <pin num="7" name="Vin" type="input"/>
-        <pin num="8" name="Vin" type="input"/>
-        <pin num="9" name="Vss" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="DVB_U" part="U_0097">
-      <description>DVB_SSOP:TSSOP_14_4.4x5_P0.65, TXS0104EPWR, INTERFACE, LEVEL SHIFTER / 4-BIT, TTL</description>
-      <docs>http://www.ti.com/lit/ds/symlink/txs0104e.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">U_0097</field>
-        <field name="Footprint">DVB_SSOP:TSSOP_14_4.4x5_P0.65</field>
-        <field name="Field4">TXS0104EPWR</field>
-        <field name="Field5">INTERFACE</field>
-        <field name="Field6">LEVEL SHIFTER / 4-BIT</field>
-        <field name="Field7">TTL</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VccA" type="power_in"/>
-        <pin num="2" name="A1" type="input"/>
-        <pin num="3" name="A2" type="output"/>
-        <pin num="4" name="A3" type="output"/>
-        <pin num="5" name="A4" type="output"/>
-        <pin num="6" name="NC" type="NotConnected"/>
-        <pin num="7" name="GND" type="power_in"/>
-        <pin num="8" name="OE" type="power_in"/>
-        <pin num="9" name="NC" type="NotConnected"/>
-        <pin num="10" name="B4" type="output"/>
-        <pin num="11" name="B3" type="output"/>
-        <pin num="12" name="B2" type="output"/>
-        <pin num="13" name="B1" type="input"/>
-        <pin num="14" name="VccB" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="DVB_U" part="U_0101">
-      <description>DVB_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm, LAN8742A-CZ-TR, INTERFACE, TRANCEIVER, ETHERNET</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">U_0101</field>
-        <field name="Footprint">DVB_QFN:QFN-24-1EP_4x4mm_Pitch0.5mm</field>
-        <field name="Field4">LAN8742A-CZ-TR</field>
-        <field name="Field5">INTERFACE</field>
-        <field name="Field6">TRANCEIVER</field>
-        <field name="Field7">ETHERNET</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD2A" type="BiDi"/>
-        <pin num="2" name="LED2/nINT/nPME/nINTSEL" type="BiDi"/>
-        <pin num="3" name="LED1/nINT/nPME/REGOFF" type="BiDi"/>
-        <pin num="4" name="XTAL2" type="BiDi"/>
-        <pin num="5" name="XTAL1/CLKIN" type="BiDi"/>
-        <pin num="6" name="VDDCR" type="BiDi"/>
-        <pin num="7" name="RXD1/MODE1" type="BiDi"/>
-        <pin num="8" name="RXD0/MODE0" type="BiDi"/>
-        <pin num="9" name="VDDIO" type="passive"/>
-        <pin num="10" name="RXER/PHYAD0" type="BiDi"/>
-        <pin num="11" name="CRS_DV/MODE2" type="BiDi"/>
-        <pin num="12" name="MDIO" type="BiDi"/>
-        <pin num="13" name="MCD" type="BiDi"/>
-        <pin num="14" name="nINT/REFCLKO" type="BiDi"/>
-        <pin num="15" name="nRST" type="BiDi"/>
-        <pin num="16" name="TXEN" type="BiDi"/>
-        <pin num="17" name="TXD0" type="BiDi"/>
-        <pin num="18" name="TXD1" type="BiDi"/>
-        <pin num="19" name="VDD1A" type="BiDi"/>
-        <pin num="20" name="TXN" type="BiDi"/>
-        <pin num="21" name="TXP" type="BiDi"/>
-        <pin num="22" name="RXN" type="BiDi"/>
-        <pin num="23" name="RXP" type="BiDi"/>
-        <pin num="24" name="RBIAS" type="BiDi"/>
-        <pin num="25" name="VSS" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="DVB_U" part="U_0103">
-      <description>DVB_SSOP:MSOP_10-3x3_P0.5, LT3970EMS-5, REGULATOR, DC/DC step down, 4.2V to 40Vcc, 5Vout, 350mA</description>
-      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/3970fc.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">U_0103</field>
-        <field name="Footprint">DVB_SSOP:MSOP_10-3x3_P0.5</field>
-        <field name="Field4">LT3970EMS-5</field>
-        <field name="Field5">REGULATOR</field>
-        <field name="Field6">DC/DC step down</field>
-        <field name="Field7">4.2V to 40Vcc</field>
-        <field name="Field8">5Vout</field>
-        <field name="Field9">350mA</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Vout" type="input"/>
-        <pin num="2" name="EN" type="input"/>
-        <pin num="3" name="Vin" type="power_in"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="SW" type="power_out"/>
-        <pin num="7" name="BOOST" type="input"/>
-        <pin num="8" name="BD" type="input"/>
-        <pin num="9" name="PG" type="input"/>
-        <pin num="10" name="RT" type="output"/>
-      </pins>
-    </libpart>
-    <libpart lib="DVB_XO" part="XO_0004">
-      <description>DVB_Clock:7M, 7M-25.000MEEQ-T, 25Mhz</description>
-      <docs>http://www.farnell.com/datasheets/1794111.pdf?_ga=2.11692657.498774000.1532426249-676124820.1530775119&amp;_gac=1.208937254.1532426249.EAIaIQobChMIxe79z7y33AIVhLHtCh2hGg5WEAAYAiAAEgLqofD_BwE</docs>
-      <fields>
-        <field name="Reference">XO</field>
-        <field name="Value">XO_0004</field>
-        <field name="Footprint">DVB_Clock:7M</field>
-        <field name="Field4">7M-25.000MEEQ-T</field>
-        <field name="Field5">25Mhz</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Sensor_Motion" part="ICM-20602">
-      <description>High performance 6-Axis MEMS motion tracking, SPI/I2C interface, LGA-16</description>
+    <libpart lib="DVB_U" part="U_0133">
+      <description>DVB_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y, ICM-2060, High performance 6-Axis MEMS motion tracking, SPI/I2C interface, LGA-16</description>
       <docs>http://www.invensense.com/wp-content/uploads/2016/10/DS-000176-ICM-20602-v1.0.pdf</docs>
       <footprints>
         <fp>LGA*3x3mm*P0.5mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">ICM-20602</field>
-        <field name="Footprint">Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</field>
+        <field name="Value">U_0133</field>
+        <field name="Footprint">DVB_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y</field>
+        <field name="Field4">ICM-20602</field>
+        <field name="Field5">MEMS</field>
+        <field name="Field6">6-AXIS </field>
+        <field name="Field7">1.71-3.45Vcc</field>
       </fields>
       <pins>
         <pin num="1" name="VDDIO" type="power_in"/>
@@ -3923,14 +4010,25 @@
         <pin num="16" name="VDD" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="DVB_XO" part="XO_0004">
+      <description>DVB_Clock:7M, 7M-25.000MEEQ-T, 25Mhz</description>
+      <docs>http://www.farnell.com/datasheets/1794111.pdf?_ga=2.11692657.498774000.1532426249-676124820.1530775119&amp;_gac=1.208937254.1532426249.EAIaIQobChMIxe79z7y33AIVhLHtCh2hGg5WEAAYAiAAEgLqofD_BwE</docs>
+      <fields>
+        <field name="Reference">XO</field>
+        <field name="Value">XO_0004</field>
+        <field name="Footprint">DVB_Clock:7M</field>
+        <field name="Field4">7M-25.000MEEQ-T</field>
+        <field name="Field5">25Mhz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
-    <library logical="Audio">
-      <uri>/home/zhonx/Documents/Devisubox/hardware/kicad/lib/Lib_Kicad/kicad-symbols/Audio.lib</uri>
-    </library>
-    <library logical="CIS-rescue">
-      <uri>/home/zhonx/Documents/LFO/CISYNTH/Electronique/sss-cis_electronics/CIS-rescue.lib</uri>
-    </library>
     <library logical="Connector">
       <uri>/home/zhonx/Documents/Devisubox/hardware/kicad/lib/Lib_Kicad/kicad-symbols/Connector.lib</uri>
     </library>
@@ -3967,1228 +4065,1225 @@
     <library logical="DVB_XO">
       <uri>/home/zhonx/Documents/Devisubox/hardware/kicad/lib/Lib_Kicount/DVB_lib/DVB_XO.lib</uri>
     </library>
-    <library logical="Sensor_Motion">
-      <uri>/home/zhonx/Documents/Devisubox/hardware/kicad/lib/Lib_Kicad/kicad-symbols/Sensor_Motion.lib</uri>
-    </library>
   </libraries>
   <nets>
     <net code="1" name="GND">
-      <node ref="C35" pin="1"/>
-      <node ref="J4" pin="1"/>
-      <node ref="U5" pin="4"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C88" pin="1"/>
-      <node ref="C81" pin="1"/>
-      <node ref="C15" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="XO2" pin="4"/>
-      <node ref="C90" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="K1" pin="11"/>
-      <node ref="K1" pin="10"/>
-      <node ref="K2" pin="6"/>
+      <node ref="U8" pin="11"/>
+      <node ref="U8" pin="10"/>
       <node ref="U7" pin="9"/>
       <node ref="U7" pin="3"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U5" pin="9"/>
-      <node ref="C83" pin="1"/>
-      <node ref="R6" pin="2"/>
+      <node ref="C92" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C91" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="K1" pin="11"/>
       <node ref="K1" pin="13"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C71" pin="1"/>
-      <node ref="U2" pin="R1"/>
-      <node ref="P3" pin="1"/>
-      <node ref="P3" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="U2" pin="N3"/>
-      <node ref="U2" pin="N3"/>
-      <node ref="C39" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C75" pin="2"/>
+      <node ref="K1" pin="10"/>
+      <node ref="K2" pin="6"/>
+      <node ref="U2" pin="H10"/>
+      <node ref="U2" pin="G9"/>
+      <node ref="U2" pin="G8"/>
+      <node ref="U2" pin="G7"/>
+      <node ref="U2" pin="K2"/>
+      <node ref="U8" pin="13"/>
+      <node ref="C68" pin="2"/>
+      <node ref="C69" pin="2"/>
       <node ref="C36" pin="2"/>
-      <node ref="U2" pin="C2"/>
-      <node ref="XO1" pin="2"/>
-      <node ref="XO1" pin="4"/>
-      <node ref="R4" pin="2"/>
-      <node ref="U2" pin="A1"/>
-      <node ref="U2" pin="A15"/>
-      <node ref="C76" pin="2"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C72" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="C45" pin="2"/>
-      <node ref="C44" pin="2"/>
-      <node ref="U4" pin="17"/>
-      <node ref="XO2" pin="2"/>
-      <node ref="C85" pin="1"/>
-      <node ref="C43" pin="2"/>
-      <node ref="C49" pin="2"/>
-      <node ref="C47" pin="2"/>
+      <node ref="C10" pin="2"/>
       <node ref="C12" pin="2"/>
-      <node ref="U2" pin="R15"/>
-      <node ref="R1" pin="2"/>
-      <node ref="U4" pin="8"/>
-      <node ref="C20" pin="1"/>
-      <node ref="U8" pin="10"/>
+      <node ref="U2" pin="A15"/>
+      <node ref="U2" pin="A1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="C59" pin="2"/>
+      <node ref="C65" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="C48" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="U2" pin="K9"/>
+      <node ref="U2" pin="M6"/>
+      <node ref="U2" pin="M10"/>
+      <node ref="U2" pin="K8"/>
+      <node ref="U2" pin="K7"/>
+      <node ref="U2" pin="K6"/>
+      <node ref="U2" pin="N3"/>
+      <node ref="U2" pin="N3"/>
+      <node ref="U7" pin="19"/>
+      <node ref="U8" pin="12"/>
       <node ref="U8" pin="9"/>
       <node ref="U8" pin="15"/>
-      <node ref="U8" pin="13"/>
-      <node ref="U8" pin="12"/>
-      <node ref="U8" pin="11"/>
-      <node ref="U6" pin="7"/>
-      <node ref="C65" pin="2"/>
-      <node ref="C68" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="C53" pin="2"/>
-      <node ref="C62" pin="2"/>
-      <node ref="C60" pin="1"/>
-      <node ref="C40" pin="2"/>
-      <node ref="C70" pin="1"/>
-      <node ref="SW4" pin="2"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="C56" pin="2"/>
-      <node ref="C57" pin="2"/>
-      <node ref="C42" pin="2"/>
-      <node ref="C87" pin="1"/>
-      <node ref="SW5" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C41" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="U7" pin="19"/>
-      <node ref="C52" pin="2"/>
-      <node ref="C80" pin="2"/>
-      <node ref="R11" pin="1"/>
-      <node ref="C92" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="C31" pin="1"/>
-      <node ref="C66" pin="2"/>
-      <node ref="C74" pin="2"/>
-      <node ref="C91" pin="2"/>
-      <node ref="C73" pin="2"/>
-      <node ref="C77" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="SW3" pin="2"/>
-      <node ref="C59" pin="2"/>
-      <node ref="C37" pin="1"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C38" pin="2"/>
-      <node ref="C67" pin="1"/>
-      <node ref="C58" pin="2"/>
-      <node ref="C48" pin="1"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="R41" pin="1"/>
-      <node ref="R20" pin="1"/>
-      <node ref="R24" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="J2" pin="10"/>
-      <node ref="J2" pin="15"/>
-      <node ref="U2" pin="K6"/>
-      <node ref="U2" pin="M6"/>
-      <node ref="U2" pin="H6"/>
-      <node ref="U2" pin="H7"/>
-      <node ref="U2" pin="H8"/>
-      <node ref="U2" pin="H9"/>
-      <node ref="U2" pin="J10"/>
-      <node ref="U2" pin="J14"/>
-      <node ref="U2" pin="K7"/>
-      <node ref="U2" pin="J6"/>
-      <node ref="U2" pin="J7"/>
-      <node ref="U2" pin="J8"/>
-      <node ref="U2" pin="J9"/>
-      <node ref="U2" pin="K10"/>
-      <node ref="U2" pin="K12"/>
-      <node ref="U2" pin="K2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="U3" pin="4"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C69" pin="2"/>
-      <node ref="R5" pin="1"/>
-      <node ref="J3" pin="S"/>
-      <node ref="C61" pin="1"/>
-      <node ref="J2" pin="7"/>
-      <node ref="R47" pin="1"/>
-      <node ref="R49" pin="2"/>
-      <node ref="R48" pin="2"/>
-      <node ref="C82" pin="2"/>
-      <node ref="U3" pin="5"/>
-      <node ref="C84" pin="2"/>
-      <node ref="C86" pin="2"/>
-      <node ref="C64" pin="1"/>
-      <node ref="U17" pin="1"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="U2" pin="D6"/>
-      <node ref="R17" pin="1"/>
-      <node ref="U2" pin="F2"/>
-      <node ref="U2" pin="E1"/>
-      <node ref="U14" pin="25"/>
-      <node ref="C33" pin="2"/>
-      <node ref="U2" pin="D10"/>
-      <node ref="U2" pin="F10"/>
-      <node ref="U2" pin="F12"/>
-      <node ref="C78" pin="2"/>
-      <node ref="U2" pin="K8"/>
-      <node ref="U2" pin="K9"/>
+      <node ref="U2" pin="R15"/>
+      <node ref="U2" pin="R1"/>
       <node ref="U2" pin="G6"/>
-      <node ref="U2" pin="F2"/>
-      <node ref="U2" pin="F6"/>
-      <node ref="U2" pin="F7"/>
-      <node ref="U2" pin="F8"/>
-      <node ref="U2" pin="F9"/>
+      <node ref="C64" pin="1"/>
+      <node ref="C86" pin="2"/>
+      <node ref="C84" pin="2"/>
+      <node ref="C82" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R49" pin="2"/>
+      <node ref="J3" pin="S"/>
+      <node ref="R48" pin="2"/>
+      <node ref="C76" pin="2"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U14" pin="25"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P3" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="15"/>
+      <node ref="J2" pin="10"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="U2" pin="D10"/>
+      <node ref="U2" pin="E1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C79" pin="2"/>
+      <node ref="U2" pin="J7"/>
       <node ref="U2" pin="G10"/>
-      <node ref="C34" pin="2"/>
-      <node ref="U2" pin="G7"/>
-      <node ref="U2" pin="G8"/>
-      <node ref="U2" pin="G9"/>
-      <node ref="U2" pin="H10"/>
-      <node ref="C54" pin="2"/>
+      <node ref="U2" pin="F9"/>
+      <node ref="U2" pin="F8"/>
+      <node ref="U2" pin="F7"/>
+      <node ref="U2" pin="F6"/>
+      <node ref="U2" pin="F2"/>
+      <node ref="U2" pin="F2"/>
+      <node ref="U2" pin="K12"/>
+      <node ref="U2" pin="K10"/>
+      <node ref="U2" pin="J9"/>
+      <node ref="U2" pin="J8"/>
+      <node ref="U2" pin="J6"/>
+      <node ref="U2" pin="F12"/>
+      <node ref="U2" pin="J14"/>
+      <node ref="U2" pin="J10"/>
+      <node ref="U2" pin="H9"/>
+      <node ref="U2" pin="H8"/>
+      <node ref="U2" pin="H7"/>
+      <node ref="U2" pin="H6"/>
+      <node ref="U2" pin="C2"/>
+      <node ref="U2" pin="D6"/>
+      <node ref="U2" pin="F10"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U17" pin="1"/>
       <node ref="U16" pin="1"/>
       <node ref="C55" pin="2"/>
       <node ref="C46" pin="2"/>
-      <node ref="C79" pin="2"/>
-      <node ref="U2" pin="M10"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C61" pin="1"/>
+      <node ref="C72" pin="2"/>
+      <node ref="XO1" pin="4"/>
+      <node ref="XO1" pin="2"/>
+      <node ref="C75" pin="2"/>
+      <node ref="C71" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C78" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="C77" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C87" pin="1"/>
+      <node ref="C73" pin="2"/>
+      <node ref="C81" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C85" pin="1"/>
+      <node ref="C83" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="C88" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U4" pin="17"/>
+      <node ref="C62" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C66" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C74" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C70" pin="1"/>
+      <node ref="C60" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C90" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="XO2" pin="4"/>
+      <node ref="C18" pin="2"/>
+      <node ref="XO2" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C67" pin="1"/>
+      <node ref="C58" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C80" pin="2"/>
     </net>
-    <net code="2" name="Net-(C68-Pad1)">
-      <node ref="J3" pin="R"/>
-      <node ref="C68" pin="1"/>
-      <node ref="R51" pin="1"/>
+    <net code="2" name="Net-(R45-Pad2)">
+      <node ref="R45" pin="2"/>
+      <node ref="SW5" pin="3"/>
     </net>
-    <net code="3" name="Net-(K1-Pad7)">
-      <node ref="K1" pin="7"/>
-      <node ref="R5" pin="2"/>
+    <net code="3" name="Net-(SW4-Pad4)">
+      <node ref="SW4" pin="4"/>
     </net>
-    <net code="4" name="VERF+">
-      <node ref="C83" pin="2"/>
-      <node ref="U2" pin="M3"/>
-      <node ref="R10" pin="1"/>
-      <node ref="R9" pin="1"/>
-      <node ref="U5" pin="2"/>
-      <node ref="U5" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="C84" pin="1"/>
+    <net code="4" name="Net-(R27-Pad2)">
+      <node ref="SW4" pin="3"/>
+      <node ref="R27" pin="2"/>
     </net>
-    <net code="5" name="VERF-">
-      <node ref="C86" pin="1"/>
-      <node ref="C85" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="R10" pin="2"/>
-      <node ref="C92" pin="1"/>
-      <node ref="C91" pin="1"/>
-      <node ref="U2" pin="L4"/>
+    <net code="5" name="Net-(SW4-Pad1)">
+      <node ref="SW4" pin="1"/>
     </net>
-    <net code="6" name="Net-(J2-Pad12)">
-      <node ref="R48" pin="1"/>
-      <node ref="J2" pin="12"/>
+    <net code="6" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="SW1" pin="3"/>
     </net>
-    <net code="7" name="Net-(J2-Pad14)">
-      <node ref="R49" pin="1"/>
-      <node ref="J2" pin="14"/>
+    <net code="7" name="Net-(SW1-Pad4)">
+      <node ref="SW1" pin="4"/>
     </net>
-    <net code="8" name="Net-(F1-Pad1)">
-      <node ref="J2" pin="9"/>
-      <node ref="F1" pin="1"/>
+    <net code="8" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
     </net>
-    <net code="9" name="Net-(J2-Pad13)">
-      <node ref="J2" pin="13"/>
-      <node ref="R47" pin="2"/>
-      <node ref="U14" pin="2"/>
+    <net code="9" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="SW2" pin="3"/>
     </net>
-    <net code="10" name="Net-(Q3-Pad3)">
+    <net code="10" name="Net-(SW5-Pad4)">
+      <node ref="SW5" pin="4"/>
+    </net>
+    <net code="11" name="Net-(SW5-Pad1)">
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="12" name="Net-(SW2-Pad4)">
+      <node ref="SW2" pin="4"/>
+    </net>
+    <net code="13" name="Net-(SW2-Pad1)">
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C18-Pad1)">
+      <node ref="K1" pin="3"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C15-Pad1)">
+      <node ref="K1" pin="5"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C20-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="C20" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R3-Pad1)">
+      <node ref="U4" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="18" name="+3.3V">
+      <node ref="U4" pin="14"/>
+      <node ref="R33" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="L5" pin="2"/>
+      <node ref="C32" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="U4" pin="16"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="U14" pin="9"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C61" pin="2"/>
+      <node ref="R46" pin="1"/>
+      <node ref="U2" pin="D11"/>
+      <node ref="U2" pin="D5"/>
+      <node ref="U2" pin="E12"/>
+      <node ref="U2" pin="E15"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C90" pin="2"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C78" pin="1"/>
+      <node ref="L7" pin="1"/>
+      <node ref="U2" pin="F13"/>
+      <node ref="U2" pin="G4"/>
+      <node ref="U2" pin="H12"/>
+      <node ref="K1" pin="12"/>
+      <node ref="K1" pin="14"/>
+      <node ref="K1" pin="15"/>
+      <node ref="K1" pin="16"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C80" pin="1"/>
+      <node ref="C66" pin="1"/>
+      <node ref="U2" pin="E2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U2" pin="E4"/>
+      <node ref="R43" pin="1"/>
+      <node ref="C60" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U2" pin="K4"/>
+      <node ref="U2" pin="L12"/>
+      <node ref="U2" pin="M9"/>
+      <node ref="U2" pin="M5"/>
+      <node ref="C77" pin="1"/>
+      <node ref="U7" pin="20"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C62" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="L4" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C65" pin="1"/>
+      <node ref="C59" pin="1"/>
+      <node ref="U6" pin="8"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C58" pin="1"/>
+      <node ref="R42" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U8" pin="16"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C79" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C16-Pad1)">
+      <node ref="K1" pin="4"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C39-Pad1)">
+      <node ref="C41" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U14" pin="6"/>
+    </net>
+    <net code="21" name="Net-(C88-Pad2)">
+      <node ref="U4" pin="13"/>
+      <node ref="C88" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C81-Pad2)">
+      <node ref="C82" pin="1"/>
+      <node ref="U2" pin="M4"/>
+      <node ref="L7" pin="2"/>
+      <node ref="C81" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U5-Pad6)">
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="24" name="Net-(R6-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="25" name="Net-(U4-Pad15)">
+      <node ref="U4" pin="15"/>
+    </net>
+    <net code="26" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="27" name="Net-(C89-Pad1)">
+      <node ref="U4" pin="12"/>
+      <node ref="C89" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C89-Pad2)">
+      <node ref="U4" pin="9"/>
+      <node ref="L4" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="C89" pin="2"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="29" name="Net-(Q3-Pad3)">
       <node ref="Q3" pin="3"/>
       <node ref="R44" pin="2"/>
     </net>
-    <net code="11" name="/CIS_LED_B">
-      <node ref="U2" pin="E14"/>
+    <net code="30" name="/CIS_LED_B">
       <node ref="Q3" pin="1"/>
       <node ref="R41" pin="2"/>
+      <node ref="U2" pin="E14"/>
     </net>
-    <net code="12" name="Net-(Q2-Pad3)">
+    <net code="31" name="Net-(Q2-Pad3)">
       <node ref="R25" pin="2"/>
       <node ref="Q2" pin="3"/>
     </net>
-    <net code="13" name="/CIS_LED_G">
-      <node ref="U2" pin="N15"/>
-      <node ref="R24" pin="2"/>
+    <net code="32" name="/CIS_LED_G">
       <node ref="Q2" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="U2" pin="N15"/>
     </net>
-    <net code="14" name="Net-(Q1-Pad3)">
+    <net code="33" name="+12V">
+      <node ref="C11" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="K1" pin="6"/>
+      <node ref="K1" pin="31"/>
+      <node ref="K1" pin="8"/>
+      <node ref="D2" pin="1"/>
+      <node ref="K1" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="34" name="/CIS_SP">
+      <node ref="U6" pin="3"/>
+      <node ref="U2" pin="D14"/>
+    </net>
+    <net code="35" name="/CIS_RS">
+      <node ref="U2" pin="B15"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="36" name="/CIS_CP_TTL">
+      <node ref="U6" pin="11"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="37" name="Net-(U6-Pad10)">
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="38" name="/CIS_LED_R">
+      <node ref="U2" pin="H15"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="39" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3"/>
       <node ref="R23" pin="2"/>
     </net>
-    <net code="15" name="/CIS_SP">
-      <node ref="U2" pin="D14"/>
-      <node ref="U6" pin="3"/>
-    </net>
-    <net code="16" name="/CIS_RS">
-      <node ref="U6" pin="2"/>
-      <node ref="U2" pin="B15"/>
-    </net>
-    <net code="17" name="/CIS_SP_TTL">
-      <node ref="U6" pin="12"/>
-      <node ref="K2" pin="7"/>
-    </net>
-    <net code="18" name="/CIS_CP_TTL">
-      <node ref="R15" pin="2"/>
-      <node ref="U6" pin="11"/>
-    </net>
-    <net code="19" name="Net-(U6-Pad10)">
-      <node ref="U6" pin="10"/>
-    </net>
-    <net code="20" name="/CIS_LED_R">
-      <node ref="U2" pin="H15"/>
-      <node ref="R20" pin="2"/>
-      <node ref="Q1" pin="1"/>
-    </net>
-    <net code="21" name="Net-(R2-Pad1)">
-      <node ref="U3" pin="10"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="22" name="Net-(U3-Pad9)">
-      <node ref="U3" pin="9"/>
-    </net>
-    <net code="23" name="Net-(C19-Pad2)">
+    <net code="40" name="Net-(C19-Pad2)">
       <node ref="U3" pin="7"/>
       <node ref="C19" pin="2"/>
     </net>
-    <net code="24" name="/5V_EN">
+    <net code="41" name="/5V_EN">
       <node ref="U2" pin="G15"/>
       <node ref="U3" pin="2"/>
     </net>
-    <net code="25" name="/12V_EN">
-      <node ref="U1" pin="4"/>
-      <node ref="U2" pin="F15"/>
+    <net code="42" name="Net-(R2-Pad1)">
+      <node ref="U3" pin="10"/>
+      <node ref="R2" pin="1"/>
     </net>
-    <net code="26" name="Net-(C24-Pad2)">
-      <node ref="R7" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="27" name="Net-(D2-Pad2)">
-      <node ref="L1" pin="2"/>
-      <node ref="U1" pin="1"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="28" name="+15">
-      <node ref="U3" pin="3"/>
-      <node ref="U4" pin="5"/>
-      <node ref="F1" pin="2"/>
-      <node ref="U4" pin="6"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U4" pin="4"/>
-    </net>
-    <net code="29" name="Net-(R53-Pad2)">
-      <node ref="U2" pin="D4"/>
-      <node ref="R53" pin="2"/>
-    </net>
-    <net code="30" name="+5V">
+    <net code="43" name="+5V">
+      <node ref="U6" pin="14"/>
       <node ref="C48" pin="2"/>
       <node ref="K2" pin="4"/>
       <node ref="U3" pin="1"/>
-      <node ref="K2" pin="8"/>
-      <node ref="C31" pin="2"/>
-      <node ref="L3" pin="2"/>
       <node ref="C38" pin="1"/>
-      <node ref="U6" pin="14"/>
+      <node ref="K2" pin="8"/>
       <node ref="C52" pin="1"/>
       <node ref="U3" pin="8"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C31" pin="2"/>
     </net>
-    <net code="31" name="Net-(C19-Pad1)">
+    <net code="44" name="/12V_EN">
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="F15"/>
+    </net>
+    <net code="45" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D2-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="47" name="/CIS_CP">
+      <node ref="U2" pin="D13"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="48" name="Net-(C19-Pad1)">
       <node ref="C19" pin="1"/>
       <node ref="L3" pin="1"/>
       <node ref="U3" pin="6"/>
     </net>
-    <net code="32" name="Net-(U2-PadJ4)">
-      <node ref="U2" pin="J4"/>
+    <net code="49" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
     </net>
-    <net code="33" name="Net-(U2-PadK3)">
-      <node ref="U2" pin="K3"/>
+    <net code="50" name="Net-(C27-Pad2)">
+      <node ref="C27" pin="2"/>
+      <node ref="R13" pin="1"/>
     </net>
-    <net code="34" name="/MEMS_MISO">
-      <node ref="U8" pin="4"/>
-      <node ref="U2" pin="K15"/>
+    <net code="51" name="/CIS_ADC_2">
+      <node ref="U2" pin="P3"/>
+      <node ref="C27" pin="1"/>
     </net>
-    <net code="35" name="/MEMS_MOSI">
-      <node ref="U8" pin="3"/>
-      <node ref="U2" pin="K14"/>
+    <net code="52" name="Net-(C28-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="C28" pin="2"/>
     </net>
-    <net code="36" name="Net-(U2-PadK13)">
-      <node ref="U2" pin="K13"/>
+    <net code="53" name="/CIS_ADC_1">
+      <node ref="C28" pin="1"/>
+      <node ref="U2" pin="R3"/>
     </net>
-    <net code="37" name="Net-(C23-Pad2)">
-      <node ref="U2" pin="K1"/>
-      <node ref="XO2" pin="3"/>
-      <node ref="C23" pin="2"/>
+    <net code="54" name="Net-(C26-Pad2)">
+      <node ref="C26" pin="2"/>
+      <node ref="R12" pin="1"/>
     </net>
-    <net code="38" name="Net-(U2-PadJ3)">
-      <node ref="U2" pin="J3"/>
+    <net code="55" name="/CIS_ADC_3">
+      <node ref="U2" pin="N2"/>
+      <node ref="C26" pin="1"/>
     </net>
-    <net code="39" name="Net-(U2-PadJ2)">
-      <node ref="U2" pin="J2"/>
-    </net>
-    <net code="40" name="Net-(U2-PadJ15)">
-      <node ref="U2" pin="J15"/>
-    </net>
-    <net code="41" name="Net-(U2-PadJ13)">
-      <node ref="U2" pin="J13"/>
-    </net>
-    <net code="42" name="Net-(U2-PadH4)">
-      <node ref="U2" pin="H4"/>
-    </net>
-    <net code="43" name="Net-(U2-PadN11)">
-      <node ref="U2" pin="N11"/>
-    </net>
-    <net code="44" name="Net-(U2-PadN10)">
-      <node ref="U2" pin="N10"/>
-    </net>
-    <net code="45" name="Net-(U2-PadN1)">
-      <node ref="U2" pin="N1"/>
-    </net>
-    <net code="46" name="Net-(U2-PadM8)">
-      <node ref="U2" pin="M8"/>
-    </net>
-    <net code="47" name="Net-(U2-PadM2)">
-      <node ref="U2" pin="M2"/>
-    </net>
-    <net code="48" name="Net-(U2-PadM15)">
-      <node ref="U2" pin="M15"/>
-    </net>
-    <net code="49" name="Net-(U2-PadM14)">
-      <node ref="U2" pin="M14"/>
-    </net>
-    <net code="50" name="Net-(U2-PadM13)">
-      <node ref="U2" pin="M13"/>
-    </net>
-    <net code="51" name="Net-(U2-PadH3)">
-      <node ref="U2" pin="H3"/>
-    </net>
-    <net code="52" name="Net-(U2-PadM11)">
-      <node ref="U2" pin="M11"/>
-    </net>
-    <net code="53" name="Net-(U2-PadL2)">
-      <node ref="U2" pin="L2"/>
-    </net>
-    <net code="54" name="Net-(U2-PadL15)">
-      <node ref="U2" pin="L15"/>
-    </net>
-    <net code="55" name="/MEMS_INT">
-      <node ref="U8" pin="6"/>
-      <node ref="U2" pin="L14"/>
-    </net>
-    <net code="56" name="Net-(U2-PadL13)">
-      <node ref="U2" pin="L13"/>
-    </net>
-    <net code="57" name="Net-(U2-PadF14)">
-      <node ref="U2" pin="F14"/>
-    </net>
-    <net code="58" name="Net-(U2-PadE3)">
-      <node ref="U2" pin="E3"/>
-    </net>
-    <net code="59" name="Net-(U2-PadE13)">
-      <node ref="U2" pin="E13"/>
-    </net>
-    <net code="60" name="Net-(U2-PadD8)">
-      <node ref="U2" pin="D8"/>
-    </net>
-    <net code="61" name="Net-(U2-PadD7)">
-      <node ref="U2" pin="D7"/>
-    </net>
-    <net code="62" name="Net-(U2-PadD2)">
-      <node ref="U2" pin="D2"/>
-    </net>
-    <net code="63" name="Net-(U2-PadD15)">
-      <node ref="U2" pin="D15"/>
-    </net>
-    <net code="64" name="Net-(U2-PadD12)">
-      <node ref="U2" pin="D12"/>
-    </net>
-    <net code="65" name="Net-(U2-PadH2)">
-      <node ref="U2" pin="H2"/>
-    </net>
-    <net code="66" name="Net-(U2-PadH13)">
-      <node ref="U2" pin="H13"/>
-    </net>
-    <net code="67" name="Net-(U2-PadG3)">
-      <node ref="U2" pin="G3"/>
-    </net>
-    <net code="68" name="Net-(U2-PadN12)">
-      <node ref="U2" pin="N12"/>
-    </net>
-    <net code="69" name="Net-(U2-PadG14)">
-      <node ref="U2" pin="G14"/>
-    </net>
-    <net code="70" name="Net-(U2-PadG13)">
-      <node ref="U2" pin="G13"/>
-    </net>
-    <net code="71" name="Net-(U2-PadG12)">
-      <node ref="U2" pin="G12"/>
-    </net>
-    <net code="72" name="Net-(U2-PadF3)">
-      <node ref="U2" pin="F3"/>
-    </net>
-    <net code="73" name="Net-(R4-Pad1)">
-      <node ref="U2" pin="C5"/>
-      <node ref="R4" pin="1"/>
-      <node ref="R52" pin="2"/>
-    </net>
-    <net code="74" name="Net-(C36-Pad1)">
-      <node ref="C36" pin="1"/>
-      <node ref="U2" pin="F1"/>
-      <node ref="L6" pin="1"/>
-    </net>
-    <net code="75" name="Net-(U2-PadP10)">
-      <node ref="U2" pin="P10"/>
-    </net>
-    <net code="76" name="Net-(U2-PadP8)">
-      <node ref="U2" pin="P8"/>
-    </net>
-    <net code="77" name="Net-(U2-PadP7)">
-      <node ref="U2" pin="P7"/>
-    </net>
-    <net code="78" name="Net-(U2-PadP6)">
-      <node ref="U2" pin="P6"/>
-    </net>
-    <net code="79" name="Net-(U2-PadP5)">
-      <node ref="U2" pin="P5"/>
-    </net>
-    <net code="80" name="Net-(U2-PadP4)">
-      <node ref="U2" pin="P4"/>
-    </net>
-    <net code="81" name="/SW_OK">
-      <node ref="U2" pin="P14"/>
-      <node ref="R45" pin="1"/>
-      <node ref="R46" pin="2"/>
-      <node ref="C57" pin="1"/>
-    </net>
-    <net code="82" name="Net-(U2-PadP11)">
-      <node ref="U2" pin="P11"/>
-    </net>
-    <net code="83" name="Net-(U2-PadR10)">
-      <node ref="U2" pin="R10"/>
-    </net>
-    <net code="84" name="Net-(U2-PadP1)">
-      <node ref="U2" pin="P1"/>
-    </net>
-    <net code="85" name="Net-(U2-PadN9)">
-      <node ref="U2" pin="N9"/>
-    </net>
-    <net code="86" name="Net-(U2-PadN7)">
-      <node ref="U2" pin="N7"/>
-    </net>
-    <net code="87" name="Net-(U2-PadN5)">
-      <node ref="U2" pin="N5"/>
-    </net>
-    <net code="88" name="Net-(U2-PadN4)">
-      <node ref="U2" pin="N4"/>
-    </net>
-    <net code="89" name="Net-(U2-PadN14)">
-      <node ref="U2" pin="N14"/>
-    </net>
-    <net code="90" name="Net-(U2-PadN13)">
-      <node ref="U2" pin="N13"/>
-    </net>
-    <net code="91" name="/CIS_CP">
-      <node ref="U2" pin="D13"/>
-      <node ref="U6" pin="4"/>
-    </net>
-    <net code="92" name="Net-(U2-PadR8)">
-      <node ref="U2" pin="R8"/>
-    </net>
-    <net code="93" name="Net-(U2-PadR7)">
-      <node ref="U2" pin="R7"/>
-    </net>
-    <net code="94" name="Net-(U2-PadR5)">
-      <node ref="U2" pin="R5"/>
-    </net>
-    <net code="95" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1"/>
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="96" name="Net-(C20-Pad2)">
-      <node ref="C20" pin="2"/>
-      <node ref="U4" pin="2"/>
-    </net>
-    <net code="97" name="Net-(U4-Pad7)">
-      <node ref="U4" pin="7"/>
-    </net>
-    <net code="98" name="Net-(U4-Pad15)">
-      <node ref="U4" pin="15"/>
-    </net>
-    <net code="99" name="Net-(C88-Pad2)">
-      <node ref="C88" pin="2"/>
-      <node ref="U4" pin="13"/>
-    </net>
-    <net code="100" name="Net-(C89-Pad1)">
-      <node ref="C89" pin="1"/>
-      <node ref="U4" pin="12"/>
-    </net>
-    <net code="101" name="Net-(C81-Pad2)">
-      <node ref="U2" pin="M4"/>
-      <node ref="C81" pin="2"/>
-      <node ref="C82" pin="1"/>
-      <node ref="L7" pin="2"/>
-    </net>
-    <net code="102" name="Net-(C15-Pad1)">
-      <node ref="C15" pin="1"/>
-      <node ref="K1" pin="5"/>
-    </net>
-    <net code="103" name="Net-(C18-Pad1)">
-      <node ref="K1" pin="3"/>
-      <node ref="C18" pin="1"/>
-    </net>
-    <net code="104" name="Net-(C89-Pad2)">
-      <node ref="C89" pin="2"/>
-      <node ref="U4" pin="10"/>
-      <node ref="U4" pin="9"/>
-      <node ref="L4" pin="1"/>
-      <node ref="U4" pin="11"/>
-    </net>
-    <net code="105" name="Net-(U5-Pad6)">
-      <node ref="U5" pin="6"/>
-    </net>
-    <net code="106" name="Net-(R6-Pad1)">
-      <node ref="U5" pin="3"/>
-      <node ref="R6" pin="1"/>
-      <node ref="R9" pin="2"/>
-    </net>
-    <net code="107" name="/CIS_VLED_R">
-      <node ref="K2" pin="2"/>
-      <node ref="R23" pin="1"/>
-    </net>
-    <net code="108" name="Net-(K1-Pad1)">
-      <node ref="K1" pin="1"/>
-    </net>
-    <net code="109" name="/CIS_RS_TTL">
-      <node ref="K2" pin="9"/>
-      <node ref="U6" pin="13"/>
-    </net>
-    <net code="110" name="/CIS_VLED_G">
-      <node ref="R25" pin="1"/>
-      <node ref="K2" pin="3"/>
-    </net>
-    <net code="111" name="Net-(K2-Pad12)">
+    <net code="56" name="Net-(K2-Pad12)">
       <node ref="K2" pin="12"/>
       <node ref="R12" pin="2"/>
     </net>
-    <net code="112" name="Net-(K2-Pad10)">
-      <node ref="R14" pin="2"/>
-      <node ref="K2" pin="10"/>
+    <net code="57" name="Net-(K2-Pad11)">
+      <node ref="R13" pin="2"/>
+      <node ref="K2" pin="11"/>
     </net>
-    <net code="113" name="/CIS_VLED_B">
-      <node ref="K2" pin="1"/>
-      <node ref="R44" pin="1"/>
+    <net code="58" name="Net-(R26-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="SW3" pin="3"/>
+    </net>
+    <net code="59" name="Net-(SW3-Pad4)">
+      <node ref="SW3" pin="4"/>
+    </net>
+    <net code="60" name="Net-(SW3-Pad1)">
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="61" name="Net-(F1-Pad1)">
+      <node ref="J2" pin="9"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="62" name="Net-(U6-Pad9)">
+      <node ref="U6" pin="9"/>
+    </net>
+    <net code="63" name="Net-(U6-Pad6)">
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="64" name="Net-(U6-Pad5)">
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="65" name="Net-(U2-PadR5)">
+      <node ref="U2" pin="R5"/>
+    </net>
+    <net code="66" name="Net-(C72-Pad1)">
+      <node ref="C73" pin="1"/>
+      <node ref="L6" pin="1"/>
+      <node ref="C74" pin="1"/>
+      <node ref="U2" pin="A13"/>
+      <node ref="U2" pin="A14"/>
+      <node ref="U2" pin="A3"/>
+      <node ref="U2" pin="A4"/>
+      <node ref="U2" pin="R13"/>
+      <node ref="U2" pin="R14"/>
+      <node ref="U2" pin="G2"/>
+      <node ref="C76" pin="1"/>
+      <node ref="C72" pin="1"/>
+      <node ref="C75" pin="1"/>
+    </net>
+    <net code="67" name="Net-(U2-PadR8)">
+      <node ref="U2" pin="R8"/>
+    </net>
+    <net code="68" name="Net-(U2-PadR7)">
+      <node ref="U2" pin="R7"/>
+    </net>
+    <net code="69" name="/RMII_RXD0">
+      <node ref="R34" pin="1"/>
+      <node ref="U2" pin="R6"/>
+    </net>
+    <net code="70" name="/DAC_DEMP">
+      <node ref="U7" pin="10"/>
+      <node ref="U2" pin="R4"/>
+    </net>
+    <net code="71" name="/RMII_MDIO">
+      <node ref="R38" pin="2"/>
+      <node ref="U2" pin="R2"/>
+      <node ref="U14" pin="12"/>
+    </net>
+    <net code="72" name="Net-(U2-PadR10)">
+      <node ref="U2" pin="R10"/>
+    </net>
+    <net code="73" name="Net-(U2-PadP8)">
+      <node ref="U2" pin="P8"/>
+    </net>
+    <net code="74" name="Net-(U2-PadP7)">
+      <node ref="U2" pin="P7"/>
+    </net>
+    <net code="75" name="Net-(U2-PadP6)">
+      <node ref="U2" pin="P6"/>
+    </net>
+    <net code="76" name="Net-(U2-PadM8)">
+      <node ref="U2" pin="M8"/>
+    </net>
+    <net code="77" name="Net-(U2-PadM2)">
+      <node ref="U2" pin="M2"/>
+    </net>
+    <net code="78" name="Net-(U2-PadM15)">
+      <node ref="U2" pin="M15"/>
+    </net>
+    <net code="79" name="Net-(U2-PadM14)">
+      <node ref="U2" pin="M14"/>
+    </net>
+    <net code="80" name="Net-(U2-PadM13)">
+      <node ref="U2" pin="M13"/>
+    </net>
+    <net code="81" name="Net-(U2-PadM11)">
+      <node ref="U2" pin="M11"/>
+    </net>
+    <net code="82" name="/DAC_XSMT">
+      <node ref="U2" pin="M1"/>
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="83" name="/RMII_MDC">
+      <node ref="U2" pin="L3"/>
+      <node ref="U14" pin="13"/>
+    </net>
+    <net code="84" name="Net-(U2-PadL2)">
+      <node ref="U2" pin="L2"/>
+    </net>
+    <net code="85" name="Net-(U2-PadL15)">
+      <node ref="U2" pin="L15"/>
+    </net>
+    <net code="86" name="/MEMS_INT">
+      <node ref="U8" pin="6"/>
+      <node ref="U2" pin="L14"/>
+    </net>
+    <net code="87" name="Net-(U2-PadL13)">
+      <node ref="U2" pin="L13"/>
+    </net>
+    <net code="88" name="Net-(U2-PadK3)">
+      <node ref="U2" pin="K3"/>
+    </net>
+    <net code="89" name="Net-(U2-PadN7)">
+      <node ref="U2" pin="N7"/>
+    </net>
+    <net code="90" name="Net-(U2-PadP5)">
+      <node ref="U2" pin="P5"/>
+    </net>
+    <net code="91" name="Net-(U2-PadP4)">
+      <node ref="U2" pin="P4"/>
+    </net>
+    <net code="92" name="/RMII_REF_CLK">
+      <node ref="R40" pin="2"/>
+      <node ref="U2" pin="P2"/>
+    </net>
+    <net code="93" name="Net-(U2-PadP11)">
+      <node ref="U2" pin="P11"/>
+    </net>
+    <net code="94" name="Net-(U2-PadP10)">
+      <node ref="U2" pin="P10"/>
+    </net>
+    <net code="95" name="Net-(U2-PadP1)">
+      <node ref="U2" pin="P1"/>
+    </net>
+    <net code="96" name="Net-(U2-PadN9)">
+      <node ref="U2" pin="N9"/>
+    </net>
+    <net code="97" name="/RMII_CRS_DV">
+      <node ref="R37" pin="2"/>
+      <node ref="U2" pin="N6"/>
+    </net>
+    <net code="98" name="Net-(U2-PadN5)">
+      <node ref="U2" pin="N5"/>
+    </net>
+    <net code="99" name="Net-(U2-PadN4)">
+      <node ref="U2" pin="N4"/>
+    </net>
+    <net code="100" name="Net-(U2-PadN14)">
+      <node ref="U2" pin="N14"/>
+    </net>
+    <net code="101" name="Net-(U2-PadN13)">
+      <node ref="U2" pin="N13"/>
+    </net>
+    <net code="102" name="Net-(U2-PadN12)">
+      <node ref="U2" pin="N12"/>
+    </net>
+    <net code="103" name="Net-(U2-PadN11)">
+      <node ref="U2" pin="N11"/>
+    </net>
+    <net code="104" name="Net-(U2-PadN10)">
+      <node ref="U2" pin="N10"/>
+    </net>
+    <net code="105" name="Net-(U2-PadN1)">
+      <node ref="U2" pin="N1"/>
+    </net>
+    <net code="106" name="Net-(C63-Pad2)">
+      <node ref="C63" pin="2"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="107" name="Net-(C67-Pad2)">
+      <node ref="C67" pin="2"/>
+      <node ref="U7" pin="18"/>
+    </net>
+    <net code="108" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="109" name="/MEMS_MISO">
+      <node ref="U2" pin="K15"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="110" name="Net-(C70-Pad2)">
+      <node ref="C70" pin="2"/>
+      <node ref="U8" pin="14"/>
+    </net>
+    <net code="111" name="Net-(C64-Pad2)">
+      <node ref="C64" pin="2"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="112" name="Net-(C63-Pad1)">
+      <node ref="C63" pin="1"/>
+      <node ref="U7" pin="4"/>
+    </net>
+    <net code="113" name="Net-(K1-Pad9)">
+      <node ref="K1" pin="9"/>
     </net>
     <net code="114" name="Net-(R51-Pad2)">
-      <node ref="U7" pin="7"/>
       <node ref="R51" pin="2"/>
+      <node ref="U7" pin="7"/>
     </net>
     <net code="115" name="Net-(R50-Pad1)">
       <node ref="U7" pin="6"/>
       <node ref="R50" pin="1"/>
     </net>
-    <net code="116" name="Net-(C64-Pad2)">
-      <node ref="C64" pin="2"/>
-      <node ref="U7" pin="5"/>
+    <net code="116" name="Net-(K1-Pad7)">
+      <node ref="R5" pin="2"/>
+      <node ref="K1" pin="7"/>
     </net>
-    <net code="117" name="Net-(C63-Pad1)">
-      <node ref="U7" pin="4"/>
-      <node ref="C63" pin="1"/>
-    </net>
-    <net code="118" name="/FMC_D7">
-      <node ref="K1" pin="29"/>
-      <node ref="U2" pin="R9"/>
-    </net>
-    <net code="119" name="Net-(K1-Pad9)">
-      <node ref="K1" pin="9"/>
-    </net>
-    <net code="120" name="Net-(C16-Pad1)">
-      <node ref="K1" pin="4"/>
-      <node ref="C16" pin="1"/>
-    </net>
-    <net code="121" name="Net-(K1-Pad30)">
+    <net code="117" name="Net-(K1-Pad30)">
       <node ref="K1" pin="30"/>
     </net>
-    <net code="122" name="/FMC_D6">
+    <net code="118" name="/FMC_D7">
+      <node ref="U2" pin="R9"/>
+      <node ref="K1" pin="29"/>
+    </net>
+    <net code="119" name="/FMC_D6">
       <node ref="K1" pin="28"/>
       <node ref="U2" pin="R11"/>
     </net>
-    <net code="123" name="/FMC_D5">
-      <node ref="K1" pin="27"/>
+    <net code="120" name="/FMC_D5">
       <node ref="U2" pin="N8"/>
+      <node ref="K1" pin="27"/>
     </net>
-    <net code="124" name="/FMC_D4">
-      <node ref="K1" pin="26"/>
+    <net code="121" name="/FMC_D4">
       <node ref="U2" pin="P9"/>
+      <node ref="K1" pin="26"/>
     </net>
-    <net code="125" name="/FMC_D3">
-      <node ref="U2" pin="A10"/>
+    <net code="122" name="/FMC_D3">
       <node ref="K1" pin="25"/>
+      <node ref="U2" pin="A10"/>
     </net>
-    <net code="126" name="/FMC_D2">
+    <net code="123" name="/RMII_TX_EN">
+      <node ref="U2" pin="A7"/>
+      <node ref="U14" pin="16"/>
+    </net>
+    <net code="124" name="Net-(U2-PadA6)">
+      <node ref="U2" pin="A6"/>
+    </net>
+    <net code="125" name="/DEBUG_TX">
+      <node ref="P3" pin="6"/>
+      <node ref="U2" pin="A5"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="126" name="/SWD-CLK">
+      <node ref="P3" pin="5"/>
+      <node ref="U2" pin="A12"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="127" name="/MEMS_FSYNC">
+      <node ref="U8" pin="8"/>
+      <node ref="U2" pin="A11"/>
+    </net>
+    <net code="128" name="/FMC_D2">
       <node ref="U2" pin="C10"/>
       <node ref="K1" pin="24"/>
     </net>
-    <net code="127" name="/FMC_D1">
+    <net code="129" name="VERF+">
+      <node ref="R10" pin="1"/>
+      <node ref="C84" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C83" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U2" pin="M3"/>
+    </net>
+    <net code="130" name="/CIS_VLED_B">
+      <node ref="R44" pin="1"/>
+      <node ref="K2" pin="1"/>
+    </net>
+    <net code="131" name="VERF-">
+      <node ref="R10" pin="2"/>
+      <node ref="U2" pin="L4"/>
+      <node ref="C85" pin="2"/>
+      <node ref="C86" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C92" pin="1"/>
+      <node ref="C91" pin="1"/>
+    </net>
+    <net code="132" name="/FMC_D1">
       <node ref="U2" pin="J12"/>
       <node ref="K1" pin="23"/>
     </net>
-    <net code="128" name="/FMC_D0">
-      <node ref="K1" pin="22"/>
+    <net code="133" name="/FMC_D0">
       <node ref="U2" pin="H14"/>
+      <node ref="K1" pin="22"/>
     </net>
-    <net code="129" name="/FMC_NOE">
+    <net code="134" name="/FMC_NOE">
       <node ref="U2" pin="C9"/>
       <node ref="K1" pin="21"/>
     </net>
-    <net code="130" name="/FMC_NWE">
-      <node ref="K1" pin="20"/>
+    <net code="135" name="/FMC_NWE">
       <node ref="U2" pin="B9"/>
+      <node ref="K1" pin="20"/>
     </net>
-    <net code="131" name="+12V">
-      <node ref="C30" pin="1"/>
-      <node ref="K1" pin="2"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C24" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="K1" pin="8"/>
-      <node ref="K1" pin="6"/>
-      <node ref="K1" pin="31"/>
-    </net>
-    <net code="132" name="/FMC_Ax">
+    <net code="136" name="/FMC_Ax">
       <node ref="U2" pin="F4"/>
       <node ref="K1" pin="19"/>
     </net>
-    <net code="133" name="/OLED_RESET">
+    <net code="137" name="/OLED_RESET">
       <node ref="K1" pin="18"/>
       <node ref="U2" pin="A2"/>
     </net>
-    <net code="134" name="/FMC_NEx">
+    <net code="138" name="/FMC_NEx">
       <node ref="K1" pin="17"/>
       <node ref="U2" pin="B8"/>
     </net>
-    <net code="135" name="Net-(C39-Pad1)">
-      <node ref="U14" pin="6"/>
-      <node ref="C39" pin="1"/>
-      <node ref="C41" pin="1"/>
+    <net code="139" name="Net-(U2-PadA8)">
+      <node ref="U2" pin="A8"/>
     </net>
-    <net code="136" name="Net-(C63-Pad2)">
-      <node ref="C63" pin="2"/>
-      <node ref="U7" pin="2"/>
+    <net code="140" name="Net-(K1-Pad1)">
+      <node ref="K1" pin="1"/>
     </net>
-    <net code="137" name="/DAC_XSMT">
-      <node ref="U2" pin="M1"/>
-      <node ref="U7" pin="17"/>
+    <net code="141" name="/CIS_RS_TTL">
+      <node ref="K2" pin="9"/>
+      <node ref="U6" pin="13"/>
     </net>
-    <net code="138" name="/DAC_FMT">
-      <node ref="U2" pin="H1"/>
+    <net code="142" name="/CIS_SP_TTL">
+      <node ref="U6" pin="12"/>
+      <node ref="K2" pin="7"/>
+    </net>
+    <net code="143" name="Net-(C37-Pad2)">
+      <node ref="C37" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="K2" pin="5"/>
+    </net>
+    <net code="144" name="/CIS_VLED_G">
+      <node ref="K2" pin="3"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="145" name="/CIS_VLED_R">
+      <node ref="K2" pin="2"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="146" name="Net-(K2-Pad10)">
+      <node ref="R14" pin="2"/>
+      <node ref="K2" pin="10"/>
+    </net>
+    <net code="147" name="Net-(U2-PadG12)">
+      <node ref="U2" pin="G12"/>
+    </net>
+    <net code="148" name="Net-(U2-PadH13)">
+      <node ref="U2" pin="H13"/>
+    </net>
+    <net code="149" name="/DAC_FMT">
       <node ref="U7" pin="16"/>
+      <node ref="U2" pin="H1"/>
     </net>
-    <net code="139" name="/DAC_LRCK">
-      <node ref="U7" pin="15"/>
-      <node ref="U2" pin="B1"/>
+    <net code="150" name="Net-(U2-PadG3)">
+      <node ref="U2" pin="G3"/>
     </net>
-    <net code="140" name="/DAC_DIN">
-      <node ref="U2" pin="D9"/>
-      <node ref="U7" pin="14"/>
+    <net code="151" name="Net-(U2-PadG14)">
+      <node ref="U2" pin="G14"/>
     </net>
-    <net code="141" name="/DAC_BCK">
-      <node ref="U2" pin="D3"/>
-      <node ref="U7" pin="13"/>
+    <net code="152" name="Net-(U2-PadG13)">
+      <node ref="U2" pin="G13"/>
     </net>
-    <net code="142" name="/DAC_SCK">
+    <net code="153" name="Net-(C71-Pad2)">
+      <node ref="U2" pin="G1"/>
+      <node ref="C71" pin="2"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="154" name="Net-(U2-PadF3)">
+      <node ref="U2" pin="F3"/>
+    </net>
+    <net code="155" name="Net-(U2-PadF14)">
+      <node ref="U2" pin="F14"/>
+    </net>
+    <net code="156" name="Net-(U2-PadJ15)">
+      <node ref="U2" pin="J15"/>
+    </net>
+    <net code="157" name="/MEMS_MOSI">
+      <node ref="U2" pin="K14"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="158" name="Net-(U2-PadK13)">
+      <node ref="U2" pin="K13"/>
+    </net>
+    <net code="159" name="Net-(U2-PadJ4)">
+      <node ref="U2" pin="J4"/>
+    </net>
+    <net code="160" name="Net-(U2-PadJ3)">
+      <node ref="U2" pin="J3"/>
+    </net>
+    <net code="161" name="Net-(U2-PadJ2)">
+      <node ref="U2" pin="J2"/>
+    </net>
+    <net code="162" name="Net-(U2-PadJ13)">
+      <node ref="U2" pin="J13"/>
+    </net>
+    <net code="163" name="Net-(U2-PadH4)">
+      <node ref="U2" pin="H4"/>
+    </net>
+    <net code="164" name="Net-(U2-PadH3)">
+      <node ref="U2" pin="H3"/>
+    </net>
+    <net code="165" name="Net-(U2-PadH2)">
+      <node ref="U2" pin="H2"/>
+    </net>
+    <net code="166" name="/RMII_TXD0">
+      <node ref="U14" pin="17"/>
+      <node ref="U2" pin="B7"/>
+    </net>
+    <net code="167" name="Net-(U2-PadC6)">
+      <node ref="U2" pin="C6"/>
+    </net>
+    <net code="168" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="C5"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="169" name="Net-(U2-PadC4)">
+      <node ref="U2" pin="C4"/>
+    </net>
+    <net code="170" name="/DAC_SCK">
       <node ref="U2" pin="C3"/>
       <node ref="U7" pin="12"/>
     </net>
-    <net code="143" name="/DAC_DEMP">
-      <node ref="U7" pin="10"/>
-      <node ref="U2" pin="R4"/>
+    <net code="171" name="Net-(U2-PadC15)">
+      <node ref="U2" pin="C15"/>
     </net>
-    <net code="144" name="+3.3V">
-      <node ref="K1" pin="16"/>
-      <node ref="R46" pin="1"/>
-      <node ref="R22" pin="1"/>
-      <node ref="K1" pin="12"/>
-      <node ref="C13" pin="1"/>
-      <node ref="L4" pin="2"/>
-      <node ref="U5" pin="8"/>
-      <node ref="U5" pin="7"/>
-      <node ref="U5" pin="5"/>
-      <node ref="C60" pin="2"/>
-      <node ref="K1" pin="15"/>
-      <node ref="K1" pin="14"/>
-      <node ref="C61" pin="2"/>
-      <node ref="C32" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C43" pin="1"/>
-      <node ref="L7" pin="1"/>
-      <node ref="U7" pin="8"/>
-      <node ref="D1" pin="2"/>
-      <node ref="R43" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C35" pin="2"/>
-      <node ref="C90" pin="2"/>
-      <node ref="C62" pin="1"/>
-      <node ref="R21" pin="1"/>
-      <node ref="U4" pin="14"/>
-      <node ref="U4" pin="16"/>
-      <node ref="U7" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="U7" pin="20"/>
-      <node ref="U1" pin="5"/>
-      <node ref="C29" pin="1"/>
-      <node ref="C58" pin="1"/>
-      <node ref="U2" pin="D11"/>
-      <node ref="U2" pin="H12"/>
-      <node ref="U2" pin="G4"/>
-      <node ref="R42" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U2" pin="F13"/>
-      <node ref="U2" pin="E4"/>
-      <node ref="U2" pin="E2"/>
-      <node ref="U2" pin="E15"/>
-      <node ref="U2" pin="E12"/>
-      <node ref="U2" pin="D5"/>
-      <node ref="U2" pin="L12"/>
-      <node ref="C66" pin="1"/>
-      <node ref="U2" pin="M5"/>
-      <node ref="U2" pin="M9"/>
-      <node ref="U2" pin="K4"/>
-      <node ref="L5" pin="2"/>
-      <node ref="C80" pin="1"/>
-      <node ref="U6" pin="1"/>
-      <node ref="C59" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="C65" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C77" pin="1"/>
-      <node ref="U8" pin="16"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U8" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="R33" pin="1"/>
-      <node ref="C12" pin="1"/>
-      <node ref="C34" pin="1"/>
-      <node ref="U14" pin="9"/>
-      <node ref="R38" pin="1"/>
-      <node ref="R39" pin="1"/>
-      <node ref="L2" pin="1"/>
-      <node ref="C33" pin="1"/>
-      <node ref="C78" pin="1"/>
-      <node ref="C79" pin="1"/>
-      <node ref="R32" pin="1"/>
-      <node ref="R36" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="R53" pin="1"/>
-      <node ref="R52" pin="1"/>
-      <node ref="U6" pin="8"/>
+    <net code="172" name="Net-(U2-PadC14)">
+      <node ref="U2" pin="C14"/>
     </net>
-    <net code="145" name="Net-(R27-Pad2)">
-      <node ref="SW4" pin="3"/>
-      <node ref="R27" pin="2"/>
+    <net code="173" name="Net-(U2-PadC13)">
+      <node ref="U2" pin="C13"/>
     </net>
-    <net code="146" name="Net-(C27-Pad2)">
-      <node ref="C27" pin="2"/>
-      <node ref="R13" pin="1"/>
+    <net code="174" name="Net-(U2-PadC12)">
+      <node ref="U2" pin="C12"/>
     </net>
-    <net code="147" name="Net-(C28-Pad2)">
-      <node ref="C28" pin="2"/>
-      <node ref="R14" pin="1"/>
+    <net code="175" name="Net-(U2-PadC11)">
+      <node ref="U2" pin="C11"/>
     </net>
-    <net code="148" name="Net-(C26-Pad2)">
-      <node ref="C26" pin="2"/>
-      <node ref="R12" pin="1"/>
+    <net code="176" name="/DAC_FLT">
+      <node ref="U7" pin="11"/>
+      <node ref="U2" pin="C1"/>
     </net>
-    <net code="149" name="/CIS_ADC_3">
-      <node ref="U2" pin="N2"/>
-      <node ref="C26" pin="1"/>
+    <net code="177" name="/RMII_TXD1">
+      <node ref="U2" pin="C7"/>
+      <node ref="U14" pin="18"/>
     </net>
-    <net code="150" name="Net-(K2-Pad11)">
-      <node ref="R13" pin="2"/>
-      <node ref="K2" pin="11"/>
+    <net code="178" name="Net-(U2-PadB6)">
+      <node ref="U2" pin="B6"/>
     </net>
-    <net code="151" name="Net-(C67-Pad2)">
-      <node ref="U7" pin="18"/>
-      <node ref="C67" pin="2"/>
+    <net code="179" name="/DEBUG_RX">
+      <node ref="U2" pin="B5"/>
+      <node ref="J4" pin="4"/>
+      <node ref="P3" pin="8"/>
     </net>
-    <net code="152" name="Net-(R26-Pad2)">
-      <node ref="R26" pin="2"/>
-      <node ref="SW3" pin="3"/>
+    <net code="180" name="Net-(U2-PadB4)">
+      <node ref="U2" pin="B4"/>
     </net>
-    <net code="153" name="Net-(SW3-Pad4)">
-      <node ref="SW3" pin="4"/>
+    <net code="181" name="/MEMS_CS">
+      <node ref="U8" pin="5"/>
+      <node ref="U2" pin="B3"/>
     </net>
-    <net code="154" name="Net-(SW3-Pad1)">
-      <node ref="SW3" pin="1"/>
+    <net code="182" name="Net-(U2-PadB2)">
+      <node ref="U2" pin="B2"/>
     </net>
-    <net code="155" name="Net-(C37-Pad2)">
-      <node ref="C37" pin="2"/>
-      <node ref="K2" pin="5"/>
-      <node ref="R15" pin="1"/>
+    <net code="183" name="Net-(U2-PadB14)">
+      <node ref="U2" pin="B14"/>
     </net>
-    <net code="156" name="Net-(U6-Pad9)">
-      <node ref="U6" pin="9"/>
+    <net code="184" name="/SWD-IO">
+      <node ref="U2" pin="B13"/>
+      <node ref="P3" pin="3"/>
+      <node ref="J4" pin="2"/>
     </net>
-    <net code="157" name="Net-(U6-Pad6)">
-      <node ref="U6" pin="6"/>
+    <net code="185" name="Net-(U2-PadB12)">
+      <node ref="U2" pin="B12"/>
     </net>
-    <net code="158" name="Net-(U6-Pad5)">
-      <node ref="U6" pin="5"/>
+    <net code="186" name="Net-(U2-PadB11)">
+      <node ref="U2" pin="B11"/>
     </net>
-    <net code="159" name="/SW_RIGHT">
-      <node ref="U2" pin="P12"/>
-      <node ref="R26" pin="1"/>
-      <node ref="R42" pin="2"/>
-      <node ref="C53" pin="1"/>
+    <net code="187" name="Net-(U2-PadB10)">
+      <node ref="U2" pin="B10"/>
     </net>
-    <net code="160" name="Net-(U8-Pad7)">
-      <node ref="U8" pin="7"/>
+    <net code="188" name="/DAC_LRCK">
+      <node ref="U2" pin="B1"/>
+      <node ref="U7" pin="15"/>
     </net>
-    <net code="161" name="Net-(C70-Pad2)">
-      <node ref="C70" pin="2"/>
-      <node ref="U8" pin="14"/>
+    <net code="189" name="/MEMS_SCLK">
+      <node ref="U2" pin="A9"/>
+      <node ref="U8" pin="2"/>
     </net>
-    <net code="162" name="Net-(R45-Pad2)">
-      <node ref="SW5" pin="3"/>
-      <node ref="R45" pin="2"/>
+    <net code="190" name="Net-(C36-Pad1)">
+      <node ref="L6" pin="2"/>
+      <node ref="U2" pin="F1"/>
+      <node ref="C36" pin="1"/>
     </net>
-    <net code="163" name="Net-(C71-Pad2)">
-      <node ref="U2" pin="G1"/>
-      <node ref="L5" pin="1"/>
-      <node ref="C71" pin="2"/>
+    <net code="191" name="Net-(U2-PadE3)">
+      <node ref="U2" pin="E3"/>
     </net>
-    <net code="164" name="Net-(SW5-Pad4)">
-      <node ref="SW5" pin="4"/>
+    <net code="192" name="Net-(U2-PadE13)">
+      <node ref="U2" pin="E13"/>
     </net>
-    <net code="165" name="Net-(SW4-Pad4)">
-      <node ref="SW4" pin="4"/>
+    <net code="193" name="/DAC_DIN">
+      <node ref="U2" pin="D9"/>
+      <node ref="U7" pin="14"/>
     </net>
-    <net code="166" name="Net-(SW4-Pad1)">
-      <node ref="SW4" pin="1"/>
+    <net code="194" name="Net-(U2-PadD8)">
+      <node ref="U2" pin="D8"/>
     </net>
-    <net code="167" name="Net-(R18-Pad2)">
-      <node ref="SW1" pin="3"/>
-      <node ref="R18" pin="2"/>
+    <net code="195" name="Net-(U2-PadD7)">
+      <node ref="U2" pin="D7"/>
     </net>
-    <net code="168" name="Net-(SW1-Pad4)">
-      <node ref="SW1" pin="4"/>
+    <net code="196" name="Net-(R53-Pad2)">
+      <node ref="U2" pin="D4"/>
+      <node ref="R53" pin="2"/>
     </net>
-    <net code="169" name="Net-(SW1-Pad1)">
-      <node ref="SW1" pin="1"/>
+    <net code="197" name="/DAC_BCK">
+      <node ref="U7" pin="13"/>
+      <node ref="U2" pin="D3"/>
     </net>
-    <net code="170" name="Net-(SW5-Pad1)">
-      <node ref="SW5" pin="1"/>
+    <net code="198" name="Net-(U2-PadD2)">
+      <node ref="U2" pin="D2"/>
     </net>
-    <net code="171" name="Net-(R19-Pad2)">
-      <node ref="SW2" pin="3"/>
-      <node ref="R19" pin="2"/>
+    <net code="199" name="Net-(U2-PadD15)">
+      <node ref="U2" pin="D15"/>
     </net>
-    <net code="172" name="Net-(U2-PadD1)">
+    <net code="200" name="Net-(U2-PadD12)">
+      <node ref="U2" pin="D12"/>
+    </net>
+    <net code="201" name="Net-(U2-PadD1)">
       <node ref="U2" pin="D1"/>
     </net>
-    <net code="173" name="Net-(SW2-Pad4)">
-      <node ref="SW2" pin="4"/>
+    <net code="202" name="Net-(U2-PadC8)">
+      <node ref="U2" pin="C8"/>
     </net>
-    <net code="174" name="Net-(SW2-Pad1)">
-      <node ref="SW2" pin="1"/>
+    <net code="203" name="/SW_UP">
+      <node ref="R19" pin="1"/>
+      <node ref="U2" pin="R12"/>
+      <node ref="C42" pin="1"/>
+      <node ref="R22" pin="2"/>
     </net>
-    <net code="175" name="Net-(C69-Pad1)">
-      <node ref="J3" pin="T"/>
-      <node ref="C69" pin="1"/>
-      <node ref="R50" pin="2"/>
-    </net>
-    <net code="176" name="Net-(J2-Pad11)">
-      <node ref="J2" pin="11"/>
-      <node ref="U14" pin="3"/>
-    </net>
-    <net code="177" name="Net-(C72-Pad1)">
-      <node ref="C76" pin="1"/>
-      <node ref="U2" pin="R14"/>
-      <node ref="C75" pin="1"/>
-      <node ref="L6" pin="2"/>
-      <node ref="C72" pin="1"/>
-      <node ref="U2" pin="A3"/>
-      <node ref="U2" pin="G2"/>
-      <node ref="U2" pin="A4"/>
-      <node ref="U2" pin="A13"/>
-      <node ref="U2" pin="A14"/>
-      <node ref="C73" pin="1"/>
-      <node ref="U2" pin="R13"/>
-      <node ref="C74" pin="1"/>
-    </net>
-    <net code="178" name="/SW_DOWN">
+    <net code="204" name="/SW_DOWN">
       <node ref="R27" pin="1"/>
       <node ref="U2" pin="P13"/>
       <node ref="C56" pin="1"/>
       <node ref="R43" pin="2"/>
     </net>
-    <net code="179" name="/SW_LEFT">
-      <node ref="R18" pin="1"/>
-      <node ref="R21" pin="2"/>
+    <net code="205" name="/SW_LEFT">
       <node ref="C40" pin="1"/>
+      <node ref="R21" pin="2"/>
       <node ref="U2" pin="M12"/>
+      <node ref="R18" pin="1"/>
     </net>
-    <net code="180" name="/CIS_ADC_2">
-      <node ref="U2" pin="P3"/>
-      <node ref="C27" pin="1"/>
+    <net code="206" name="/SW_RIGHT">
+      <node ref="C53" pin="1"/>
+      <node ref="U2" pin="P12"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R42" pin="2"/>
     </net>
-    <net code="181" name="/CIS_ADC_1">
-      <node ref="U2" pin="R3"/>
-      <node ref="C28" pin="1"/>
+    <net code="207" name="Net-(P3-Pad7)">
+      <node ref="P3" pin="7"/>
     </net>
-    <net code="182" name="Net-(C22-Pad1)">
+    <net code="208" name="/SW_OK">
+      <node ref="C57" pin="1"/>
+      <node ref="U2" pin="P14"/>
+      <node ref="R46" pin="2"/>
+      <node ref="R45" pin="1"/>
+    </net>
+    <net code="209" name="Net-(C22-Pad1)">
+      <node ref="U2" pin="J1"/>
       <node ref="C22" pin="1"/>
       <node ref="XO2" pin="1"/>
-      <node ref="U2" pin="J1"/>
     </net>
-    <net code="183" name="Net-(C21-Pad1)">
+    <net code="210" name="Net-(C23-Pad2)">
+      <node ref="U2" pin="K1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="XO2" pin="3"/>
+    </net>
+    <net code="211" name="Net-(C21-Pad1)">
       <node ref="C21" pin="1"/>
       <node ref="XO1" pin="3"/>
       <node ref="U14" pin="4"/>
     </net>
-    <net code="184" name="Net-(C17-Pad1)">
+    <net code="212" name="Net-(C17-Pad1)">
       <node ref="C17" pin="1"/>
       <node ref="U14" pin="5"/>
       <node ref="XO1" pin="1"/>
     </net>
-    <net code="185" name="SWD_+3.3V">
+    <net code="213" name="SWD_+3.3V">
       <node ref="P3" pin="9"/>
       <node ref="P3" pin="10"/>
       <node ref="D6" pin="2"/>
     </net>
-    <net code="186" name="/RX_N">
+    <net code="214" name="/RX_N">
+      <node ref="R31" pin="2"/>
+      <node ref="U17" pin="2"/>
       <node ref="J2" pin="6"/>
       <node ref="U14" pin="22"/>
-      <node ref="U17" pin="2"/>
-      <node ref="R31" pin="2"/>
     </net>
-    <net code="187" name="/RX_P">
+    <net code="215" name="/RST">
+      <node ref="P3" pin="4"/>
+      <node ref="U14" pin="15"/>
+      <node ref="J4" pin="6"/>
+      <node ref="C87" pin="2"/>
+      <node ref="U2" pin="L1"/>
+    </net>
+    <net code="216" name="Net-(R36-Pad2)">
+      <node ref="R36" pin="2"/>
+      <node ref="U14" pin="11"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="217" name="Net-(C44-Pad1)">
+      <node ref="C44" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="U14" pin="19"/>
+      <node ref="C49" pin="1"/>
+      <node ref="U14" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="5"/>
+      <node ref="C54" pin="1"/>
+      <node ref="U17" pin="4"/>
+      <node ref="U16" pin="4"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="218" name="/RX_P">
+      <node ref="J2" pin="3"/>
       <node ref="U14" pin="23"/>
       <node ref="U17" pin="3"/>
       <node ref="R30" pin="2"/>
-      <node ref="J2" pin="3"/>
     </net>
-    <net code="188" name="/TX_N">
-      <node ref="J2" pin="2"/>
-      <node ref="U14" pin="20"/>
+    <net code="219" name="/TX_N">
       <node ref="R29" pin="2"/>
       <node ref="U16" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U14" pin="20"/>
     </net>
-    <net code="189" name="/TX_P">
+    <net code="220" name="Net-(J2-Pad13)">
+      <node ref="R47" pin="2"/>
+      <node ref="U14" pin="2"/>
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="221" name="/TX_P">
       <node ref="U14" pin="21"/>
       <node ref="J2" pin="1"/>
-      <node ref="U16" pin="3"/>
       <node ref="R28" pin="2"/>
+      <node ref="U16" pin="3"/>
     </net>
-    <net code="190" name="/RST">
-      <node ref="P3" pin="4"/>
-      <node ref="U14" pin="15"/>
-      <node ref="C87" pin="2"/>
-      <node ref="U2" pin="L1"/>
-      <node ref="J4" pin="6"/>
+    <net code="222" name="Net-(C68-Pad1)">
+      <node ref="J3" pin="R"/>
+      <node ref="R51" pin="1"/>
+      <node ref="C68" pin="1"/>
     </net>
-    <net code="191" name="/RMII_MDC">
-      <node ref="U2" pin="L3"/>
-      <node ref="U14" pin="13"/>
+    <net code="223" name="Net-(C69-Pad1)">
+      <node ref="R50" pin="2"/>
+      <node ref="J3" pin="T"/>
+      <node ref="C69" pin="1"/>
     </net>
-    <net code="192" name="/RMII_TXD1">
-      <node ref="U14" pin="18"/>
-      <node ref="U2" pin="C7"/>
+    <net code="224" name="Net-(J2-Pad11)">
+      <node ref="U14" pin="3"/>
+      <node ref="J2" pin="11"/>
     </net>
-    <net code="193" name="/RMII_TXD0">
-      <node ref="U14" pin="17"/>
-      <node ref="U2" pin="B7"/>
+    <net code="225" name="Net-(R1-Pad1)">
+      <node ref="U14" pin="10"/>
+      <node ref="R1" pin="1"/>
     </net>
-    <net code="194" name="/RMII_TX_EN">
-      <node ref="U2" pin="A7"/>
-      <node ref="U14" pin="16"/>
-    </net>
-    <net code="195" name="Net-(C44-Pad1)">
-      <node ref="L2" pin="2"/>
-      <node ref="C49" pin="1"/>
-      <node ref="C44" pin="1"/>
-      <node ref="C45" pin="1"/>
-      <node ref="R31" pin="1"/>
-      <node ref="U16" pin="4"/>
-      <node ref="C55" pin="1"/>
-      <node ref="C46" pin="1"/>
-      <node ref="J2" pin="4"/>
-      <node ref="U14" pin="19"/>
-      <node ref="J2" pin="5"/>
-      <node ref="R28" pin="1"/>
-      <node ref="R29" pin="1"/>
-      <node ref="R30" pin="1"/>
-      <node ref="U17" pin="4"/>
-      <node ref="C54" pin="1"/>
-      <node ref="U14" pin="1"/>
-      <node ref="C47" pin="1"/>
-    </net>
-    <net code="196" name="Net-(R36-Pad2)">
-      <node ref="R36" pin="2"/>
-      <node ref="R37" pin="1"/>
-      <node ref="U14" pin="11"/>
-    </net>
-    <net code="197" name="Net-(R39-Pad2)">
-      <node ref="R40" pin="1"/>
-      <node ref="U14" pin="14"/>
+    <net code="226" name="Net-(R39-Pad2)">
       <node ref="R39" pin="2"/>
+      <node ref="U14" pin="14"/>
+      <node ref="R40" pin="1"/>
     </net>
-    <net code="198" name="Net-(R32-Pad2)">
+    <net code="227" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2"/>
       <node ref="U14" pin="8"/>
       <node ref="R34" pin="2"/>
-      <node ref="R32" pin="2"/>
     </net>
-    <net code="199" name="/RMII_MDIO">
-      <node ref="R38" pin="2"/>
-      <node ref="U14" pin="12"/>
-      <node ref="U2" pin="R2"/>
-    </net>
-    <net code="200" name="Net-(R33-Pad2)">
+    <net code="228" name="Net-(R33-Pad2)">
+      <node ref="U14" pin="7"/>
       <node ref="R33" pin="2"/>
       <node ref="R35" pin="1"/>
-      <node ref="U14" pin="7"/>
     </net>
-    <net code="201" name="Net-(R1-Pad1)">
-      <node ref="R1" pin="1"/>
-      <node ref="U14" pin="10"/>
-    </net>
-    <net code="202" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
-      <node ref="R16" pin="1"/>
-    </net>
-    <net code="203" name="/LED1">
-      <node ref="U2" pin="P15"/>
-      <node ref="R16" pin="2"/>
-    </net>
-    <net code="204" name="/DEBUG_RX">
-      <node ref="P3" pin="8"/>
-      <node ref="J4" pin="4"/>
-      <node ref="U2" pin="B5"/>
-    </net>
-    <net code="205" name="Net-(P3-Pad7)">
-      <node ref="P3" pin="7"/>
-    </net>
-    <net code="206" name="/DEBUG_TX">
-      <node ref="J4" pin="5"/>
-      <node ref="U2" pin="A5"/>
-      <node ref="P3" pin="6"/>
-    </net>
-    <net code="207" name="/SWD-IO">
-      <node ref="U2" pin="B13"/>
-      <node ref="J4" pin="2"/>
-      <node ref="P3" pin="3"/>
-    </net>
-    <net code="208" name="Net-(R17-Pad2)">
-      <node ref="R17" pin="2"/>
-      <node ref="U14" pin="24"/>
-    </net>
-    <net code="209" name="/MEMS_FSYNC">
-      <node ref="U2" pin="A11"/>
-      <node ref="U8" pin="8"/>
-    </net>
-    <net code="210" name="Net-(U2-PadB10)">
-      <node ref="U2" pin="B10"/>
-    </net>
-    <net code="211" name="/MEMS_SCLK">
-      <node ref="U8" pin="2"/>
-      <node ref="U2" pin="A9"/>
-    </net>
-    <net code="212" name="Net-(U2-PadA8)">
-      <node ref="U2" pin="A8"/>
-    </net>
-    <net code="213" name="Net-(U2-PadA6)">
-      <node ref="U2" pin="A6"/>
-    </net>
-    <net code="214" name="/SWD-CLK">
-      <node ref="P3" pin="5"/>
-      <node ref="U2" pin="A12"/>
-      <node ref="J4" pin="3"/>
-    </net>
-    <net code="215" name="Net-(U2-PadB11)">
-      <node ref="U2" pin="B11"/>
-    </net>
-    <net code="216" name="Net-(U2-PadC8)">
-      <node ref="U2" pin="C8"/>
-    </net>
-    <net code="217" name="Net-(U2-PadC6)">
-      <node ref="U2" pin="C6"/>
-    </net>
-    <net code="218" name="Net-(U2-PadC4)">
-      <node ref="U2" pin="C4"/>
-    </net>
-    <net code="219" name="Net-(U2-PadC15)">
-      <node ref="U2" pin="C15"/>
-    </net>
-    <net code="220" name="Net-(U2-PadC14)">
-      <node ref="U2" pin="C14"/>
-    </net>
-    <net code="221" name="Net-(U2-PadC13)">
-      <node ref="U2" pin="C13"/>
-    </net>
-    <net code="222" name="Net-(U2-PadC12)">
-      <node ref="U2" pin="C12"/>
-    </net>
-    <net code="223" name="Net-(U2-PadC11)">
-      <node ref="U2" pin="C11"/>
-    </net>
-    <net code="224" name="/DAC_FLT">
-      <node ref="U2" pin="C1"/>
-      <node ref="U7" pin="11"/>
-    </net>
-    <net code="225" name="Net-(U2-PadB6)">
-      <node ref="U2" pin="B6"/>
-    </net>
-    <net code="226" name="Net-(U2-PadB4)">
-      <node ref="U2" pin="B4"/>
-    </net>
-    <net code="227" name="/MEMS_CS">
-      <node ref="U8" pin="5"/>
-      <node ref="U2" pin="B3"/>
-    </net>
-    <net code="228" name="Net-(U2-PadB2)">
-      <node ref="U2" pin="B2"/>
-    </net>
-    <net code="229" name="Net-(U2-PadB14)">
-      <node ref="U2" pin="B14"/>
-    </net>
-    <net code="230" name="Net-(U2-PadB12)">
-      <node ref="U2" pin="B12"/>
-    </net>
-    <net code="231" name="/RMII_RXD0">
-      <node ref="R34" pin="1"/>
-      <node ref="U2" pin="R6"/>
-    </net>
-    <net code="232" name="/RMII_RXD1">
+    <net code="229" name="/RMII_RXD1">
       <node ref="U2" pin="M7"/>
       <node ref="R35" pin="2"/>
     </net>
-    <net code="233" name="/RMII_CRS_DV">
-      <node ref="U2" pin="N6"/>
-      <node ref="R37" pin="2"/>
+    <net code="230" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="U14" pin="24"/>
     </net>
-    <net code="234" name="/RMII_REF_CLK">
-      <node ref="U2" pin="P2"/>
-      <node ref="R40" pin="2"/>
+    <net code="231" name="Net-(J2-Pad12)">
+      <node ref="R48" pin="1"/>
+      <node ref="J2" pin="12"/>
     </net>
-    <net code="235" name="/SW_UP">
-      <node ref="R22" pin="2"/>
-      <node ref="C42" pin="1"/>
-      <node ref="R19" pin="1"/>
-      <node ref="U2" pin="R12"/>
+    <net code="232" name="Net-(J2-Pad14)">
+      <node ref="R49" pin="1"/>
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="233" name="+15">
+      <node ref="F1" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="234" name="/LED1">
+      <node ref="U2" pin="P15"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="235" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R16" pin="1"/>
     </net>
   </nets>
 </export>
