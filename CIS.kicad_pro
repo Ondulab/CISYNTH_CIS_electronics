@@ -387,12 +387,7 @@
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
         "name": "AUDIO",
-        "nets": [
-          "Net-(C68-Pad1)",
-          "Net-(C69-Pad1)",
-          "Net-(R50-Pad1)",
-          "Net-(R51-Pad2)"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -457,8 +452,7 @@
           "+12V",
           "+15",
           "+3.3V",
-          "+5V",
-          "SWD_+3.3V"
+          "+5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

@@ -1,617 +1,155 @@
-141013313300840
-DVB_Connectors
-52435-3071
-Connector ZIF FFC/FPC 30pins
-FFC FPC ZIF
+35739922683172
+Connector
+Banana_Jack_1Pin
+Single banana socket, footprint - 6mm drill
+banana socket
 0
-36
-31
-DVB_Connectors
-71252-050_0800
-
-
-0
-6
-6
-DVB_Connectors
-BCS-103-L-D-HE
-
-
-0
-6
-3
-DVB_Connectors
-CTB93HE-2
-CAMDENBOSS CTB92HE/2
-DEV
+1
+1
+Connector
+Banana_Jack_2Pin
+Dual banana socket, footprint - 2 x 6mm drills
+banana socket
 0
 2
 2
-DVB_Connectors
-CTB93HE-3
-CAMDENBOSS CTB92HE/3
-DEV
+Connector
+Banana_Jack_3Pin
+Triple banana socket, footprint - 3 x 6mm drills
+banana socket
 0
 3
 3
-DVB_Connectors
-CTB93HE-4
-CAMDENBOSS CTB92HE/4
-DEV
+Connector
+CUI_PD-30
+3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf
+connector 3-pin PD-30 power DIN
 0
 4
 4
-DVB_Connectors
-DC-10AS_2.1mm_Pin
-
-
-0
-4
-3
-DVB_Connectors
-EEG-0K-305-CLN
-LEMO Connector
-
-0
-5
-5
-DVB_Connectors
-EEG-1K-316-CLN
-LEMO CONNECTOR
-LEMO CONNECTOR
-0
-16
-16
-DVB_Connectors
-EHF-105-01-L-D
-
-
-0
-10
-10
-DVB_Connectors
-EHT-105-01-L-D
-EJECTOR ,020 INCH (.51MM) SQUARE POST TERMINAL STRIP
-EJECTOR ,020 INCH (.51MM) SQUARE POST TERMINAL STRIP
-0
-10
-10
-DVB_Connectors
-EHT-105-01-L-D-RA
-
-
-0
-10
-10
-DVB_Connectors
-EHT-105-01-L-D-SM-P
-EJECTOR ,020 INCH (.51MM) SQUARE POST TERMINAL STRIP
-EJECTOR ,020 INCH (.51MM) SQUARE POST TERMINAL STRIP
-0
-10
-10
-DVB_Connectors
-EHT-106-01-L-D-RA
-
-
-0
-12
-12
-DVB_Connectors
-EHT-108-01-L-D-RA
-
-
-0
-16
-16
-DVB_Connectors
-FAG-1K-316-CLD
-LEMO CONNECTOR
-LEMO CONNECTOR
-0
-16
-16
-DVB_Connectors
-FH35C-37S-0.3SHW
-footprint_template StepUp generated footprint
-
-0
-39
-37
-DVB_Connectors
-FH35C-39S-0.3SHW
-footprint_template StepUp generated footprint
-
-0
-41
-39
-DVB_Connectors
-FPC_52435-2471
-
-
-0
-30
-24
-DVB_Connectors
-FPC_502244-2430
-Molex 0.50mm Pitch Easy-On Type FFC/FPC Connector, For LVDS, 2.33mm Height, Right Angle, Surface Mount, ZIF, Bottom Contact Style, 24 Circuits (http://www.molex.com/pdm_docs/sd/5022441530_sd.pdf)
-molex FFC/FPC connector Pitch 0.5mm right angle
-0
-28
-25
-DVB_Connectors
-FPC_503566-4500_F
-
-
-0
-47
-47
-DVB_Connectors
-FPC_503566-4500_M
-
-
-0
-283
-45
-DVB_Connectors
-FPC_5034800800
-
-
-0
-10
-9
-DVB_Connectors
-FTMH-110-02-L-DV-ES-A
-
-
-0
-20
-20
-DVB_Connectors
-FTSH-105-01-F-DH-A
-
-
-0
-10
-10
-DVB_Connectors
-GS3
-3-pin solder bridge
-solder bridge
-0
-3
-3
-DVB_Connectors
-Header-1x12_P2.54_S
-Through hole straight socket strip, 1x12, 2.54mm pitch, single row
-Through hole socket strip THT 1x12 2.54mm single row
-0
-12
-12
-DVB_Connectors
-Header-2x20_P2.54_S
-Through hole straight socket strip, 2x20, 2.54mm pitch, double rows
-Through hole socket strip THT 2x20 2.54mm double row
-0
-40
-40
-DVB_Connectors
-Jack_3.5mm_CUI_SJ1-3533NG_Horizontal
-TRS 3.5mm, horizontal, through-hole, https://www.cui.com/product/resource/sj1-353xng.pdf
-TRS audio jack stereo horizontal
-0
-3
-3
-DVB_Connectors
-LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm
-LFCSP, 8 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-8/CP_8_13.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
-LFCSP DFN_QFN
-0
-13
-9
-DVB_Connectors
-MC9A12-1434
-http://www.farnell.com/datasheets/1520732.pdf
-connector multicomp MC9A MC9A12
-0
-14
-14
-DVB_Connectors
-MLE-110-01-G-DV-A
-
-
-0
-20
-20
-DVB_Connectors
-Micro_SD-EdgeCut
-
-
+Connector
+CUI_PD-30S
+3-pin nonstandard DIN connector, shielded, PD-30S, http://www.cui.com/product/resource/pd-30s.pdf
+connector 3-pin PD-30S power DIN shielded
 0
 8
+5
+Connector
+CUI_PD-30S_CircularHoles
+3-pin nonstandard DIN connector, shielded, PD-30S, http://www.cui.com/product/resource/pd-30s.pdf
+connector 3-pin PD-30S power DIN shielded
+0
 8
-DVB_Connectors
-Molex_FPC_5025983993_2x39_P0.3mm
-
-
-0
-7
-1
-DVB_Connectors
-Molex_PicoBlade_53048-1210_1x12_P1.25mm_Horizontal
-Molex PicoBlade Connector System, 53048-1210, 12 Pins per row (http://www.molex.com/pdm_docs/sd/530480210_sd.pdf), generated with kicad-footprint-generator
-connector Molex PicoBlade top entry
-0
-12
-12
-DVB_Connectors
-Molex_PicoBlade_53261-1271_1x12-1MP_P1.25mm_Horizontal
-Molex PicoBlade series connector, 53261-1271 (http://www.molex.com/pdm_docs/sd/532610271_sd.pdf), generated with kicad-footprint-generator
-connector Molex PicoBlade top entry
-0
-14
-13
-DVB_Connectors
-MultiTerminal_SONY
-
-
-0
-15
-15
-DVB_Connectors
-PWR_PAD
-
-
-0
-1
-1
-DVB_Connectors
-PicoSPOX-2
-
-
-0
-4
-2
-DVB_Connectors
-PicoSPOX-5
-
-
-0
-10
 5
-DVB_Connectors
-PicoSPOX-10
-
-
+Connector
+CalTest_CT3151
+Right-angle standard banana jack, http://www.caltestelectronics.com/images/attachments/P315100rH_drawing.pdf
+banana jack horizontal
 0
-20
-10
-DVB_Connectors
-Pin-1x01_P2.54_S
-Through hole straight pin header, 1x01, 2.54mm pitch, single row
-Through hole pin header THT 1x01 2.54mm single row
-0
+4
 1
-1
-DVB_Connectors
-Pin-1x02_P2.54_S
-Through hole straight socket strip, 1x02, 2.54mm pitch, single row
-Through hole socket strip THT 1x02 2.54mm single row
+Connector
+Connector_SFP_and_Cage
+https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2227302&DocType=Customer+Drawing&DocLang=English
+SFP+ SFP
 0
-2
-2
-DVB_Connectors
-Pin-1x12_P2.54_S_XL
-Through hole straight socket strip, 1x12, 2.54mm pitch, single row
-Through hole socket strip THT 1x12 2.54mm single row
+40
+21
+Connector
+DTF13-12Px
+http://www.te.com/usa-en/product-DTF13-12PA-G003.html
+DEUTSCH DT header 12 pin 
 0
 12
 12
-DVB_Connectors
-Pin-2x16_P2.54_S
-Through hole straight pin header, 2x16, 2.54mm pitch, double rows
-Through hole pin header THT 2x16 2.54mm double row
-0
-32
-32
-DVB_Connectors
-PinHeader_1x03_P1.27mm_Vertical_SMD_Pin1Left
-surface-mounted straight pin header, 1x03, 1.27mm pitch, single row, style 1 (pin 1 left)
-Surface mounted pin header SMD 1x03 1.27mm single row style1 pin1 left
+Connector
+FanPinHeader_1x03_P2.54mm_Vertical
+3-pin CPU fan Through hole pin header, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 3-pin CPU fan
 0
 3
 3
-DVB_Connectors
-PinSocket_1x10_P2.54mm_Vertical
-Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x10 2.54mm single row
-0
-10
-10
-DVB_Connectors
-Pin_Header_RA_1x02_Pitch2.54mm
-Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x02 2.54mm single row
-0
-2
-2
-DVB_Connectors
-Pin_Header_Straight_1x02_Pitch2.54mm
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-DVB_Connectors
-Pin_Header_Straight_1x03_Pitch2.54mm
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
-0
-3
-3
-DVB_Connectors
-Pin_Header_Straight_1x04_Pitch2.54mm
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
+Connector
+FanPinHeader_1x04_P2.54mm_Vertical
+4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 4-pin CPU fan
 0
 4
 4
-DVB_Connectors
-Pol_Pin_Header_1x2-P2.54-RA
-Connecteur 3 pins
-CONN DEV
+Connector
+GB042-34S-H10
+http://www.lsmtron.com/pdf/Connector&Antenna_catalog.PDF
+34pin SMD connector 
+0
+34
+34
+Connector
+IHI_B6A-PCB-45_Vertical
+https://lugsdirect.com/PDF_Webprint/B6A-PCB-45-XX(-X).pdf
+connector IHI B6A-PCB-45
+0
+49
+1
+Connector
+JWT_A3963_1x02_P3.96mm_Vertical
+JWT A3963, 3.96mm pitch Pin head connector (http://www.jwt.com.tw/pro_pdf/A3963.pdf)
+connector JWT A3963 pinhead
 0
 2
 2
-DVB_Connectors
-Pol_Pin_Header_1x3-P2.54-RA
-Connecteur 3 pins
-CONN DEV
-0
-3
-3
-DVB_Connectors
-QSH-060-01-H-D-A
-.5MM DOUBLE ROW HS SOCKET ASSEMBLY, 120 PINS.
-.5MM DOUBLE ROW HS SOCKET ASSEMBLY, 120 PINS.
-0
-128
-128
-DVB_Connectors
-RJ45_Abracon_ARJP11A-MA_Horizontal
-Shielded RJ45 ethernet connector with transformer and POE (https://abracon.com/Magnetics/lan/ARJP11A.PDF)
-ethernet 8p8c transformer poe rj45
-0
-15
-14
-DVB_Connectors
-RJ45_SMD-15.7x16.4x13.4_noLeds
-
-
-0
-10
-9
-DVB_Connectors
-RSP-122811-01
-
-
-0
-3
-3
-DVB_Connectors
-SAMTEC_CLM-102-02-F-D
-
-
+Connector
+NS-Tech_Grove_1x04_P2mm_Vertical
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
 0
 4
 4
-DVB_Connectors
-SAMTEC_FTM-102-02-L-DV
-
-
+Connector
+SpringContact_Harwin_S1941-46R
+7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
+spring contact emi emc shield
 0
-4
-4
-DVB_Connectors
-SD-EdgeCuts
-
-
-0
-9
-9
-DVB_Connectors
-SD_Card_PP
-
-
-0
-15
-11
-DVB_Connectors
-SEAM-50-02-0-S-08-2-A-K-TR
-TERMINAL ARRAY ASSEMBLY, SURFACE MOUNT, 0.050 INCH PITCH, 400 PINS.
-TERMINAL ARRAY ASSEMBLY, SURFACE MOUNT, 0.050 INCH PITCH, 400 PINS.
-0
-400
-400
-DVB_Connectors
-SFMC-105-02-L-D-K-TR
-
-
-0
-10
-10
-DVB_Connectors
-SHF-105-01-L-D-RA
-
-
-0
-10
-10
-DVB_Connectors
-SHF-105-01-L-D-TH
-
-
-0
-10
-10
-DVB_Connectors
-SIM_47553
-
-
-0
-10
-9
-DVB_Connectors
-SQT-105-01-L-D-RA
-
-
-0
-10
-10
-DVB_Connectors
-SSQ-102-01-G-S
-Through hole straight socket strip, 2x20, 2.54mm pitch, double rows
-Through hole socket strip THT 2x20 2.54mm double row
-0
-2
-2
-DVB_Connectors
-SSQ-103-03-G-D
-ASSEMBLY, SOCKET STRIP .025[0.64] SQ TAIL.
-ASSEMBLY, SOCKET STRIP .025[0.64] SQ TAIL.
+1
+1
+Connector
+Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf
+tag connect programming header pogo pins
 0
 6
 6
-DVB_Connectors
-SSQ-105-03-G-D
-ASSEMBLY, SOCKET STRIP .025[0.64] SQ TAIL.
-ASSEMBLY, SOCKET STRIP .025[0.64] SQ TAIL.
+Connector
+Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
+tag connect programming header pogo pins
+0
+6
+6
+Connector
+Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-430%20Datasheet.pdf
+tag connect programming header pogo pins
 0
 10
 10
-DVB_Connectors
-SSQ-107-03-G-D
-ASSEMBLY, SOCKET STRIP .025[0.64] SQ TAIL.
-ASSEMBLY, SOCKET STRIP .025[0.64] SQ TAIL.
+Connector
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_with_bottom_clip
+Tag-Connect programming header with bottom courtyard for TC2050-NL Clip board ; https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-CLIP_Datasheet_25.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2070-IDC-FP_2x07_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2070-IDC%20Datasheet.pdf
+tag connect programming header pogo pins
 0
 14
 14
-DVB_Connectors
-SSQ-111-03-G-D
-ASSEMBLY, SOCKET STRIP .025[0.64] SQ TAIL.
-ASSEMBLY, SOCKET STRIP .025[0.64] SQ TAIL.
-0
-22
-22
-DVB_Connectors
-SSQ-120-01-G-D
-Through hole straight socket strip, 2x20, 2.54mm pitch, double rows
-Through hole socket strip THT 2x20 2.54mm double row
-0
-40
-40
-DVB_Connectors
-SSQ-120-03-G-D
-Through hole straight socket strip, 2x20, 2.54mm pitch, double rows
-Through hole socket strip THT 2x20 2.54mm double row
-0
-40
-40
-DVB_Connectors
-Samtec_TST-110-04-T-D-RA
-
-
-0
-20
-20
-DVB_Connectors
-Solder_Pad_8x5
-
-
-0
-1
-1
-DVB_Connectors
-TD5640_DF30
-
-
-0
-32
-32
-DVB_Connectors
-TE_3-2328724-1‎
-footprint_template StepUp generated footprint
-
-0
-33
-31
-DVB_Connectors
-TMMH_105_01_L_D
-
-
-0
-10
-10
-DVB_Connectors
-USB-M_8pins
-
-
-0
-12
-9
-DVB_Connectors
-USB_Micro-AB
-Micro USB B receptable with flange, bottom-mount, SMD, right-angle (http://www.molex.com/pdm_docs/sd/473460001_sd.pdf)
-Micro B USB SMD
-0
-11
-6
-DVB_Connectors
-USB_Mini-B_Lumberg_2486_01_Horizontal
-USB Mini-B 5-pin SMD connector, http://downloads.lumberg.com/datenblaetter/en/2486_01.pdf
-USB USB_B USB_Mini connector
-0
-9
-6
-DVB_Connectors
-USB_Mini-B_vertical
-
-
-0
-7
-5
-DVB_Connectors
-WR-MM-6
-
-
-0
-6
-6
-DVB_Connectors
-Wurth_693061010911
-
-
-0
-13
-11
-DVB_Connectors
-mPCIe
-
-
-0
-60
-52
-DVB_Connectors
-molex_52745-1497
-Molex StepUp generated footprint
-
-0
-18
-15
-DVB_Connectors
-stamped_contact_2.8mm
-
-
-0
-1
-1
