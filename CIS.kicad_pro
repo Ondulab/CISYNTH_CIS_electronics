@@ -49,7 +49,15 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|90456766|101379999|00000000-0000-0000-0000-00005ff05dcc|00000000-0000-0000-0000-0000600f4c45",
+        "silk_over_copper|273426666|83100000|88310d61-cd03-423d-b8ba-9e96d5d1efab|e9ac8633-367c-466d-a47d-f6640f4ee365",
+        "silk_over_copper|274910000|83390000|00000000-0000-0000-0000-00005fd776d8|ca870b81-d94e-4a20-843b-2ff790ca5c3b",
+        "silk_over_copper|274910000|99890000|00000000-0000-0000-0000-00005fd776d8|9df96929-b4e0-4e50-9da5-82aef395d91b",
+        "silk_over_copper|86450000|81915000|00000000-0000-0000-0000-00005fda43d9|264ee425-bdb3-44ba-9508-7f6797fecd91",
+        "silk_over_copper|86450000|81915000|00000000-0000-0000-0000-00005fda43d9|b3e14339-9532-48d0-ad54-125c25c0f8bc",
+        "silk_over_copper|86450000|98885000|00000000-0000-0000-0000-00005fda43d9|4b9dc9d5-6575-49b1-b2ff-438ffad85f40"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -485,7 +493,7 @@
       }
     ],
     "meta": {
-      "version": 1
+      "version": 2
     },
     "net_colors": null
   },
@@ -495,8 +503,8 @@
       "idf": "",
       "netlist": "CIS.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "CIS.step",
+      "vrml": "CIS.wrl"
     },
     "page_layout_descr_file": ""
   },
@@ -515,16 +523,19 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
+      "label_size_ratio": 0.3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
     "meta": {
-      "version": 0
+      "version": 1
     },
     "net_format_name": "Pcbnew",
     "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
       "meta": {
         "version": 0
       },
