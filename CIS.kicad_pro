@@ -502,7 +502,7 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "CIS.cad",
       "idf": "",
       "netlist": "CIS.net",
       "specctra_dsn": "",
