@@ -49,16 +49,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "courtyards_overlap|90456766|101379999|00000000-0000-0000-0000-00005ff05dcc|00000000-0000-0000-0000-0000600f4c45",
-        "silk_over_copper|274920797|99890000|268ce368-6053-4bed-8db3-a065cb7f063f|7ab23b73-a2f0-4c81-8631-3206ea8bce9f",
-        "silk_over_copper|274920797|99890000|268ce368-6053-4bed-8db3-a065cb7f063f|9df96929-b4e0-4e50-9da5-82aef395d91b",
-        "silk_over_copper|274920800|83390000|268ce368-6053-4bed-8db3-a065cb7f063f|58235cb6-8fbb-45af-b7b4-1425ec6fdc0f",
-        "silk_over_copper|274920800|83390000|268ce368-6053-4bed-8db3-a065cb7f063f|ca870b81-d94e-4a20-843b-2ff790ca5c3b",
-        "silk_over_copper|86450000|81915000|2a223736-6cf8-4e27-9dcb-09d2beaf8fac|264ee425-bdb3-44ba-9508-7f6797fecd91",
-        "silk_over_copper|86450000|81915000|2a223736-6cf8-4e27-9dcb-09d2beaf8fac|b3e14339-9532-48d0-ad54-125c25c0f8bc",
-        "silk_over_copper|86450000|98885000|2a223736-6cf8-4e27-9dcb-09d2beaf8fac|4b9dc9d5-6575-49b1-b2ff-438ffad85f40"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -89,8 +80,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "error",
-        "silk_overlap": "error",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -111,7 +102,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.0,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -398,7 +389,12 @@
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
         "name": "AUDIO",
-        "nets": [],
+        "nets": [
+          "Net-(C68-Pad1)",
+          "Net-(C69-Pad1)",
+          "Net-(R50-Pad1)",
+          "Net-(R51-Pad2)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -463,7 +459,8 @@
           "+12V",
           "+15",
           "+3.3V",
-          "+5V"
+          "+5V",
+          "SWD_+3.3V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -502,23 +499,20 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "CIS.cad",
+      "gencad": "",
       "idf": "",
       "netlist": "CIS.net",
       "specctra_dsn": "",
-      "step": "CIS.step",
-      "vrml": "CIS.wrl"
+      "step": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
-      "default_bus_thickness": 12.0,
-      "default_junction_size": 40.0,
       "default_line_thickness": 6.0,
       "default_text_size": 60.0,
-      "default_wire_thickness": 6.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -526,9 +520,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.3,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.3
+      "label_size_ratio": 0.25,
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],

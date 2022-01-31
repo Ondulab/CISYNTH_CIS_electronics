@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -28,20 +28,16 @@
     },
     "visible_items": [
       0,
-      1,
-      2,
       3,
       4,
       5,
-      8,
+      6,
       9,
       10,
       11,
-      13,
       14,
       15,
       16,
-      17,
       18,
       19,
       20,
@@ -61,8 +57,8 @@
       35,
       36
     ],
-    "visible_layers": "00030e0_ffffffff",
-    "zone_display_mode": 1
+    "visible_layers": "000d008_00000002",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "CIS.kicad_prl",
