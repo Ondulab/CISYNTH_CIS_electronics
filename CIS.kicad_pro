@@ -48,8 +48,23 @@
           "min_clearance": 0.091
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "courtyards_overlap|90456766|101379999|00000000-0000-0000-0000-00005ff05dcc|00000000-0000-0000-0000-0000600f4c45",
+        "items_not_allowed|247705000|97250000|00000000-0000-0000-0000-0000600defc6|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|85410000|78150000|00000000-0000-0000-0000-0000600defae|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|274920797|99890000|268ce368-6053-4bed-8db3-a065cb7f063f|7ab23b73-a2f0-4c81-8631-3206ea8bce9f",
+        "silk_over_copper|274920800|83390000|268ce368-6053-4bed-8db3-a065cb7f063f|58235cb6-8fbb-45af-b7b4-1425ec6fdc0f",
+        "silk_over_copper|86450000|81915000|2a223736-6cf8-4e27-9dcb-09d2beaf8fac|264ee425-bdb3-44ba-9508-7f6797fecd91",
+        "silk_over_copper|86450000|81915000|2a223736-6cf8-4e27-9dcb-09d2beaf8fac|b3e14339-9532-48d0-ad54-125c25c0f8bc",
+        "silk_over_copper|86450000|98885000|2a223736-6cf8-4e27-9dcb-09d2beaf8fac|4b9dc9d5-6575-49b1-b2ff-438ffad85f40"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -102,15 +117,15 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.24,
+        "min_hole_to_hole": 0.24,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.09999999999999999,
         "min_track_width": 0.091,
         "min_via_annular_width": 0.049999999999999996,
-        "min_via_diameter": 0.44999999999999996,
+        "min_via_diameter": 0.44,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
@@ -130,12 +145,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
-          "drill": 0.2
+          "diameter": 0.44,
+          "drill": 0.15
         },
         {
           "diameter": 0.6,
-          "drill": 0.35
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -375,8 +390,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.091,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_diameter": 0.44,
+        "via_drill": 0.15,
         "wire_width": 6.0
       },
       {
@@ -389,17 +404,12 @@
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
         "name": "AUDIO",
-        "nets": [
-          "Net-(C68-Pad1)",
-          "Net-(C69-Pad1)",
-          "Net-(R50-Pad1)",
-          "Net-(R51-Pad2)"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -421,8 +431,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.45,
-        "via_drill": 0.2,
+        "via_diameter": 0.44,
+        "via_drill": 0.15,
         "wire_width": 6.0
       },
       {
@@ -442,7 +452,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.125,
         "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -459,14 +469,13 @@
           "+12V",
           "+15",
           "+3.3V",
-          "+5V",
-          "SWD_+3.3V"
+          "+5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.125,
         "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -481,14 +490,13 @@
         "name": "VREF",
         "nets": [
           "Net-(C72-Pad1)",
-          "VERF+",
-          "VERF-"
+          "VERF+"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.6,
-        "via_drill": 0.35,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
