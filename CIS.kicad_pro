@@ -540,7 +540,7 @@
       "netlist": "CIS.net",
       "specctra_dsn": "",
       "step": "",
-      "vrml": ""
+      "vrml": "CIS.wrl"
     },
     "page_layout_descr_file": ""
   },
