@@ -56,6 +56,14 @@
         }
       ],
       "drc_exclusions": [
+        "clearance|247272000|100112000|848e70d6-877b-4257-9f60-5a6e09357603|de6dfe1a-cb0d-498b-aaec-dbf19e272cd8",
+        "clearance|247272000|100388000|de6dfe1a-cb0d-498b-aaec-dbf19e272cd8|848e70d6-877b-4257-9f60-5a6e09357603",
+        "clearance|250144000|100388000|de6dfe1a-cb0d-498b-aaec-dbf19e272cd8|189df9e1-ff3f-4f65-be1d-9e0c6787a067",
+        "clearance|250144000|100388000|de71feb9-0dd4-44d7-b83c-611b170386f8|189df9e1-ff3f-4f65-be1d-9e0c6787a067",
+        "clearance|250166000|100112000|189df9e1-ff3f-4f65-be1d-9e0c6787a067|a7a196e1-96a0-49ce-b577-90a60645d47c",
+        "clearance|250166000|100112000|ce83b85d-369f-42d5-858c-d5b2dbf74cf5|a7a196e1-96a0-49ce-b577-90a60645d47c",
+        "clearance|250166000|100388000|a7a196e1-96a0-49ce-b577-90a60645d47c|6b61c4ea-5e23-45f2-a503-03cbb5d89811",
+        "clearance|257248000|100112000|02db6fc9-0213-4c57-9d34-578263671cf9|a7a196e1-96a0-49ce-b577-90a60645d47c",
         "courtyards_overlap|90456766|101379999|00000000-0000-0000-0000-00005ff05dcc|00000000-0000-0000-0000-0000600f4c45",
         "items_not_allowed|247705000|97250000|00000000-0000-0000-0000-0000600defc6|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|85410000|78150000|00000000-0000-0000-0000-0000600defae|00000000-0000-0000-0000-000000000000",
@@ -408,6 +416,26 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.091,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.508,
+        "microvia_drill": 0.127,
+        "name": "AVDD",
+        "nets": [
+          "AVDD"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6.0
