@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/zhonx/Documents/Projets_PRE/CISYNTH/CIS/Electronique/sss-cis_electronics/CIS.kicad_sch</source>
-    <date>2023 May 04, Thursday 11:46:05</date>
+    <date>2024 February 27, Tuesday 16:11:47</date>
     <tool>Eeschema 7.0.2-0</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -554,50 +554,50 @@
       <tstamps>00000000-0000-0000-0000-0000595d9cab</tstamps>
     </comp>
     <comp ref="C24">
-      <value>C_0013</value>
+      <value>C_0014</value>
       <footprint>DVB_Capacitors_Ceramic:C_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">CER</field>
-        <field name="Field5">22pF</field>
+        <field name="Field4">4.7pF</field>
+        <field name="Field5">CER</field>
         <field name="Field6">50V</field>
         <field name="Field7">COG/NPO</field>
         <field name="Field8">5%</field>
       </fields>
-      <libsource lib="DVB_C" part="C_0013" description="DVB_Capacitors_Ceramic:C_0402, CER, 22pF, 50V, COG/NPO, 5%"/>
-      <property name="Field4" value="CER"/>
-      <property name="Field5" value="22pF"/>
+      <libsource lib="DVB_C" part="C_0014" description="DVB_Capacitors_Ceramic:C_0402, CER, 4.7pF, 50V, COG/NPO, 5%"/>
+      <property name="Field4" value="4.7pF"/>
+      <property name="Field5" value="CER"/>
       <property name="Field6" value="50V"/>
       <property name="Field7" value="COG/NPO"/>
       <property name="Field8" value="5%"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_0402, CER, 22pF, 50V, COG/NPO, 5%"/>
+      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_0402, CER, 4.7pF, 50V, COG/NPO, 5%"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fc80bd6</tstamps>
+      <tstamps>bb223856-c692-47be-a101-89ea0aef0812</tstamps>
     </comp>
     <comp ref="C25">
-      <value>C_0053</value>
-      <footprint>DVB_Capacitors_Ceramic:C_0805</footprint>
+      <value>C_0040</value>
+      <footprint>DVB_Capacitors_Ceramic:C_1210</footprint>
       <datasheet>generic</datasheet>
       <fields>
         <field name="Field4">CER</field>
-        <field name="Field5">10µF</field>
-        <field name="Field6">6.3V</field>
+        <field name="Field5">47µF</field>
+        <field name="Field6">10V</field>
         <field name="Field7">X7R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="DVB_C" part="C_0053" description="DVB_Capacitors_Ceramic:C_0805, CER, 10µF, 6.3V, X7R, 10%"/>
+      <libsource lib="DVB_C" part="C_0040" description="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
       <property name="Field4" value="CER"/>
-      <property name="Field5" value="10µF"/>
-      <property name="Field6" value="6.3V"/>
+      <property name="Field5" value="47µF"/>
+      <property name="Field6" value="10V"/>
       <property name="Field7" value="X7R"/>
       <property name="Field8" value="10%"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_0805, CER, 10µF, 6.3V, X7R, 10%"/>
+      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_1210, CER, 47µF, 10V, X7R, 10%"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ff3aac4</tstamps>
+      <tstamps>e1977a9d-c08b-47f8-be27-bf50ffe48ad7</tstamps>
     </comp>
     <comp ref="C26">
       <value>C_0028</value>
@@ -1520,27 +1520,27 @@
       <tstamps>fb8de1b3-57a0-4f8a-a3d2-f3f43a96f453</tstamps>
     </comp>
     <comp ref="C68">
-      <value>C_0053</value>
-      <footprint>DVB_Capacitors_Ceramic:C_0805</footprint>
+      <value>C_0003</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
       <datasheet>generic</datasheet>
       <fields>
         <field name="Field4">CER</field>
         <field name="Field5">10µF</field>
-        <field name="Field6">6.3V</field>
-        <field name="Field7">X7R</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="DVB_C" part="C_0053" description="DVB_Capacitors_Ceramic:C_0805, CER, 10µF, 6.3V, X7R, 10%"/>
+      <libsource lib="DVB_C" part="C_0003" description="DVB_Capacitors_Ceramic:C_0603, CER, 10µF, 25V, X5R, 10%"/>
       <property name="Field4" value="CER"/>
       <property name="Field5" value="10µF"/>
-      <property name="Field6" value="6.3V"/>
-      <property name="Field7" value="X7R"/>
+      <property name="Field6" value="25V"/>
+      <property name="Field7" value="X5R"/>
       <property name="Field8" value="10%"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_0805, CER, 10µF, 6.3V, X7R, 10%"/>
+      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_0603, CER, 10µF, 25V, X5R, 10%"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bb4fce91-366e-4f20-ad60-072149da4fc5</tstamps>
+      <tstamps>7593f9dc-2205-428d-8064-36869bb1cd02</tstamps>
     </comp>
     <comp ref="C69">
       <value>C_0044</value>
@@ -1589,50 +1589,50 @@
       <tstamps>00000000-0000-0000-0000-00005fd54e54</tstamps>
     </comp>
     <comp ref="C71">
-      <value>C_0053</value>
-      <footprint>DVB_Capacitors_Ceramic:C_0805</footprint>
+      <value>C_0003</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
       <datasheet>generic</datasheet>
       <fields>
         <field name="Field4">CER</field>
         <field name="Field5">10µF</field>
-        <field name="Field6">6.3V</field>
-        <field name="Field7">X7R</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="DVB_C" part="C_0053" description="DVB_Capacitors_Ceramic:C_0805, CER, 10µF, 6.3V, X7R, 10%"/>
+      <libsource lib="DVB_C" part="C_0003" description="DVB_Capacitors_Ceramic:C_0603, CER, 10µF, 25V, X5R, 10%"/>
       <property name="Field4" value="CER"/>
       <property name="Field5" value="10µF"/>
-      <property name="Field6" value="6.3V"/>
-      <property name="Field7" value="X7R"/>
+      <property name="Field6" value="25V"/>
+      <property name="Field7" value="X5R"/>
       <property name="Field8" value="10%"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_0805, CER, 10µF, 6.3V, X7R, 10%"/>
+      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_0603, CER, 10µF, 25V, X5R, 10%"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fba42ff</tstamps>
+      <tstamps>ae15841c-ce3a-4431-9569-95b5ac063351</tstamps>
     </comp>
     <comp ref="C72">
-      <value>C_0053</value>
-      <footprint>DVB_Capacitors_Ceramic:C_0805</footprint>
+      <value>C_0003</value>
+      <footprint>DVB_Capacitors_Ceramic:C_0603</footprint>
       <datasheet>generic</datasheet>
       <fields>
         <field name="Field4">CER</field>
         <field name="Field5">10µF</field>
-        <field name="Field6">6.3V</field>
-        <field name="Field7">X7R</field>
+        <field name="Field6">25V</field>
+        <field name="Field7">X5R</field>
         <field name="Field8">10%</field>
       </fields>
-      <libsource lib="DVB_C" part="C_0053" description="DVB_Capacitors_Ceramic:C_0805, CER, 10µF, 6.3V, X7R, 10%"/>
+      <libsource lib="DVB_C" part="C_0003" description="DVB_Capacitors_Ceramic:C_0603, CER, 10µF, 25V, X5R, 10%"/>
       <property name="Field4" value="CER"/>
       <property name="Field5" value="10µF"/>
-      <property name="Field6" value="6.3V"/>
-      <property name="Field7" value="X7R"/>
+      <property name="Field6" value="25V"/>
+      <property name="Field7" value="X5R"/>
       <property name="Field8" value="10%"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_0805, CER, 10µF, 6.3V, X7R, 10%"/>
+      <property name="ki_description" value="DVB_Capacitors_Ceramic:C_0603, CER, 10µF, 25V, X5R, 10%"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005fd49607</tstamps>
+      <tstamps>031fb55b-2887-4ae3-b1a9-7f617e657cd4</tstamps>
     </comp>
     <comp ref="C73">
       <value>C_0063</value>
@@ -2219,25 +2219,25 @@
       <tstamps>e7f02db9-04c6-4f7e-8342-45df17f788dc</tstamps>
     </comp>
     <comp ref="L3">
-      <value>L_0010</value>
+      <value>L_0017</value>
       <footprint>DVB_Inductors:L_0603</footprint>
-      <datasheet>http://www.farnell.com/datasheets/84899.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</datasheet>
+      <datasheet>http://www.farnell.com/datasheets/2575526.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</datasheet>
       <fields>
-        <field name="Field4">MMZ1608B121C</field>
-        <field name="Field5">600mA</field>
-        <field name="Field6">CHIP BEADS</field>
-        <field name="Field7">120ohm to 100Mhz</field>
+        <field name="Field4">FBMJ1608HM180NTR</field>
+        <field name="Field5">7.5A</field>
+        <field name="Field6">BEADS</field>
+        <field name="Field7">18ohm</field>
       </fields>
-      <libsource lib="DVB_L" part="L_0010" description="DVB_Inductors:L_0603, MMZ1608B121C, 600mA, CHIP BEADS, 120ohm to 100Mhz"/>
-      <property name="Field4" value="MMZ1608B121C"/>
-      <property name="Field5" value="600mA"/>
-      <property name="Field6" value="CHIP BEADS"/>
-      <property name="Field7" value="120ohm to 100Mhz"/>
+      <libsource lib="DVB_L" part="L_0017" description="DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz"/>
+      <property name="Field4" value="FBMJ1608HM180NTR"/>
+      <property name="Field5" value="7.5A"/>
+      <property name="Field6" value="BEADS"/>
+      <property name="Field7" value="18ohm"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Inductors:L_0603, MMZ1608B121C, 600mA, CHIP BEADS, 120ohm to 100Mhz"/>
+      <property name="ki_description" value="DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4afa469b-63aa-467a-84f6-d86c5245b420</tstamps>
+      <tstamps>33a7525b-29c8-4268-a8f6-51363e571e93</tstamps>
     </comp>
     <comp ref="L4">
       <value>L_0002</value>
@@ -2323,6 +2323,69 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006022679d</tstamps>
     </comp>
+    <comp ref="L8">
+      <value>L_0017</value>
+      <footprint>DVB_Inductors:L_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2575526.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field4">FBMJ1608HM180NTR</field>
+        <field name="Field5">7.5A</field>
+        <field name="Field6">BEADS</field>
+        <field name="Field7">18ohm</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0017" description="DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz"/>
+      <property name="Field4" value="FBMJ1608HM180NTR"/>
+      <property name="Field5" value="7.5A"/>
+      <property name="Field6" value="BEADS"/>
+      <property name="Field7" value="18ohm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CIS.kicad_sch"/>
+      <property name="ki_description" value="DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f355c72-03ee-44ea-b95b-0907f5823c50</tstamps>
+    </comp>
+    <comp ref="L9">
+      <value>L_0017</value>
+      <footprint>DVB_Inductors:L_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2575526.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field4">FBMJ1608HM180NTR</field>
+        <field name="Field5">7.5A</field>
+        <field name="Field6">BEADS</field>
+        <field name="Field7">18ohm</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0017" description="DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz"/>
+      <property name="Field4" value="FBMJ1608HM180NTR"/>
+      <property name="Field5" value="7.5A"/>
+      <property name="Field6" value="BEADS"/>
+      <property name="Field7" value="18ohm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CIS.kicad_sch"/>
+      <property name="ki_description" value="DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bbde82b-fae8-4010-bd37-51528430fc78</tstamps>
+    </comp>
+    <comp ref="L10">
+      <value>L_0017</value>
+      <footprint>DVB_Inductors:L_0603</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2575526.pdf?_ga=2.129998540.1318262782.1499092899-695518372.1495123464</datasheet>
+      <fields>
+        <field name="Field4">FBMJ1608HM180NTR</field>
+        <field name="Field5">7.5A</field>
+        <field name="Field6">BEADS</field>
+        <field name="Field7">18ohm</field>
+      </fields>
+      <libsource lib="DVB_L" part="L_0017" description="DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz"/>
+      <property name="Field4" value="FBMJ1608HM180NTR"/>
+      <property name="Field5" value="7.5A"/>
+      <property name="Field6" value="BEADS"/>
+      <property name="Field7" value="18ohm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="CIS.kicad_sch"/>
+      <property name="ki_description" value="DVB_Inductors:L_0603, FBMJ1608HM180NTR, 7.5A, BEADS, 18ohm to 100Mhz"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6613f4d6-3d90-443e-bdf3-dd7aaf2f426b</tstamps>
+    </comp>
     <comp ref="Q1">
       <value>Q_0002</value>
       <footprint>DVB_SOT:SOT_323-SC_70</footprint>
@@ -2406,23 +2469,23 @@
       <tstamps>00000000-0000-0000-0000-00005b5d1226</tstamps>
     </comp>
     <comp ref="R2">
-      <value>R_0001</value>
-      <footprint>DVB_Resistors:R_0603</footprint>
+      <value>R_0064</value>
+      <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">0</field>
+        <field name="Field4">100k</field>
         <field name="Field5">5%</field>
         <field name="Field6">63mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0001" description="DVB_Resistors:R_0402, 0, 5%, 63mW"/>
-      <property name="Field4" value="0"/>
+      <libsource lib="DVB_R" part="R_0064" description="DVB_Resistors:R_0402, 100k, 5%, 63mW"/>
+      <property name="Field4" value="100k"/>
       <property name="Field5" value="5%"/>
       <property name="Field6" value="63mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 0, 5%, 63mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 100k, 5%, 63mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>36c4d7f1-f026-4940-ba78-48136faeb54c</tstamps>
+      <tstamps>396dc84f-eaed-4a1d-b126-d08e39785be0</tstamps>
     </comp>
     <comp ref="R3">
       <value>R_0030</value>
@@ -2501,42 +2564,42 @@
       <tstamps>00000000-0000-0000-0000-00005ff92c7d</tstamps>
     </comp>
     <comp ref="R7">
-      <value>R_0002</value>
+      <value>R_0173</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">1M</field>
+        <field name="Field4">1.8M</field>
         <field name="Field5">1%</field>
         <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0002" description="DVB_Resistors:R_0402, 1M, 1%, 100mW"/>
-      <property name="Field4" value="1M"/>
+      <libsource lib="DVB_R" part="R_0173" description="DVB_Resistors:R_0402, 1.8M, 1%, 100mW"/>
+      <property name="Field4" value="1.8M"/>
       <property name="Field5" value="1%"/>
       <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 1M, 1%, 100mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 1.8M, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000607436da</tstamps>
+      <tstamps>a91355c3-cc84-41d4-80bb-2d36780ae131</tstamps>
     </comp>
     <comp ref="R8">
-      <value>R_0114</value>
+      <value>R_0174</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">130k</field>
+        <field name="Field4">205K</field>
         <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
+        <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0114" description="DVB_Resistors:R_0402, 130k, 1%, 63mW"/>
-      <property name="Field4" value="130k"/>
+      <libsource lib="DVB_R" part="R_0174" description="DVB_Resistors:R_0402, 205K, 1%, 100mW"/>
+      <property name="Field4" value="205K"/>
       <property name="Field5" value="1%"/>
-      <property name="Field6" value="63mW"/>
+      <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 130k, 1%, 63mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 205K, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060748699</tstamps>
+      <tstamps>f30dacc4-63e1-4e23-9993-9c1799753220</tstamps>
     </comp>
     <comp ref="R9">
       <value>R_0102</value>
@@ -2672,23 +2735,23 @@
       <tstamps>00000000-0000-0000-0000-00006047c3b4</tstamps>
     </comp>
     <comp ref="R16">
-      <value>R_0104</value>
+      <value>R_0053</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">750</field>
+        <field name="Field4">220</field>
         <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
+        <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0104" description="DVB_Resistors:R_0402, 750, 1%, 63mW"/>
-      <property name="Field4" value="750"/>
+      <libsource lib="DVB_R" part="R_0053" description="DVB_Resistors:R_0402, 220, 1%, 100mW"/>
+      <property name="Field4" value="220"/>
       <property name="Field5" value="1%"/>
-      <property name="Field6" value="63mW"/>
+      <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 750, 1%, 63mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 220, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000059614d08</tstamps>
+      <tstamps>3c3944cf-095a-4743-8137-8a90d45070d7</tstamps>
     </comp>
     <comp ref="R17">
       <value>R_0133</value>
@@ -2710,23 +2773,23 @@
       <tstamps>00000000-0000-0000-0000-00005ba951a3</tstamps>
     </comp>
     <comp ref="R18">
-      <value>R_0104</value>
+      <value>R_0053</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">750</field>
+        <field name="Field4">220</field>
         <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
+        <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0104" description="DVB_Resistors:R_0402, 750, 1%, 63mW"/>
-      <property name="Field4" value="750"/>
+      <libsource lib="DVB_R" part="R_0053" description="DVB_Resistors:R_0402, 220, 1%, 100mW"/>
+      <property name="Field4" value="220"/>
       <property name="Field5" value="1%"/>
-      <property name="Field6" value="63mW"/>
+      <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 750, 1%, 63mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 220, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>794f8b7e-4bdb-4e95-9c98-c7b40c252a80</tstamps>
+      <tstamps>355c007a-013c-4995-af89-a26c1aa2b7d5</tstamps>
     </comp>
     <comp ref="R19">
       <value>R_0005</value>
@@ -2767,23 +2830,23 @@
       <tstamps>00000000-0000-0000-0000-00005fcc90e4</tstamps>
     </comp>
     <comp ref="R21">
-      <value>R_0104</value>
+      <value>R_0053</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">750</field>
+        <field name="Field4">220</field>
         <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
+        <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0104" description="DVB_Resistors:R_0402, 750, 1%, 63mW"/>
-      <property name="Field4" value="750"/>
+      <libsource lib="DVB_R" part="R_0053" description="DVB_Resistors:R_0402, 220, 1%, 100mW"/>
+      <property name="Field4" value="220"/>
       <property name="Field5" value="1%"/>
-      <property name="Field6" value="63mW"/>
+      <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 750, 1%, 63mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 220, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ee55b042-6a65-4e98-97ee-dea15e2b3319</tstamps>
+      <tstamps>812f51cd-d7ca-48d5-9ea1-27455bf38862</tstamps>
     </comp>
     <comp ref="R22">
       <value>R_0020</value>
@@ -2900,80 +2963,80 @@
       <tstamps>00000000-0000-0000-0000-0000609f832b</tstamps>
     </comp>
     <comp ref="R28">
-      <value>R_0117</value>
+      <value>R_0175</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">49.9k</field>
+        <field name="Field4">49.9</field>
         <field name="Field5">1%</field>
         <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0117" description="DVB_Resistors:R_0402, 49.9k, 1%, 100mW"/>
-      <property name="Field4" value="49.9k"/>
+      <libsource lib="DVB_R" part="R_0175" description="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
+      <property name="Field4" value="49.9"/>
       <property name="Field5" value="1%"/>
       <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9k, 1%, 100mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ba6ab36</tstamps>
+      <tstamps>dee5a775-24e9-4081-a308-2c113bdc19eb</tstamps>
     </comp>
     <comp ref="R29">
-      <value>R_0117</value>
+      <value>R_0175</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">49.9k</field>
+        <field name="Field4">49.9</field>
         <field name="Field5">1%</field>
         <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0117" description="DVB_Resistors:R_0402, 49.9k, 1%, 100mW"/>
-      <property name="Field4" value="49.9k"/>
+      <libsource lib="DVB_R" part="R_0175" description="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
+      <property name="Field4" value="49.9"/>
       <property name="Field5" value="1%"/>
       <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9k, 1%, 100mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ba6a9de</tstamps>
+      <tstamps>692300aa-c8ae-49fa-be00-ad4bcdd9d4a5</tstamps>
     </comp>
     <comp ref="R30">
-      <value>R_0117</value>
+      <value>R_0175</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">49.9k</field>
+        <field name="Field4">49.9</field>
         <field name="Field5">1%</field>
         <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0117" description="DVB_Resistors:R_0402, 49.9k, 1%, 100mW"/>
-      <property name="Field4" value="49.9k"/>
+      <libsource lib="DVB_R" part="R_0175" description="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
+      <property name="Field4" value="49.9"/>
       <property name="Field5" value="1%"/>
       <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9k, 1%, 100mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ba6a88c</tstamps>
+      <tstamps>8d861965-59a7-4941-90e3-7685821056ba</tstamps>
     </comp>
     <comp ref="R31">
-      <value>R_0117</value>
+      <value>R_0175</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">49.9k</field>
+        <field name="Field4">49.9</field>
         <field name="Field5">1%</field>
         <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0117" description="DVB_Resistors:R_0402, 49.9k, 1%, 100mW"/>
-      <property name="Field4" value="49.9k"/>
+      <libsource lib="DVB_R" part="R_0175" description="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
+      <property name="Field4" value="49.9"/>
       <property name="Field5" value="1%"/>
       <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9k, 1%, 100mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005ba68d58</tstamps>
+      <tstamps>af260730-5c38-45df-b07d-a274dc223afb</tstamps>
     </comp>
     <comp ref="R32">
       <value>R_0020</value>
@@ -3014,42 +3077,42 @@
       <tstamps>00000000-0000-0000-0000-00005b709bf0</tstamps>
     </comp>
     <comp ref="R34">
-      <value>R_0134</value>
+      <value>R_0175</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">33</field>
+        <field name="Field4">49.9</field>
         <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
+        <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0134" description="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
-      <property name="Field4" value="33"/>
+      <libsource lib="DVB_R" part="R_0175" description="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
+      <property name="Field4" value="49.9"/>
       <property name="Field5" value="1%"/>
-      <property name="Field6" value="63mW"/>
+      <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005bad041d</tstamps>
+      <tstamps>ca0c339c-aae6-4c49-9a2c-034ae8c06aeb</tstamps>
     </comp>
     <comp ref="R35">
-      <value>R_0134</value>
+      <value>R_0175</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">33</field>
+        <field name="Field4">49.9</field>
         <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
+        <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0134" description="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
-      <property name="Field4" value="33"/>
+      <libsource lib="DVB_R" part="R_0175" description="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
+      <property name="Field4" value="49.9"/>
       <property name="Field5" value="1%"/>
-      <property name="Field6" value="63mW"/>
+      <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005bacfe5d</tstamps>
+      <tstamps>3f52413d-7095-4d3f-b8d3-8e440fde1bd0</tstamps>
     </comp>
     <comp ref="R36">
       <value>R_0020</value>
@@ -3071,23 +3134,23 @@
       <tstamps>00000000-0000-0000-0000-00005b709d95</tstamps>
     </comp>
     <comp ref="R37">
-      <value>R_0134</value>
+      <value>R_0175</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">33</field>
+        <field name="Field4">49.9</field>
         <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
+        <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0134" description="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
-      <property name="Field4" value="33"/>
+      <libsource lib="DVB_R" part="R_0175" description="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
+      <property name="Field4" value="49.9"/>
       <property name="Field5" value="1%"/>
-      <property name="Field6" value="63mW"/>
+      <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005bacef9b</tstamps>
+      <tstamps>96985fc9-5ebf-4c5a-828a-c27f78cd8b91</tstamps>
     </comp>
     <comp ref="R38">
       <value>R_0118</value>
@@ -3128,23 +3191,23 @@
       <tstamps>00000000-0000-0000-0000-00005b718ab4</tstamps>
     </comp>
     <comp ref="R40">
-      <value>R_0134</value>
+      <value>R_0175</value>
       <footprint>DVB_Resistors:R_0402</footprint>
       <datasheet>generic</datasheet>
       <fields>
-        <field name="Field4">33</field>
+        <field name="Field4">49.9</field>
         <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
+        <field name="Field6">100mW</field>
       </fields>
-      <libsource lib="DVB_R" part="R_0134" description="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
-      <property name="Field4" value="33"/>
+      <libsource lib="DVB_R" part="R_0175" description="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
+      <property name="Field4" value="49.9"/>
       <property name="Field5" value="1%"/>
-      <property name="Field6" value="63mW"/>
+      <property name="Field6" value="100mW"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="CIS.kicad_sch"/>
-      <property name="ki_description" value="DVB_Resistors:R_0402, 33, 1%, 63mW"/>
+      <property name="ki_description" value="DVB_Resistors:R_0402, 49.9, 1%, 100mW"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005bacd0df</tstamps>
+      <tstamps>6cd5b5a9-2643-4485-8973-8eb75f71aa47</tstamps>
     </comp>
     <comp ref="R41">
       <value>R_0064</value>
@@ -3612,7 +3675,7 @@
     <comp ref="U10">
       <value>U_0139</value>
       <footprint>DVB_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y</footprint>
-      <datasheet>https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/DS-000439-ICM-42688-V-v1.1.pdf</datasheet>
+      <datasheet>https://invensense.tdk.com/wp-content/uploads/2022/12/DS-000347-ICM-42688-P-v1.7.pdf</datasheet>
       <fields>
         <field name="Field4">ICM-42688</field>
         <field name="Field5">MEMS</field>
@@ -3834,16 +3897,16 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="DVB_C" part="C_0013">
-      <description>DVB_Capacitors_Ceramic:C_0402, CER, 22pF, 50V, COG/NPO, 5%</description>
+    <libpart lib="DVB_C" part="C_0014">
+      <description>DVB_Capacitors_Ceramic:C_0402, CER, 4.7pF, 50V, COG/NPO, 5%</description>
       <docs>generic</docs>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C_0013</field>
+        <field name="Value">C_0014</field>
         <field name="Footprint">DVB_Capacitors_Ceramic:C_0402</field>
         <field name="Datasheet">generic</field>
-        <field name="Field4">CER</field>
-        <field name="Field5">22pF</field>
+        <field name="Field4">4.7pF</field>
+        <field name="Field5">CER</field>
         <field name="Field6">50V</field>
         <field name="Field7">COG/NPO</field>
         <field name="Field8">5%</field>
@@ -3960,25 +4023,6 @@
         <field name="Field5">2.2µF</field>
         <field name="Field6">25V</field>
         <field name="Field7">X5R</field>
-        <field name="Field8">10%</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="DVB_C" part="C_0053">
-      <description>DVB_Capacitors_Ceramic:C_0805, CER, 10µF, 6.3V, X7R, 10%</description>
-      <docs>generic</docs>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_0053</field>
-        <field name="Footprint">DVB_Capacitors_Ceramic:C_0805</field>
-        <field name="Datasheet">generic</field>
-        <field name="Field4">CER</field>
-        <field name="Field5">10µF</field>
-        <field name="Field6">6.3V</field>
-        <field name="Field7">X7R</field>
         <field name="Field8">10%</field>
       </fields>
       <pins>
@@ -4325,23 +4369,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="DVB_R" part="R_0002">
-      <description>DVB_Resistors:R_0402, 1M, 1%, 100mW</description>
-      <docs>generic</docs>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_0002</field>
-        <field name="Footprint">DVB_Resistors:R_0402</field>
-        <field name="Datasheet">generic</field>
-        <field name="Field4">1M</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">100mW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="DVB_R" part="R_0005">
       <description>DVB_Resistors:R_0402, 1k, 1%, 100mW</description>
       <docs>generic</docs>
@@ -4478,57 +4505,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="DVB_R" part="R_0104">
-      <description>DVB_Resistors:R_0402, 750, 1%, 63mW</description>
-      <docs>generic</docs>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_0104</field>
-        <field name="Footprint">DVB_Resistors:R_0402</field>
-        <field name="Datasheet">generic</field>
-        <field name="Field4">750</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="DVB_R" part="R_0114">
-      <description>DVB_Resistors:R_0402, 130k, 1%, 63mW</description>
-      <docs>generic</docs>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_0114</field>
-        <field name="Footprint">DVB_Resistors:R_0402</field>
-        <field name="Datasheet">generic</field>
-        <field name="Field4">130k</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">63mW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="DVB_R" part="R_0117">
-      <description>DVB_Resistors:R_0402, 49.9k, 1%, 100mW</description>
-      <docs>generic</docs>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_0117</field>
-        <field name="Footprint">DVB_Resistors:R_0402</field>
-        <field name="Datasheet">generic</field>
-        <field name="Field4">49.9k</field>
-        <field name="Field5">1%</field>
-        <field name="Field6">100mW</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="DVB_R" part="R_0121">
       <description>DVB_Resistors:R_0402, 36.5k, 1%, 63mW</description>
       <docs>generic</docs>
@@ -4623,6 +4599,57 @@
         <field name="Footprint">DVB_Resistors:R_0402</field>
         <field name="Datasheet">generic</field>
         <field name="Field4">68</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0173">
+      <description>DVB_Resistors:R_0402, 1.8M, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0173</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field4">1.8M</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0174">
+      <description>DVB_Resistors:R_0402, 205K, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0174</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field4">205K</field>
+        <field name="Field5">1%</field>
+        <field name="Field6">100mW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DVB_R" part="R_0175">
+      <description>DVB_Resistors:R_0402, 49.9, 1%, 100mW</description>
+      <docs>generic</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0175</field>
+        <field name="Footprint">DVB_Resistors:R_0402</field>
+        <field name="Datasheet">generic</field>
+        <field name="Field4">49.9</field>
         <field name="Field5">1%</field>
         <field name="Field6">100mW</field>
       </fields>
@@ -4799,12 +4826,12 @@
         <fp>UFBGA*10x10mm*Layout15x15*P0.65mm*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
+        <field name="Reference">U2</field>
         <field name="Value">U_0131</field>
         <field name="Footprint">DVB_BGA:UFBGA_176</field>
         <field name="Datasheet">https://www.st.com/resource/en/datasheet/stm32h745zg.pdf</field>
-        <field name="Field4">STM32H745IIKx</field>
         <field name="Field5">MCU</field>
+        <field name="Field4">STM32H745IIKx</field>
         <field name="Field6">CORTEX M7 32-BIT</field>
         <field name="Field7">1.6V to 3.6Vcc</field>
       </fields>
@@ -5111,15 +5138,15 @@
     </libpart>
     <libpart lib="DVB_U" part="U_0139">
       <description>DVB_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y, ICM-2060, High performance 6-Axis MEMS motion tracking, SPI/I2C interface, LGA-16</description>
-      <docs>https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/DS-000439-ICM-42688-V-v1.1.pdf</docs>
+      <docs>https://invensense.tdk.com/wp-content/uploads/2022/12/DS-000347-ICM-42688-P-v1.7.pdf</docs>
       <footprints>
         <fp>LGA*3x3mm*P0.5mm*</fp>
       </footprints>
       <fields>
-        <field name="Reference">U</field>
+        <field name="Reference">U10</field>
         <field name="Value">U_0139</field>
         <field name="Footprint">DVB_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y</field>
-        <field name="Datasheet">https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/04/DS-000439-ICM-42688-V-v1.1.pdf</field>
+        <field name="Datasheet">https://invensense.tdk.com/wp-content/uploads/2022/12/DS-000347-ICM-42688-P-v1.7.pdf</field>
         <field name="Field4">ICM-42688</field>
         <field name="Field5">MEMS</field>
         <field name="Field6">6-AXIS </field>
@@ -5129,7 +5156,7 @@
         <pin num="1" name="AD0/SD0" type="bidirectional"/>
         <pin num="2" name="RESV" type="no_connect"/>
         <pin num="3" name="RESV" type="no_connect"/>
-        <pin num="4" name="INT" type="output"/>
+        <pin num="4" name="INT" type="input"/>
         <pin num="5" name="VDDIO" type="power_in"/>
         <pin num="6" name="GND" type="power_in"/>
         <pin num="7" name="RESV" type="passive"/>
@@ -5259,6 +5286,7 @@
       <node ref="L5" pin="2" pintype="passive"/>
       <node ref="L7" pin="1" pintype="passive"/>
       <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R22" pin="1" pintype="passive"/>
       <node ref="R32" pin="1" pintype="passive"/>
       <node ref="R33" pin="1" pintype="passive"/>
@@ -5317,7 +5345,7 @@
       <node ref="C51" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="F1" pin="2" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="L8" pin="2" pintype="passive"/>
       <node ref="U4" pin="4" pinfunction="EN/UV" pintype="input"/>
       <node ref="U4" pin="5" pinfunction="Vin" pintype="power_in"/>
       <node ref="U4" pin="6" pinfunction="Vin" pintype="power_in"/>
@@ -5503,7 +5531,8 @@
       <node ref="U8" pin="8" pinfunction="FSYNC" pintype="input"/>
     </net>
     <net code="49" name="/MEMS_INT">
-      <node ref="U10" pin="4" pinfunction="INT" pintype="output"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="INT" pintype="input"/>
       <node ref="U2" pin="L14" pinfunction="PD8" pintype="bidirectional"/>
       <node ref="U8" pin="6" pinfunction="INT" pintype="output"/>
     </net>
@@ -5552,7 +5581,7 @@
       <node ref="U7" pin="1" pinfunction="~{CS}" pintype="input"/>
     </net>
     <net code="60" name="/RMII_CRS_DV">
-      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
       <node ref="U2" pin="N6" pinfunction="PA7" pintype="bidirectional"/>
     </net>
     <net code="61" name="/RMII_MDC">
@@ -5573,7 +5602,7 @@
       <node ref="U2" pin="R6" pinfunction="PC4" pintype="bidirectional"/>
     </net>
     <net code="65" name="/RMII_RXD1">
-      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
       <node ref="U2" pin="M7" pinfunction="PC5" pintype="bidirectional"/>
     </net>
     <net code="66" name="/RMII_TXD0">
@@ -5649,12 +5678,9 @@
       <node ref="C48" pin="2" pintype="passive"/>
       <node ref="C52" pin="1" pintype="passive"/>
       <node ref="C65" pin="2" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="K2" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="L3" pin="2" pintype="passive"/>
-      <node ref="U5" pin="5" pinfunction="EN" pintype="input"/>
-      <node ref="U5" pin="7" pinfunction="Vin" pintype="input"/>
-      <node ref="U5" pin="8" pinfunction="Vin" pintype="input"/>
+      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="L9" pin="2" pintype="passive"/>
       <node ref="U6" pin="14" pinfunction="VccB" pintype="passive"/>
     </net>
     <net code="80" name="GND">
@@ -5674,7 +5700,7 @@
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C23" pin="1" pintype="passive"/>
-      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
@@ -5719,12 +5745,12 @@
       <node ref="C65" pin="1" pintype="passive"/>
       <node ref="C66" pin="2" pintype="passive"/>
       <node ref="C67" pin="1" pintype="passive"/>
-      <node ref="C68" pin="2" pintype="passive"/>
+      <node ref="C68" pin="1" pintype="passive"/>
       <node ref="C69" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C70" pin="1" pintype="passive"/>
       <node ref="C71" pin="1" pintype="passive"/>
-      <node ref="C72" pin="2" pintype="passive"/>
+      <node ref="C72" pin="1" pintype="passive"/>
       <node ref="C73" pin="2" pintype="passive"/>
       <node ref="C74" pin="2" pintype="passive"/>
       <node ref="C75" pin="2" pintype="passive"/>
@@ -5785,7 +5811,7 @@
       <node ref="U2" pin="E1" pinfunction="VSS" pintype="power_in"/>
       <node ref="U2" pin="F10" pinfunction="VSS" pintype="power_in"/>
       <node ref="U2" pin="F12" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U2" pin="F2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="F2" pinfunction="VSSSMPS" pintype="power_in"/>
       <node ref="U2" pin="F6" pinfunction="VSS" pintype="power_in"/>
       <node ref="U2" pin="F7" pinfunction="VSS" pintype="power_in"/>
       <node ref="U2" pin="F8" pinfunction="VSS" pintype="power_in"/>
@@ -5816,7 +5842,7 @@
       <node ref="U2" pin="L4" pinfunction="VREF-" pintype="power_in"/>
       <node ref="U2" pin="M10" pinfunction="VSS" pintype="power_in"/>
       <node ref="U2" pin="M6" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U2" pin="N3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="N3" pinfunction="VSSA" pintype="power_in"/>
       <node ref="U2" pin="R1" pinfunction="VSS" pintype="power_in"/>
       <node ref="U2" pin="R15" pinfunction="VSS" pintype="power_in"/>
       <node ref="U3" pin="2" pinfunction="GND" pintype="input"/>
@@ -5850,7 +5876,7 @@
       <node ref="U2" pin="G1" pinfunction="VDDSMPS" pintype="power_in"/>
     </net>
     <net code="83" name="Net-(#FLG0108-pwr)">
-      <node ref="C72" pin="1" pintype="passive"/>
+      <node ref="C72" pin="2" pintype="passive"/>
       <node ref="C73" pin="1" pintype="passive"/>
       <node ref="C74" pin="1" pintype="passive"/>
       <node ref="C75" pin="1" pintype="passive"/>
@@ -5870,201 +5896,216 @@
       <node ref="L7" pin="2" pintype="passive"/>
       <node ref="U2" pin="M4" pinfunction="VDDA" pintype="power_in"/>
     </net>
-    <net code="85" name="Net-(C89-Pad2)">
+    <net code="85" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="L10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="Vout" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="Vout" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(C89-Pad2)">
       <node ref="C89" pin="2" pintype="passive"/>
       <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="10" pinfunction="SW" pintype="input"/>
       <node ref="U4" pin="11" pinfunction="SW" pintype="power_out"/>
       <node ref="U4" pin="9" pinfunction="SW" pintype="input"/>
     </net>
-    <net code="86" name="Net-(D1-K)">
+    <net code="87" name="Net-(D1-K)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(D2-A)">
+    <net code="88" name="Net-(D2-A)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="SW" pintype="input"/>
     </net>
-    <net code="88" name="Net-(D3-K)">
+    <net code="89" name="Net-(D3-K)">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="89" name="Net-(D4-K)">
+    <net code="90" name="Net-(D4-K)">
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="90" name="Net-(J2-LLED+)">
+    <net code="91" name="Net-(J2-LLED+)">
       <node ref="J2" pin="11" pinfunction="LLED+" pintype="passive"/>
       <node ref="U14" pin="3" pinfunction="LED1/nINT/nPME/REGOFF" pintype="bidirectional"/>
     </net>
-    <net code="91" name="Net-(J2-LLED-)">
+    <net code="92" name="Net-(J2-LLED-)">
       <node ref="J2" pin="12" pinfunction="LLED-" pintype="passive"/>
       <node ref="R48" pin="1" pintype="passive"/>
     </net>
-    <net code="92" name="Net-(J2-RLED+)">
+    <net code="93" name="Net-(J2-RLED+)">
       <node ref="J2" pin="13" pinfunction="RLED+" pintype="passive"/>
       <node ref="R47" pin="2" pintype="passive"/>
       <node ref="U14" pin="2" pinfunction="LED2/nINT/nPME/nINTSEL" pintype="bidirectional"/>
     </net>
-    <net code="93" name="Net-(J2-RLED-)">
+    <net code="94" name="Net-(J2-RLED-)">
       <node ref="J2" pin="14" pinfunction="RLED-" pintype="passive"/>
       <node ref="R49" pin="1" pintype="passive"/>
     </net>
-    <net code="94" name="Net-(J2-V+)">
+    <net code="95" name="Net-(J2-V+)">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J2" pin="9" pinfunction="V+" pintype="power_out"/>
     </net>
-    <net code="95" name="Net-(K1-IREF)">
+    <net code="96" name="Net-(K1-IREF)">
       <node ref="K1" pin="7" pinfunction="IREF" pintype="input"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="96" name="Net-(K1-VCOMH)">
+    <net code="97" name="Net-(K1-VCOMH)">
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="K1" pin="4" pinfunction="VCOMH" pintype="power_out"/>
     </net>
-    <net code="97" name="Net-(K1-VLOGIC)">
+    <net code="98" name="Net-(K1-VLOGIC)">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="K1" pin="5" pinfunction="VLOGIC" pintype="power_out"/>
     </net>
-    <net code="98" name="Net-(K1-VP)">
+    <net code="99" name="Net-(K1-VP)">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="K1" pin="3" pinfunction="VP" pintype="power_out"/>
     </net>
-    <net code="99" name="Net-(K2-Pin_5)">
+    <net code="100" name="Net-(K2-Pin_5)">
       <node ref="C37" pin="2" pintype="passive"/>
       <node ref="K2" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
     </net>
-    <net code="100" name="Net-(K2-Pin_10)">
+    <net code="101" name="Net-(K2-Pin_10)">
       <node ref="K2" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="101" name="Net-(K2-Pin_11)">
+    <net code="102" name="Net-(K2-Pin_11)">
       <node ref="K2" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
     </net>
-    <net code="102" name="Net-(K2-Pin_12)">
+    <net code="103" name="Net-(K2-Pin_12)">
       <node ref="K2" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
-    <net code="103" name="Net-(Q1-D)">
+    <net code="104" name="Net-(Q1-D)">
       <node ref="Q1" pin="3" pinfunction="D" pintype="input"/>
       <node ref="R23" pin="2" pintype="passive"/>
     </net>
-    <net code="104" name="Net-(Q2-D)">
+    <net code="105" name="Net-(Q2-D)">
       <node ref="Q2" pin="3" pinfunction="D" pintype="input"/>
       <node ref="R25" pin="2" pintype="passive"/>
     </net>
-    <net code="105" name="Net-(Q3-D)">
+    <net code="106" name="Net-(Q3-D)">
       <node ref="Q3" pin="3" pinfunction="D" pintype="input"/>
       <node ref="R44" pin="2" pintype="passive"/>
     </net>
-    <net code="106" name="Net-(R19-Pad2)">
+    <net code="107" name="Net-(R19-Pad2)">
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="SW3" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="107" name="Net-(R26-Pad2)">
+    <net code="108" name="Net-(R26-Pad2)">
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="108" name="Net-(R27-Pad2)">
+    <net code="109" name="Net-(R27-Pad2)">
       <node ref="R27" pin="2" pintype="passive"/>
       <node ref="SW2" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="109" name="Net-(U1-FB)">
+    <net code="110" name="Net-(U1-FB)">
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="110" name="Net-(U2-BOOT0)">
+    <net code="111" name="Net-(U2-BOOT0)">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="R52" pin="2" pintype="passive"/>
       <node ref="U2" pin="C5" pinfunction="BOOT0" pintype="input"/>
     </net>
-    <net code="111" name="Net-(U2-PDR_ON)">
+    <net code="112" name="Net-(U2-PDR_ON)">
       <node ref="R53" pin="2" pintype="passive"/>
       <node ref="U2" pin="D4" pinfunction="PDR_ON" pintype="input"/>
     </net>
-    <net code="112" name="Net-(U2-PH0)">
+    <net code="113" name="Net-(U2-PH0)">
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="U2" pin="J1" pinfunction="PH0" pintype="input"/>
       <node ref="XO2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="113" name="Net-(U2-PH1)">
+    <net code="114" name="Net-(U2-PH1)">
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="U2" pin="K1" pinfunction="PH1" pintype="input"/>
       <node ref="XO2" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="114" name="Net-(U3-BPASS)">
+    <net code="115" name="Net-(U3-BPASS)">
       <node ref="C58" pin="1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="BPASS" pintype="input"/>
     </net>
-    <net code="115" name="Net-(U3-Vin)">
+    <net code="116" name="Net-(U3-Vin)">
       <node ref="C31" pin="2" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="L8" pin="1" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="Vin" pintype="input"/>
     </net>
-    <net code="116" name="Net-(U3-Vout)">
+    <net code="117" name="Net-(U3-Vout)">
       <node ref="C63" pin="1" pintype="passive"/>
-      <node ref="L3" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="Vout" pintype="input"/>
     </net>
-    <net code="117" name="Net-(U4-BST)">
+    <net code="118" name="Net-(U4-BST)">
       <node ref="C89" pin="1" pintype="passive"/>
       <node ref="U4" pin="12" pinfunction="BST" pintype="input"/>
     </net>
-    <net code="118" name="Net-(U4-INTVcc)">
+    <net code="119" name="Net-(U4-INTVcc)">
       <node ref="C88" pin="2" pintype="passive"/>
       <node ref="U4" pin="13" pinfunction="INTVcc" pintype="input"/>
     </net>
-    <net code="119" name="Net-(U4-RT)">
+    <net code="120" name="Net-(U4-RT)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U4" pin="3" pinfunction="RT" pintype="input"/>
     </net>
-    <net code="120" name="Net-(U4-TR{slash}SS)">
+    <net code="121" name="Net-(U4-TR{slash}SS)">
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="TR/SS" pintype="input"/>
     </net>
-    <net code="121" name="Net-(U5-ADJ)">
+    <net code="122" name="Net-(U5-ADJ)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U5" pin="3" pinfunction="ADJ" pintype="input"/>
     </net>
-    <net code="122" name="Net-(U8-REGOUT)">
+    <net code="123" name="Net-(U5-EN)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="L9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="EN" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="Vin" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="Vin" pintype="input"/>
+    </net>
+    <net code="124" name="Net-(U8-REGOUT)">
       <node ref="C70" pin="2" pintype="passive"/>
       <node ref="U8" pin="14" pinfunction="REGOUT" pintype="passive"/>
     </net>
-    <net code="123" name="Net-(U9-BPASS)">
+    <net code="125" name="Net-(U9-BPASS)">
       <node ref="C59" pin="1" pintype="passive"/>
       <node ref="U9" pin="4" pinfunction="BPASS" pintype="input"/>
     </net>
-    <net code="124" name="Net-(U14-CRS_DV{slash}MODE2)">
+    <net code="126" name="Net-(U14-CRS_DV{slash}MODE2)">
       <node ref="R36" pin="2" pintype="passive"/>
-      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
       <node ref="U14" pin="11" pinfunction="CRS_DV/MODE2" pintype="bidirectional"/>
     </net>
-    <net code="125" name="Net-(U14-RBIAS)">
+    <net code="127" name="Net-(U14-RBIAS)">
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U14" pin="24" pinfunction="RBIAS" pintype="bidirectional"/>
     </net>
-    <net code="126" name="Net-(U14-RXD0{slash}MODE0)">
+    <net code="128" name="Net-(U14-RXD0{slash}MODE0)">
       <node ref="R32" pin="2" pintype="passive"/>
       <node ref="R34" pin="2" pintype="passive"/>
       <node ref="U14" pin="8" pinfunction="RXD0/MODE0" pintype="bidirectional"/>
     </net>
-    <net code="127" name="Net-(U14-RXD1{slash}MODE1)">
+    <net code="129" name="Net-(U14-RXD1{slash}MODE1)">
       <node ref="R33" pin="2" pintype="passive"/>
-      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
       <node ref="U14" pin="7" pinfunction="RXD1/MODE1" pintype="bidirectional"/>
     </net>
-    <net code="128" name="Net-(U14-RXER{slash}PHYAD0)">
+    <net code="130" name="Net-(U14-RXER{slash}PHYAD0)">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U14" pin="10" pinfunction="RXER/PHYAD0" pintype="bidirectional"/>
     </net>
-    <net code="129" name="Net-(U14-VDD1A)">
+    <net code="131" name="Net-(U14-VDD1A)">
       <node ref="C44" pin="1" pintype="passive"/>
       <node ref="C45" pin="1" pintype="passive"/>
       <node ref="C46" pin="1" pintype="passive"/>
@@ -6084,297 +6125,293 @@
       <node ref="U16" pin="4" pinfunction="Vdd" pintype="input"/>
       <node ref="U17" pin="4" pinfunction="Vdd" pintype="input"/>
     </net>
-    <net code="130" name="Net-(U14-VDDCR)">
+    <net code="132" name="Net-(U14-VDDCR)">
       <node ref="C39" pin="1" pintype="passive"/>
       <node ref="C41" pin="2" pintype="passive"/>
       <node ref="U14" pin="6" pinfunction="VDDCR" pintype="bidirectional"/>
     </net>
-    <net code="131" name="Net-(U14-XTAL1{slash}CLKIN)">
+    <net code="133" name="Net-(U14-XTAL1{slash}CLKIN)">
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="U14" pin="5" pinfunction="XTAL1/CLKIN" pintype="bidirectional"/>
       <node ref="XO1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="132" name="Net-(U14-XTAL2)">
+    <net code="134" name="Net-(U14-XTAL2)">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="U14" pin="4" pinfunction="XTAL2" pintype="bidirectional"/>
       <node ref="XO1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="133" name="Net-(U14-nINT{slash}REFCLKO)">
+    <net code="135" name="Net-(U14-nINT{slash}REFCLKO)">
       <node ref="R39" pin="2" pintype="passive"/>
       <node ref="R40" pin="1" pintype="passive"/>
       <node ref="U14" pin="14" pinfunction="nINT/REFCLKO" pintype="bidirectional"/>
     </net>
-    <net code="134" name="VERF+">
-      <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="C25" pin="1" pintype="passive"/>
-      <node ref="C61" pin="2" pintype="passive"/>
-      <node ref="C68" pin="1" pintype="passive"/>
+    <net code="136" name="VERF+">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C68" pin="2" pintype="passive"/>
       <node ref="C83" pin="2" pintype="passive"/>
       <node ref="C84" pin="1" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="L10" pin="1" pintype="passive"/>
       <node ref="U2" pin="M3" pinfunction="VREF+" pintype="power_in"/>
-      <node ref="U5" pin="1" pinfunction="Vout" pintype="input"/>
-      <node ref="U5" pin="2" pinfunction="Vout" pintype="input"/>
     </net>
-    <net code="135" name="unconnected-(K1-NC-Pad1)">
+    <net code="137" name="unconnected-(K1-NC-Pad1)">
       <node ref="K1" pin="1" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="136" name="unconnected-(K1-NC-Pad9)">
+    <net code="138" name="unconnected-(K1-NC-Pad9)">
       <node ref="K1" pin="9" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="137" name="unconnected-(K1-NC-Pad30)">
+    <net code="139" name="unconnected-(K1-NC-Pad30)">
       <node ref="K1" pin="30" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="138" name="unconnected-(SW1-Pad1)">
+    <net code="140" name="unconnected-(SW1-Pad1)">
       <node ref="SW1" pin="1" pinfunction="1" pintype="passive+no_connect"/>
     </net>
-    <net code="139" name="unconnected-(SW1-Pad4)">
+    <net code="141" name="unconnected-(SW1-Pad4)">
       <node ref="SW1" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="140" name="unconnected-(SW2-Pad1)">
+    <net code="142" name="unconnected-(SW2-Pad1)">
       <node ref="SW2" pin="1" pinfunction="1" pintype="passive+no_connect"/>
     </net>
-    <net code="141" name="unconnected-(SW2-Pad4)">
+    <net code="143" name="unconnected-(SW2-Pad4)">
       <node ref="SW2" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="142" name="unconnected-(SW3-Pad1)">
+    <net code="144" name="unconnected-(SW3-Pad1)">
       <node ref="SW3" pin="1" pinfunction="1" pintype="passive+no_connect"/>
     </net>
-    <net code="143" name="unconnected-(SW3-Pad4)">
+    <net code="145" name="unconnected-(SW3-Pad4)">
       <node ref="SW3" pin="4" pinfunction="4" pintype="passive+no_connect"/>
     </net>
-    <net code="144" name="unconnected-(U2-PA0-PadP1)">
+    <net code="146" name="unconnected-(U2-PA0-PadP1)">
       <node ref="U2" pin="P1" pinfunction="PA0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="145" name="unconnected-(U2-PA3-PadN5)">
+    <net code="147" name="unconnected-(U2-PA3-PadN5)">
       <node ref="U2" pin="N5" pinfunction="PA3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="146" name="unconnected-(U2-PA4-PadP5)">
+    <net code="148" name="unconnected-(U2-PA4-PadP5)">
       <node ref="U2" pin="P5" pinfunction="PA4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="147" name="unconnected-(U2-PA5-PadP6)">
+    <net code="149" name="unconnected-(U2-PA5-PadP6)">
       <node ref="U2" pin="P6" pinfunction="PA5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="148" name="unconnected-(U2-PA6-PadR7)">
+    <net code="150" name="unconnected-(U2-PA6-PadR7)">
       <node ref="U2" pin="R7" pinfunction="PA6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="149" name="unconnected-(U2-PA8-PadB14)">
+    <net code="151" name="unconnected-(U2-PA8-PadB14)">
       <node ref="U2" pin="B14" pinfunction="PA8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="150" name="unconnected-(U2-PA10-PadC14)">
+    <net code="152" name="unconnected-(U2-PA10-PadC14)">
       <node ref="U2" pin="C14" pinfunction="PA10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="151" name="unconnected-(U2-PA11-PadC15)">
+    <net code="153" name="unconnected-(U2-PA11-PadC15)">
       <node ref="U2" pin="C15" pinfunction="PA11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="152" name="unconnected-(U2-PB0-PadR8)">
+    <net code="154" name="unconnected-(U2-PB0-PadR8)">
       <node ref="U2" pin="R8" pinfunction="PB0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="153" name="unconnected-(U2-PB1-PadM8)">
+    <net code="155" name="unconnected-(U2-PB1-PadM8)">
       <node ref="U2" pin="M8" pinfunction="PB1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="154" name="unconnected-(U2-PB2-PadP7)">
+    <net code="156" name="unconnected-(U2-PB2-PadP7)">
       <node ref="U2" pin="P7" pinfunction="PB2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="155" name="unconnected-(U2-PB3-PadA6)">
+    <net code="157" name="unconnected-(U2-PB3-PadA6)">
       <node ref="U2" pin="A6" pinfunction="PB3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="156" name="unconnected-(U2-PB4-PadB6)">
+    <net code="158" name="unconnected-(U2-PB4-PadB6)">
       <node ref="U2" pin="B6" pinfunction="PB4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="157" name="unconnected-(U2-PB5-PadC6)">
+    <net code="159" name="unconnected-(U2-PB5-PadC6)">
       <node ref="U2" pin="C6" pinfunction="PB5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="158" name="unconnected-(U2-PB11-PadP10)">
+    <net code="160" name="unconnected-(U2-PB11-PadP10)">
       <node ref="U2" pin="P10" pinfunction="PB11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="159" name="unconnected-(U2-PB12-PadM15)">
+    <net code="161" name="unconnected-(U2-PB12-PadM15)">
       <node ref="U2" pin="M15" pinfunction="PB12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="160" name="unconnected-(U2-PB13-PadL15)">
+    <net code="162" name="unconnected-(U2-PB13-PadL15)">
       <node ref="U2" pin="L15" pinfunction="PB13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="161" name="unconnected-(U2-PC0-PadL2)">
+    <net code="163" name="unconnected-(U2-PC0-PadL2)">
       <node ref="U2" pin="L2" pinfunction="PC0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="162" name="unconnected-(U2-PC2_C-PadN1)">
+    <net code="164" name="unconnected-(U2-PC2_C-PadN1)">
       <node ref="U2" pin="N1" pinfunction="PC2_C" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="163" name="unconnected-(U2-PC3-PadM2)">
+    <net code="165" name="unconnected-(U2-PC3-PadM2)">
       <node ref="U2" pin="M2" pinfunction="PC3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="164" name="unconnected-(U2-PC7-PadD15)">
+    <net code="166" name="unconnected-(U2-PC7-PadD15)">
       <node ref="U2" pin="D15" pinfunction="PC7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="165" name="unconnected-(U2-PC9-PadE13)">
+    <net code="167" name="unconnected-(U2-PC9-PadE13)">
       <node ref="U2" pin="E13" pinfunction="PC9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="166" name="unconnected-(U2-PC10-PadC12)">
+    <net code="168" name="unconnected-(U2-PC10-PadC12)">
       <node ref="U2" pin="C12" pinfunction="PC10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="167" name="unconnected-(U2-PC11-PadC11)">
+    <net code="169" name="unconnected-(U2-PC11-PadC11)">
       <node ref="U2" pin="C11" pinfunction="PC11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="168" name="unconnected-(U2-PC12-PadB11)">
+    <net code="170" name="unconnected-(U2-PC12-PadB11)">
       <node ref="U2" pin="B11" pinfunction="PC12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="169" name="unconnected-(U2-PC15-PadD1)">
+    <net code="171" name="unconnected-(U2-PC15-PadD1)">
       <node ref="U2" pin="D1" pinfunction="PC15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="170" name="unconnected-(U2-PD2-PadB10)">
+    <net code="172" name="unconnected-(U2-PD2-PadB10)">
       <node ref="U2" pin="B10" pinfunction="PD2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="171" name="unconnected-(U2-PD9-PadK13)">
+    <net code="173" name="unconnected-(U2-PD9-PadK13)">
       <node ref="U2" pin="K13" pinfunction="PD9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="172" name="unconnected-(U2-PD10-PadL13)">
+    <net code="174" name="unconnected-(U2-PD10-PadL13)">
       <node ref="U2" pin="L13" pinfunction="PD10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="173" name="unconnected-(U2-PD11-PadJ13)">
+    <net code="175" name="unconnected-(U2-PD11-PadJ13)">
       <node ref="U2" pin="J13" pinfunction="PD11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="174" name="unconnected-(U2-PD12-PadJ15)">
+    <net code="176" name="unconnected-(U2-PD12-PadJ15)">
       <node ref="U2" pin="J15" pinfunction="PD12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="175" name="unconnected-(U2-PE0-PadB4)">
+    <net code="177" name="unconnected-(U2-PE0-PadB4)">
       <node ref="U2" pin="B4" pinfunction="PE0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="176" name="unconnected-(U2-PE1-PadC4)">
+    <net code="178" name="unconnected-(U2-PE1-PadC4)">
       <node ref="U2" pin="C4" pinfunction="PE1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="177" name="unconnected-(U2-PE3-PadB2)">
+    <net code="179" name="unconnected-(U2-PE3-PadB2)">
       <node ref="U2" pin="B2" pinfunction="PE3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="178" name="unconnected-(U2-PE6-PadE3)">
+    <net code="180" name="unconnected-(U2-PE6-PadE3)">
       <node ref="U2" pin="E3" pinfunction="PE6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="179" name="unconnected-(U2-PF1-PadF3)">
+    <net code="181" name="unconnected-(U2-PF1-PadF3)">
       <node ref="U2" pin="F3" pinfunction="PF1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="180" name="unconnected-(U2-PF2-PadG3)">
+    <net code="182" name="unconnected-(U2-PF2-PadG3)">
       <node ref="U2" pin="G3" pinfunction="PF2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="181" name="unconnected-(U2-PF3-PadH4)">
+    <net code="183" name="unconnected-(U2-PF3-PadH4)">
       <node ref="U2" pin="H4" pinfunction="PF3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="182" name="unconnected-(U2-PF4-PadH2)">
+    <net code="184" name="unconnected-(U2-PF4-PadH2)">
       <node ref="U2" pin="H2" pinfunction="PF4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="183" name="unconnected-(U2-PF5-PadH3)">
+    <net code="185" name="unconnected-(U2-PF5-PadH3)">
       <node ref="U2" pin="H3" pinfunction="PF5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="184" name="unconnected-(U2-PF11-PadN7)">
+    <net code="186" name="unconnected-(U2-PF11-PadN7)">
       <node ref="U2" pin="N7" pinfunction="PF11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="185" name="unconnected-(U2-PF12-PadP11)">
+    <net code="187" name="unconnected-(U2-PF12-PadP11)">
       <node ref="U2" pin="P11" pinfunction="PF12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="186" name="unconnected-(U2-PF13-PadN11)">
+    <net code="188" name="unconnected-(U2-PF13-PadN11)">
       <node ref="U2" pin="N11" pinfunction="PF13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="187" name="unconnected-(U2-PF14-PadR10)">
+    <net code="189" name="unconnected-(U2-PF14-PadR10)">
       <node ref="U2" pin="R10" pinfunction="PF14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="188" name="unconnected-(U2-PF15-PadN10)">
+    <net code="190" name="unconnected-(U2-PF15-PadN10)">
       <node ref="U2" pin="N10" pinfunction="PF15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="189" name="unconnected-(U2-PG0-PadP8)">
+    <net code="191" name="unconnected-(U2-PG0-PadP8)">
       <node ref="U2" pin="P8" pinfunction="PG0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="190" name="unconnected-(U2-PG1-PadN9)">
+    <net code="192" name="unconnected-(U2-PG1-PadN9)">
       <node ref="U2" pin="N9" pinfunction="PG1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="191" name="unconnected-(U2-PG3-PadH13)">
+    <net code="193" name="unconnected-(U2-PG3-PadH13)">
       <node ref="U2" pin="H13" pinfunction="PG3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="192" name="unconnected-(U2-PG4-PadG14)">
+    <net code="194" name="unconnected-(U2-PG4-PadG14)">
       <node ref="U2" pin="G14" pinfunction="PG4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="193" name="unconnected-(U2-PG6-PadF14)">
+    <net code="195" name="unconnected-(U2-PG6-PadF14)">
       <node ref="U2" pin="F14" pinfunction="PG6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="194" name="unconnected-(U2-PG7-PadG13)">
+    <net code="196" name="unconnected-(U2-PG7-PadG13)">
       <node ref="U2" pin="G13" pinfunction="PG7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="195" name="unconnected-(U2-PG8-PadG12)">
+    <net code="197" name="unconnected-(U2-PG8-PadG12)">
       <node ref="U2" pin="G12" pinfunction="PG8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="196" name="unconnected-(U2-PG9-PadA8)">
+    <net code="198" name="unconnected-(U2-PG9-PadA8)">
       <node ref="U2" pin="A8" pinfunction="PG9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="197" name="unconnected-(U2-PG10-PadC8)">
+    <net code="199" name="unconnected-(U2-PG10-PadC8)">
       <node ref="U2" pin="C8" pinfunction="PG10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="198" name="unconnected-(U2-PG12-PadD8)">
+    <net code="200" name="unconnected-(U2-PG12-PadD8)">
       <node ref="U2" pin="D8" pinfunction="PG12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="199" name="unconnected-(U2-PG15-PadD7)">
+    <net code="201" name="unconnected-(U2-PG15-PadD7)">
       <node ref="U2" pin="D7" pinfunction="PG15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="200" name="unconnected-(U2-PH2-PadN4)">
+    <net code="202" name="unconnected-(U2-PH2-PadN4)">
       <node ref="U2" pin="N4" pinfunction="PH2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="201" name="unconnected-(U2-PH4-PadP4)">
+    <net code="203" name="unconnected-(U2-PH4-PadP4)">
       <node ref="U2" pin="P4" pinfunction="PH4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="202" name="unconnected-(U2-PH5-PadR5)">
+    <net code="204" name="unconnected-(U2-PH5-PadR5)">
       <node ref="U2" pin="R5" pinfunction="PH5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="203" name="unconnected-(U2-PH7-PadM11)">
+    <net code="205" name="unconnected-(U2-PH7-PadM11)">
       <node ref="U2" pin="M11" pinfunction="PH7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="204" name="unconnected-(U2-PH8-PadN13)">
+    <net code="206" name="unconnected-(U2-PH8-PadN13)">
       <node ref="U2" pin="N13" pinfunction="PH8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="205" name="unconnected-(U2-PH9-PadM14)">
+    <net code="207" name="unconnected-(U2-PH9-PadM14)">
       <node ref="U2" pin="M14" pinfunction="PH9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="206" name="unconnected-(U2-PH10-PadN14)">
+    <net code="208" name="unconnected-(U2-PH10-PadN14)">
       <node ref="U2" pin="N14" pinfunction="PH10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="207" name="unconnected-(U2-PH11-PadM13)">
+    <net code="209" name="unconnected-(U2-PH11-PadM13)">
       <node ref="U2" pin="M13" pinfunction="PH11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="208" name="unconnected-(U2-PH13-PadC13)">
+    <net code="210" name="unconnected-(U2-PH13-PadC13)">
       <node ref="U2" pin="C13" pinfunction="PH13" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="209" name="unconnected-(U2-PH14-PadB12)">
+    <net code="211" name="unconnected-(U2-PH14-PadB12)">
       <node ref="U2" pin="B12" pinfunction="PH14" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="210" name="unconnected-(U2-PH15-PadD12)">
+    <net code="212" name="unconnected-(U2-PH15-PadD12)">
       <node ref="U2" pin="D12" pinfunction="PH15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="211" name="unconnected-(U4-NC-Pad7)">
+    <net code="213" name="unconnected-(U4-NC-Pad7)">
       <node ref="U4" pin="7" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="212" name="unconnected-(U4-PG-Pad15)">
+    <net code="214" name="unconnected-(U4-PG-Pad15)">
       <node ref="U4" pin="15" pinfunction="PG" pintype="input+no_connect"/>
     </net>
-    <net code="213" name="unconnected-(U5-NC-Pad6)">
+    <net code="215" name="unconnected-(U5-NC-Pad6)">
       <node ref="U5" pin="6" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="214" name="unconnected-(U6-A4-Pad5)">
+    <net code="216" name="unconnected-(U6-A4-Pad5)">
       <node ref="U6" pin="5" pinfunction="A4" pintype="output+no_connect"/>
     </net>
-    <net code="215" name="unconnected-(U6-B4-Pad10)">
+    <net code="217" name="unconnected-(U6-B4-Pad10)">
       <node ref="U6" pin="10" pinfunction="B4" pintype="output+no_connect"/>
     </net>
-    <net code="216" name="unconnected-(U6-NC-Pad6)">
+    <net code="218" name="unconnected-(U6-NC-Pad6)">
       <node ref="U6" pin="6" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="217" name="unconnected-(U6-NC-Pad9)">
+    <net code="219" name="unconnected-(U6-NC-Pad9)">
       <node ref="U6" pin="9" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="218" name="unconnected-(U8-RESV-Pad7)">
+    <net code="220" name="unconnected-(U8-RESV-Pad7)">
       <node ref="U8" pin="7" pinfunction="RESV" pintype="no_connect"/>
     </net>
-    <net code="219" name="unconnected-(U10-RESV-Pad2)">
+    <net code="221" name="unconnected-(U10-RESV-Pad2)">
       <node ref="U10" pin="2" pinfunction="RESV" pintype="no_connect"/>
     </net>
-    <net code="220" name="unconnected-(U10-RESV-Pad3)">
+    <net code="222" name="unconnected-(U10-RESV-Pad3)">
       <node ref="U10" pin="3" pinfunction="RESV" pintype="no_connect"/>
     </net>
-    <net code="221" name="unconnected-(U10-RESV-Pad10)">
+    <net code="223" name="unconnected-(U10-RESV-Pad10)">
       <node ref="U10" pin="10" pinfunction="RESV" pintype="no_connect"/>
     </net>
   </nets>
