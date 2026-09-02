@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MLX90395 — Guide d'intégration hardware (SPI)</title>
+<style>
+  :root {
+    --bg: #fdfdfd; --fg: #1a1a2e; --accent: #0f3460; --accent2: #16213e;
+    --warn: #e94560; --ok: #27ae60; --info: #2980b9; --light: #f0f4f8;
+    --border: #d0d7de; --code-bg: #f6f8fa; --shadow: rgba(0,0,0,.06);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: var(--fg);
+         background: var(--bg); line-height: 1.65; max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+  h1 { font-size: 1.8rem; color: var(--accent2); border-bottom: 3px solid var(--accent); padding-bottom: .5rem; margin-bottom: 1.5rem; }
+  h2 { font-size: 1.35rem; color: var(--accent); margin: 2rem 0 .8rem; border-left: 4px solid var(--accent); padding-left: .7rem; }
+  h3 { font-size: 1.1rem; color: var(--accent2); margin: 1.3rem 0 .5rem; }
+  p, li { margin-bottom: .5rem; }
+  ul, ol { padding-left: 1.5rem; }
+  table { width: 100%; border-collapse: collapse; margin: .8rem 0 1.2rem; font-size: .92rem; }
+  th, td { border: 1px solid var(--border); padding: .45rem .65rem; text-align: left; }
+  th { background: var(--accent2); color: #fff; font-weight: 600; }
+  tr:nth-child(even) { background: var(--light); }
+  .pin-num { font-weight: 700; color: var(--accent); }
+  .warn { background: #fdecea; border-left: 4px solid var(--warn); padding: .7rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .warn::before { content: "⚠️ "; font-weight: bold; }
+  .info { background: #e8f4fd; border-left: 4px solid var(--info); padding: .7rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .info::before { content: "ℹ️ "; }
+  .ok { background: #eafaf1; border-left: 4px solid var(--ok); padding: .7rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .ok::before { content: "✅ "; }
+  pre { background: var(--code-bg); border: 1px solid var(--border); border-radius: 6px; padding: 1rem; overflow-x: auto;
+        font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: .85rem; line-height: 1.5; margin: .8rem 0 1.2rem; }
+  .schematic { background: #1a1a2e; color: #e0e0e0; border-radius: 8px; padding: 1.2rem; margin: 1rem 0;
+               font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace; font-size: .82rem; line-height: 1.55; overflow-x: auto; }
+  .schematic .sig { color: #5dade2; } .schematic .pwr { color: #f39c12; } .schematic .gnd { color: #7f8c8d; }
+  .schematic .comp { color: #2ecc71; } .schematic .pin { color: #e74c3c; font-weight: bold; }
+  .badge { display: inline-block; padding: .15rem .5rem; border-radius: 3px; font-size: .8rem; font-weight: 600; }
+  .badge-spi { background: #dbeafe; color: #1e40af; } .badge-int { background: #fce7f3; color: #9d174d; }
+  .badge-pwr { background: #fef3c7; color: #92400e; } .badge-gnd { background: #e5e7eb; color: #374151; }
+  .bom-table th { background: var(--ok); }
+  .pkg-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+  .pkg-card { border: 1px solid var(--border); border-radius: 8px; padding: 1rem; background: var(--light); }
+  .pkg-card h4 { margin-bottom: .5rem; color: var(--accent); }
+  .toc { background: var(--light); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 2rem; }
+  .toc ol { margin-bottom: 0; }
+  .toc a { color: var(--accent); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: .85rem; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>MLX90395 Triaxis® Magnetometer<br><small style="font-size:.65em;color:#555">Guide d'intégration hardware — Mode SPI uniquement — Projet Sp3ctra</small></h1>
+
+<div class="toc">
+<strong>Sommaire</strong>
+<ol>
+  <li><a href="#s1">Choix du variant et du package</a></li>
+  <li><a href="#s2">Brochage QFN-16 — Fonction de chaque pin en mode SPI</a></li>
+  <li><a href="#s3">Les deux sorties INT : comprendre la différence</a></li>
+  <li><a href="#s4">Que faire des pins A0 et A1 en mode SPI ?</a></li>
+  <li><a href="#s5">Pins non connectés (NC) — traitement EMC</a></li>
+  <li><a href="#s5b">Résistances de pull-up / pull-down — où en faut-il ?</a></li>
+  <li><a href="#s6">Câblage SPI — Schéma de connexion STM32H747</a></li>
+  <li><a href="#s7">Composants externes (BOM)</a></li>
+  <li><a href="#s8">Découplage et alimentation</a></li>
+  <li><a href="#s9">Recommandations de routage PCB</a></li>
+  <li><a href="#s10">Pad thermique QFN</a></li>
+  <li><a href="#s11">Subtilités hardware à connaître</a></li>
+  <li><a href="#s12">Checklist schéma &amp; PCB</a></li>
+  <li><a href="#s13">Références</a></li>
+</ol>
+</div>
+
+<!-- =============================================================== -->
+<h2 id="s1">1. Choix du variant et du package</h2>
+
+<table>
+<tr><th>Critère</th><th>Recommandation</th></tr>
+<tr><td><strong>Référence</strong></td><td><code>MLX90395KLW-BBA-001-RE</code></td></tr>
+<tr><td>Package</td><td>QFN-16 (3×3 mm, wettable flanks)</td></tr>
+<tr><td>Plage de champ</td><td>Medium-field (50 mT) — code <code>-0xx</code></td></tr>
+<tr><td>Filtre SPI</td><td>1 MHz intégré (code <code>-xx1</code>) — protège contre le bruit EMC sur les lignes</td></tr>
+<tr><td>Révision</td><td>BBA (standard, recommandé pour nouveaux designs)</td></tr>
+<tr><td>Alternative haute champ</td><td><code>MLX90395KLW-BBA-101-RE</code> (120 mT)</td></tr>
+</table>
+
+<div class="warn">Le code <code>-001</code> impose une <strong>fréquence SPI ≤ 1 MHz</strong>. Si vous avez besoin d'une vitesse SPI plus élevée (jusqu'à 10 MHz), choisir le code <code>-000</code> (sans filtre).</div>
+
+<!-- =============================================================== -->
+<h2 id="s2">2. Brochage QFN-16 — Fonction de chaque pin en mode SPI</h2>
+
+<table>
+<tr><th>Pin #</th><th>Nom SPI</th><th>Direction</th><th>Raccordement en mode SPI</th></tr>
+<tr><td class="pin-num">1</td><td>INT</td><td>Sortie (O)</td><td><span class="badge badge-int">Interrupt</span> — Sortie push-pull, active HIGH. Duplication de l'état INT. Voir <a href="#s3">section 3</a>.</td></tr>
+<tr><td class="pin-num">2</td><td>/CS</td><td>Entrée (I)</td><td><span class="badge badge-spi">SPI CS</span> — Chip Select, actif LOW. Relier à <code>SPI2_NSS</code> (PB9)</td></tr>
+<tr><td class="pin-num">3</td><td>SCLK</td><td>Entrée (I)</td><td><span class="badge badge-spi">SPI CLK</span> — Horloge SPI Mode 3 (CPOL=1, CPHA=1). Relier à <code>SPI2_SCK</code> (PD3)</td></tr>
+<tr><td class="pin-num">4</td><td>NC</td><td>—</td><td><span class="badge badge-gnd">→ GND</span></td></tr>
+<tr><td class="pin-num">5</td><td>MOSI</td><td>Entrée (I)</td><td><span class="badge badge-spi">SPI MOSI</span> — Relier à <code>SPI2_MOSI</code> (PB15)</td></tr>
+<tr><td class="pin-num">6</td><td>MISO</td><td>Sortie (O)</td><td><span class="badge badge-spi">SPI MISO</span> — Relier à <code>SPI2_MISO</code> (PB14). Condensateur 47 pF vers GND.</td></tr>
+<tr><td class="pin-num">7</td><td>INT/TRG</td><td>O <em>ou</em> I</td><td><span class="badge badge-int">Interrupt / Trigger</span> — Pin bidirectionnel. Voir <a href="#s3">section 3</a>.</td></tr>
+<tr><td class="pin-num">8</td><td>NC</td><td>—</td><td><span class="badge badge-gnd">→ GND</span></td></tr>
+<tr><td class="pin-num">9</td><td>NC</td><td>—</td><td><span class="badge badge-gnd">→ GND</span></td></tr>
+<tr><td class="pin-num">10</td><td>NC</td><td>—</td><td><span class="badge badge-gnd">→ GND</span></td></tr>
+<tr><td class="pin-num">11</td><td>NC (A1)</td><td>—</td><td><span class="badge badge-gnd">→ GND</span> — Voir <a href="#s4">section 4</a></td></tr>
+<tr><td class="pin-num">12</td><td>NC (A0)</td><td>—</td><td><span class="badge badge-gnd">→ GND</span> — Voir <a href="#s4">section 4</a></td></tr>
+<tr><td class="pin-num">13</td><td>VSS</td><td>Alim (S)</td><td><span class="badge badge-gnd">GND</span></td></tr>
+<tr><td class="pin-num">14</td><td>NC</td><td>—</td><td><span class="badge badge-gnd">→ GND</span></td></tr>
+<tr><td class="pin-num">15</td><td>VDD</td><td>Alim (S)</td><td><span class="badge badge-pwr">3.3V</span> — Avec découplage 100nF + 1µF + 100pF</td></tr>
+<tr><td class="pin-num">16</td><td>NC</td><td>—</td><td><span class="badge badge-gnd">→ GND</span></td></tr>
+<tr><td style="text-align:center;font-style:italic" colspan="4">Pad thermique (dessous) → <span class="badge badge-gnd">GND</span> (non connecté électriquement, mais à souder à GND)</td></tr>
+</table>
+
+<!-- =============================================================== -->
+<h2 id="s3">3. Les deux sorties INT : comprendre la différence</h2>
+
+<p>Le package QFN-16 possède <strong>deux pins d'interruption</strong> distinctes. C'est une particularité importante :</p>
+
+<table>
+<tr><th>Pin</th><th>Nom</th><th>Direction</th><th>Type de sortie</th><th>Comportement</th></tr>
+<tr>
+  <td class="pin-num">1</td><td><strong>INT</strong></td><td>Sortie uniquement</td><td>Push-pull</td>
+  <td>
+    <strong>Sortie d'interruption dédiée, toujours en sortie.</strong><br>
+    Active HIGH quand une mesure est prête (DRDY) ou quand le seuil WOC est dépassé.<br>
+    Remise à zéro automatique par la lecture des données (commande RM).<br>
+    <em>Ce pin n'existe que sur le package QFN-16.</em>
+  </td>
+</tr>
+<tr>
+  <td class="pin-num">7</td><td><strong>INT/TRG</strong></td><td>Sortie <em>ou</em> Entrée (configurable)</td><td>Push-pull (sortie) / Schmitt (entrée)</td>
+  <td>
+    <strong>Pin multifonction programmable via le registre <code>TrigIntSel</code> :</strong><br>
+    <ul>
+      <li><code>TrigIntSel = 1</code> (défaut) → <strong>mode INT (sortie)</strong> : même comportement que le pin 1 (duplication). Active HIGH. Remise à zéro par RM.</li>
+      <li><code>TrigIntSel = 0</code> + <code>ExtTrig = 1</code> → <strong>mode TRIGGER (entrée)</strong> : un front montant sur cette pin déclenche une mesure unique (Single Measurement), à condition qu'une commande SM ait été envoyée au préalable.</li>
+    </ul>
+  </td>
+</tr>
+</table>
+
+<h3>3.1 Choix du câblage selon l'application</h3>
+
+<table>
+<tr><th>Scénario</th><th>Pin à câbler vers le MCU</th><th>Configuration registre</th><th>Notes</th></tr>
+<tr>
+  <td><strong>Interruption classique (polling ou EXTI)</strong><br>Le MCU attend que la mesure soit prête</td>
+  <td><strong>Pin 1 (INT)</strong> → PJ8 (MEMS_INT)<br>Pin 7 → Non câblé ou GND via 100 pF</td>
+  <td><code>TrigIntSel = 1</code> (défaut)</td>
+  <td>Solution la plus simple. Le pin 1 est dédié sortie, pas de risque de conflit.</td>
+</tr>
+<tr>
+  <td><strong>Interruption via pin 7</strong><br>(packages SOIC-8 / TSSOP-16 n'ont que ce pin)</td>
+  <td>Pin 7 (INT/TRG) → PJ8 (MEMS_INT)<br>Pin 1 → Non câblé</td>
+  <td><code>TrigIntSel = 1</code> (défaut)</td>
+  <td>Fonctionnel aussi. Pin 7 est alors en sortie push-pull.</td>
+</tr>
+<tr>
+  <td><strong>Déclenchement externe (trigger)</strong><br>Le MCU déclenche la mesure par un front montant</td>
+  <td>Pin 7 (INT/TRG) ← PA15 (MEMS_FSYNC, GPIO_Output)<br>Pin 1 (INT) → PJ8 (MEMS_INT)</td>
+  <td><code>TrigIntSel = 0</code><br><code>ExtTrig = 1</code></td>
+  <td>Le MCU envoie un pulse sur pin 7 pour déclencher. Le résultat est signalé sur pin 1.</td>
+</tr>
+</table>
+
+<div class="info">
+<strong>Polarité INT :</strong> les deux sorties INT sont <strong>actives HIGH</strong> (montant quand la donnée est prête).<br>
+Dans le <code>.ioc</code> actuel, PJ8 est configuré en <code>GPIO_MODE_IT_FALLING</code> — il faudra le corriger en <code>GPIO_MODE_IT_RISING</code> si vous voulez détecter le front montant de INT.
+</div>
+
+<h3>3.2 Chronogramme INT</h3>
+<pre>
+Commande SM (ou SB)          Commande RM
+       │                          │
+       ▼                          ▼
+CS  ▔▔▁▁▁▁▁▁▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▁▁▁▁▁▁▁▁▔▔▔
+       ├── conversion ──┤
+INT ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▔▔▔▔▔▔▔▔▔▔▔▔▔▁▁▁
+                        ↑              ↑
+                   Mesure prête    Remis à 0 par RM
+
+En Burst Mode :
+INT ▁▁▁▔▔▔▔▁▁▁▔▔▔▔▁▁▁▔▔▔▔▁▁▁   (périodique, remis à 0 par RM)
+         ↑       ↑       ↑
+       Mesure  Mesure  Mesure
+</pre>
+
+<!-- =============================================================== -->
+<h2 id="s4">4. Que faire des pins A0 et A1 en mode SPI ?</h2>
+
+<p>Les pins <strong>A0 (pin 12)</strong> et <strong>A1 (pin 11)</strong> servent <em>uniquement</em> en mode I2C pour définir l'adresse 7 bits du slave :</p>
+
+<table>
+<tr><th>A1</th><th>A0</th><th>Adresse I2C (7 bits)</th></tr>
+<tr><td>GND</td><td>GND</td><td>0x0C</td></tr>
+<tr><td>GND</td><td>VDD</td><td>0x0D</td></tr>
+<tr><td>VDD</td><td>GND</td><td>0x0E</td></tr>
+<tr><td>VDD</td><td>VDD</td><td>0x0F</td></tr>
+</table>
+
+<h3>En mode SPI : ces pins sont ignorés par le chip.</h3>
+
+<div class="ok">
+<strong>Recommandation Melexis (datasheet §19.2.1) :</strong> relier A0 et A1 à <strong>GND</strong> directement (piste courte, sans résistance). Cela assure un niveau logique stable et un meilleur comportement EMC.<br><br>
+<strong>Ne jamais les laisser flottants</strong> — même si non utilisés, un pin flottant capte du bruit et peut perturber les entrées numériques internes.
+</div>
+
+<!-- =============================================================== -->
+<h2 id="s5">5. Pins non connectés (NC) — traitement EMC</h2>
+
+<p>Le QFN-16 possède <strong>6 pins marqués "Not Connected"</strong> (pins 4, 8, 9, 10, 14, 16). Le datasheet (§7.3) indique :</p>
+
+<div class="info">
+"For optimal EMC behaviour connect the unused pins (Not Used) to the Ground."
+</div>
+
+<table>
+<tr><th>Pin</th><th>Fonction interne</th><th>Câblage recommandé</th></tr>
+<tr><td class="pin-num">4</td><td>NC</td><td>→ GND (piste directe, pas de composant)</td></tr>
+<tr><td class="pin-num">8</td><td>NC</td><td>→ GND</td></tr>
+<tr><td class="pin-num">9</td><td>NC</td><td>→ GND</td></tr>
+<tr><td class="pin-num">10</td><td>NC</td><td>→ GND</td></tr>
+<tr><td class="pin-num">14</td><td>NC</td><td>→ GND</td></tr>
+<tr><td class="pin-num">16</td><td>NC</td><td>→ GND</td></tr>
+<tr><td class="pin-num">11</td><td>A1 (inutilisé en SPI)</td><td>→ GND</td></tr>
+<tr><td class="pin-num">12</td><td>A0 (inutilisé en SPI)</td><td>→ GND</td></tr>
+</table>
+
+<p><strong>Total : 8 pins à relier à GND</strong> (6 NC + A0 + A1).</p>
+
+<!-- =============================================================== -->
+<h2 id="s5b">5b. Résistances de pull-up / pull-down — où en faut-il ?</h2>
+
+<table>
+<tr><th>Pin</th><th>Signal</th><th>Type de sortie</th><th>Pull-up ?</th><th>Pull-down ?</th><th>Explication</th></tr>
+<tr>
+  <td class="pin-num">2</td><td>/CS</td><td>Entrée</td>
+  <td style="background:#eafaf1;text-align:center"><strong>OUI<br>10 kΩ → VDD</strong></td>
+  <td style="text-align:center">Non</td>
+  <td>
+    <strong>Indispensable.</strong> Pendant le reset ou le boot du STM32, les GPIO sont en haute impédance.
+    Sans pull-up, /CS peut flotter à LOW → le MLX90395 croit recevoir une commande SPI et se retrouve dans un état indéterminé.
+    <br>Le pull-up maintient CS = HIGH (inactif) tant que le MCU n'a pas pris le contrôle.
+  </td>
+</tr>
+<tr>
+  <td class="pin-num">1</td><td>INT</td><td><strong>Push-pull</strong> (sortie)</td>
+  <td style="text-align:center">Non nécessaire</td>
+  <td style="text-align:center">Non</td>
+  <td>
+    Sortie push-pull : le MLX90395 pilote activement le signal à HIGH ou LOW.
+    <strong>Pas besoin de pull-up.</strong>
+    <br><em>Note : dans la version précédente du guide, un pull-up 10 kΩ était indiqué — il est optionnel et peut être omis.</em>
+  </td>
+</tr>
+<tr>
+  <td class="pin-num">7</td><td>INT/TRG</td><td><strong>Push-pull</strong> (sortie, défaut)<br>ou Entrée (trigger)</td>
+  <td style="text-align:center">Non nécessaire<br>(mode sortie)</td>
+  <td style="text-align:center">Non</td>
+  <td>
+    En mode INT (défaut, <code>TrigIntSel=1</code>) : push-pull, pas de pull-up nécessaire.
+    <br>En mode Trigger (<code>TrigIntSel=0</code>) : c'est une entrée pilotée par le MCU → pas de pull-up nécessaire non plus.
+  </td>
+</tr>
+<tr>
+  <td class="pin-num">3</td><td>SCLK</td><td>Entrée</td>
+  <td style="text-align:center">Non</td>
+  <td style="text-align:center">Non</td>
+  <td>Piloté activement par le MCU (push-pull). En mode SPI 3, SCLK est idle HIGH (géré par CPOL=1 du STM32).</td>
+</tr>
+<tr>
+  <td class="pin-num">5</td><td>MOSI</td><td>Entrée</td>
+  <td style="text-align:center">Non</td>
+  <td style="text-align:center">Non</td>
+  <td>Piloté activement par le MCU.</td>
+</tr>
+<tr>
+  <td class="pin-num">6</td><td>MISO</td><td><strong>Push-pull</strong> (sortie)</td>
+  <td style="text-align:center">Non</td>
+  <td style="text-align:center">Non</td>
+  <td>Sortie push-pull, pilotée par le MLX90395. Pas de résistance de tirage.</td>
+</tr>
+<tr>
+  <td class="pin-num">11, 12</td><td>A1, A0</td><td>Entrée (I2C only)</td>
+  <td style="text-align:center">Non</td>
+  <td style="background:#eafaf1;text-align:center"><strong>→ GND direct</strong></td>
+  <td>Non utilisés en SPI. Relier directement à GND (pas de résistance nécessaire, connexion directe).</td>
+</tr>
+</table>
+
+<h3>Résumé</h3>
+<div class="ok">
+<strong>Un seul pull-up est nécessaire en mode SPI : sur /CS (pin 2) → 10 kΩ vers VDD.</strong><br>
+Il garantit que le chip n'est pas sélectionné pendant le boot/reset du STM32.
+<br><br>
+Les sorties INT (pin 1) et INT/TRG (pin 7) sont en <strong>push-pull</strong> → aucun pull-up nécessaire.
+<br>
+Les entrées SCLK et MOSI sont pilotées par le MCU → aucun pull-up nécessaire.
+</div>
+
+<div class="info">
+<strong>Cas I2C (pour mémoire, non utilisé ici) :</strong> en mode I2C, SDA et SCL nécessitent des pull-ups 10 kΩ vers VDD (bus I2C open-drain). Ce n'est <strong>pas le cas en SPI</strong> car tous les signaux sont push-pull.
+</div>
+
+<!-- =============================================================== -->
+<h2 id="s6">6. Câblage SPI — Schéma de connexion STM32H747</h2>
+
+<h3>6.1 Correspondance des signaux</h3>
+
+<table>
+<tr><th>Signal STM32H747</th><th>Pin MCU</th><th>→</th><th>Pin MLX90395 (QFN-16)</th><th>Signal MLX90395</th></tr>
+<tr><td>SPI2_SCK</td><td>PD3</td><td>→</td><td class="pin-num">3</td><td>SCLK</td></tr>
+<tr><td>SPI2_MOSI</td><td>PB15</td><td>→</td><td class="pin-num">5</td><td>MOSI</td></tr>
+<tr><td>SPI2_MISO</td><td>PB14</td><td>←</td><td class="pin-num">6</td><td>MISO</td></tr>
+<tr><td>SPI2_NSS (MEMS_CS)</td><td>PB9</td><td>→</td><td class="pin-num">2</td><td>/CS</td></tr>
+<tr><td>MEMS_INT (EXTI8)</td><td>PJ8</td><td>←</td><td class="pin-num">1</td><td>INT</td></tr>
+<tr><td>MEMS_FSYNC (GPIO)</td><td>PA15</td><td>→</td><td class="pin-num">7</td><td>TRG (optionnel)</td></tr>
+</table>
+
+<h3>6.2 Schéma de câblage</h3>
+
+<div class="schematic">
+<pre>
+  <span class="pwr">VDD_3V3</span> ──┬──[<span class="comp">C1 100nF</span>]──┬── <span class="gnd">GND</span>
+           ├──[<span class="comp">C2 1µF</span>]───┘
+           ├──[<span class="comp">C3 100pF</span>]──── <span class="gnd">GND</span>       (EMC)
+           │
+           └─────────────────────── <span class="pin">Pin 15</span> (VDD)
+
+  <span class="gnd">GND</span> ────────────────────────── <span class="pin">Pin 13</span> (VSS)
+  <span class="gnd">GND</span> ────────────────────────── Pad thermique (dessous)
+
+  <span class="sig">PD3  (SPI2_SCK)</span>  ──────────── <span class="pin">Pin 3</span>  (SCLK)
+  <span class="sig">PB15 (SPI2_MOSI)</span> ──────────── <span class="pin">Pin 5</span>  (MOSI)
+  <span class="sig">PB14 (SPI2_MISO)</span> ──────────── <span class="pin">Pin 6</span>  (MISO) ──[<span class="comp">C4 47pF</span>]── <span class="gnd">GND</span>
+  <span class="sig">PB9  (SPI2_NSS)</span>  ──┬───────── <span class="pin">Pin 2</span>  (/CS)
+  <span class="pwr">VDD_3V3</span> ──[<span class="comp">R1 10kΩ</span>]──┘         (pull-up CS : maintient HIGH au boot MCU)
+
+  <span class="sig">PJ8 (MEMS_INT)</span>  ──────────── <span class="pin">Pin 1</span>  (INT)    ──[<span class="comp">C5 100pF</span>]── <span class="gnd">GND</span>
+
+                                  <span class="pin">Pin 7</span>  (INT/TRG) ──[<span class="comp">C6 100pF</span>]── <span class="gnd">GND</span>
+                                         │
+                                  ┌──────┘
+                                  ├── Si trigger : relier à <span class="sig">PA15 (MEMS_FSYNC)</span>
+                                  └── Si non utilisé : laisser avec C6 seul (push-pull, pas flottant)
+
+  <span class="gnd">GND</span> ──── <span class="pin">Pin 11</span> (A1)  ──── Relier direct à <span class="gnd">GND</span>
+  <span class="gnd">GND</span> ──── <span class="pin">Pin 12</span> (A0)  ──── Relier direct à <span class="gnd">GND</span>
+
+  <span class="gnd">GND</span> ──── <span class="pin">Pins 4, 8, 9, 10, 14, 16</span> (tous NC → <span class="gnd">GND</span>)
+</pre>
+</div>
+
+<h3>6.3 Configuration SPI requise</h3>
+
+<table>
+<tr><th>Paramètre</th><th>Valeur</th><th>Notes</th></tr>
+<tr><td>Mode SPI</td><td><strong>Mode 3</strong> (CPOL=1, CPHA=1)</td><td>Clock idle HIGH, données échantillonnées sur front montant</td></tr>
+<tr><td>Taille données</td><td>8 bits</td><td>Transferts octet par octet</td></tr>
+<tr><td>Bit de poids fort</td><td>MSB first</td><td></td></tr>
+<tr><td>Fréquence max</td><td>1 MHz (variant -001)<br>10 MHz (variant -000)</td><td>Prescaler SPI2 : /128 sur APB=120 MHz → 937 kHz</td></tr>
+<tr><td>NSS (CS)</td><td>Actif LOW</td><td>Doit revenir HIGH entre chaque transaction</td></tr>
+</table>
+
+<div class="warn">Le CS <strong>doit</strong> être HIGH entre chaque commande SPI. L'IC traite la commande sur le front montant de CS. Ne jamais enchaîner deux commandes sans relâcher CS.</div>
+
+<!-- =============================================================== -->
+<h2 id="s7">7. Composants externes (BOM)</h2>
+
+<table class="bom-table">
+<tr><th>Réf</th><th>Valeur</th><th>Package</th><th>Emplacement</th><th>Rôle</th></tr>
+<tr><td>C1</td><td>100 nF</td><td>0402</td><td>&lt; 0.5 mm du pin 15 (VDD)</td><td>Découplage principal HF</td></tr>
+<tr><td>C2</td><td>1 µF</td><td>0402</td><td>À côté de C1</td><td>Découplage principal BF</td></tr>
+<tr><td>C3</td><td>100 pF</td><td>0402</td><td>Pin VDD, via GND directe</td><td>Filtrage EMC additionnel</td></tr>
+<tr><td>C4</td><td>47 pF</td><td>0402</td><td>Pin 6 (MISO) vers GND</td><td>Filtrage sortie MISO</td></tr>
+<tr><td>C5</td><td>100 pF</td><td>0402</td><td>Pin 1 (INT) vers GND</td><td>Filtrage interrupt</td></tr>
+<tr><td>C6</td><td>100 pF</td><td>0402</td><td>Pin 7 (INT/TRG) vers GND</td><td>Filtrage interrupt/trigger</td></tr>
+<tr><td>R1</td><td>10 kΩ</td><td>0402</td><td>Entre VDD et Pin 2 (/CS)</td><td>Pull-up CS (maintien HIGH au boot MCU)</td></tr>
+</table>
+
+<div class="info">
+<strong>Variant BBA (filtre intégré) :</strong> les condensateurs C3-SCLK, C3-CS et C3-MOSI du schéma de référence BAA (Tableau 28 du datasheet) <strong>ne sont pas nécessaires</strong> car le filtre RC est intégré dans le silicon. Voir Tableau 29 du datasheet.
+</div>
+
+<!-- =============================================================== -->
+<h2 id="s8">8. Découplage et alimentation</h2>
+
+<table>
+<tr><th>Paramètre</th><th>Min</th><th>Typ</th><th>Max</th><th>Condition</th></tr>
+<tr><td>VDD</td><td>2.6 V</td><td>3.3 V</td><td>3.6 V</td><td>T ≤ 90°C</td></tr>
+<tr><td>VDD</td><td><strong>3.0 V</strong></td><td>3.3 V</td><td>3.6 V</td><td>T &gt; 90°C</td></tr>
+<tr><td>Courant mesure XY</td><td></td><td>2.3 mA</td><td>3 mA</td><td></td></tr>
+<tr><td>Courant mesure Z</td><td></td><td>3 mA</td><td>4 mA</td><td></td></tr>
+<tr><td>Courant idle</td><td></td><td>1.4 µA</td><td>20 µA</td><td></td></tr>
+<tr><td>Courant standby (burst/WOC)</td><td></td><td>2.4 µA</td><td>21 µA</td><td></td></tr>
+<tr><td>Surge courant (startup)</td><td></td><td>25 mA</td><td>250 mA</td><td>&lt; 3 µs</td></tr>
+</table>
+
+<div class="warn">
+Le courant de surge au démarrage peut atteindre <strong>250 mA pendant 3 µs</strong>. Le condensateur 1 µF à proximité immédiate du pin VDD est indispensable pour absorber ce pic sans provoquer de chute de tension.
+</div>
+
+<pre>
+Placement des condensateurs (vue de dessus) :
+
+            ┌───────────────┐
+    GND ─── │ C3 (100pF)    │
+            └───┬───────────┘
+    GND ─── │ C1 (100nF)    │     ← Les 3 composants < 0.5mm du pin VDD
+            └───┬───────────┘       Via de masse sous chaque composant
+    GND ─── │ C2 (1µF)      │
+            └───┬───────────┘
+                │
+         Pin 15 (VDD) du MLX90395
+</pre>
+
+<!-- =============================================================== -->
+<h2 id="s9">9. Recommandations de routage PCB</h2>
+
+<h3>9.1 Pistes SPI</h3>
+<ul>
+  <li><strong>Longueur :</strong> garder SCLK, MOSI, MISO, /CS de longueur similaire, &lt; 50 mm</li>
+  <li><strong>Largeur :</strong> ≥ 0.15 mm (6 mil), recommandé 0.2 mm</li>
+  <li><strong>Espacement :</strong> minimum 3× la largeur entre pistes SPI (éviter le couplage)</li>
+  <li><strong>Plan de masse :</strong> plan GND continu sous toutes les pistes SPI sans interruption</li>
+  <li><strong>Pas de stubs :</strong> les condensateurs de filtrage (C4 sur MISO) doivent être câblés directement sur la piste, sans dérivation</li>
+  <li><strong>Si câble long (&gt; 50 mm) :</strong> ajouter résistances série 22–47 Ω côté STM32 sur SCLK et MOSI</li>
+</ul>
+
+<h3>9.2 Piste INT et /CS</h3>
+<ul>
+  <li>Piste INT courte et directe vers PJ8</li>
+  <li>C5 (100 pF) au plus près du pin 1 du MLX90395</li>
+  <li><strong>R1 (10 kΩ pull-up) sur /CS (pin 2)</strong>, placé côté MLX90395 (pas côté MCU) — maintient CS HIGH au boot</li>
+  <li>Pas de plan de masse sous la piste INT si possible (réduire la capacité parasite)</li>
+</ul>
+
+<h3>9.3 Alimentation</h3>
+<ul>
+  <li>Alimenter depuis le plan 3V3 via un large via, pas une longue piste fine</li>
+  <li>Condensateurs de découplage entre le pin VDD et le plan GND le plus proche</li>
+  <li>Via de masse directement sous chaque condensateur (via in pad ou adjacent &lt; 0.3 mm)</li>
+</ul>
+
+<h3>9.4 Zone d'exclusion magnétique</h3>
+<ul>
+  <li><strong>Aucun matériau ferromagnétique</strong> (vis, blindage acier, ferrite) dans un rayon de 10 mm</li>
+  <li><strong>Aucune piste de fort courant</strong> (LEDs, moteurs, buck converters) à moins de 5 mm — les champs magnétiques parasites faussent les mesures</li>
+  <li>Orienter le <strong>point sensitif</strong> vers l'aimant (centre du package QFN, ±0.2 mm)</li>
+</ul>
+
+<!-- =============================================================== -->
+<h2 id="s10">10. Pad thermique QFN</h2>
+
+<p>Le pad thermique (exposed pad) du QFN-16 est <strong>non connecté électriquement</strong> en interne. Cependant :</p>
+
+<ul>
+  <li>✅ <strong>Souder à GND</strong> pour la tenue mécanique, la dissipation thermique et le blindage EMC</li>
+  <li>✅ Placer <strong>4 vias thermiques</strong> minimum sous le pad (⌀ 0.3 mm, remplis ou bouchés côté composant)</li>
+  <li>✅ Le plan GND sous le pad doit être continu et non perforé</li>
+</ul>
+
+<div class="info">
+La résistance thermique du QFN-16 est θ<sub>jc</sub> = 21 K/W. Avec le pad soudé, la dissipation est suffisante pour toutes les conditions d'utilisation (P<sub>max</sub> ≈ 4 mA × 3.6 V = 14.4 mW).
+</div>
+
+<!-- =============================================================== -->
+<h2 id="s11">11. Subtilités hardware à connaître</h2>
+
+<h3>11.1 Sélection du mode de communication (CommMode)</h3>
+
+<p>Par défaut (<code>CommMode = 0b00</code>), le MLX90395 accepte I2C <em>et</em> SPI (premier arrivé, premier servi). Pour un fonctionnement SPI exclusif :</p>
+
+<table>
+<tr><th>CommMode</th><th>Protocole accepté</th><th>Pin MS/CS</th></tr>
+<tr><td>0b00 (défaut)</td><td>I2C et SPI</td><td>HIGH = attente I2C, LOW = SPI</td></tr>
+<tr><td><strong>0b10</strong> (recommandé)</td><td><strong>SPI uniquement</strong></td><td>CS pur pour SPI</td></tr>
+<tr><td>0b11</td><td>I2C uniquement</td><td>HIGH 200 µs après POR, puis ignoré</td></tr>
+</table>
+
+<div class="ok">
+Programmer <code>CommMode = 0b10</code> (registre 0x02, bits [9:8]) après le premier démarrage, puis stocker en NVRAM avec la commande HS.
+</div>
+
+<h3>11.2 Temps de démarrage</h3>
+
+<table>
+<tr><th>Phase</th><th>Durée</th><th>Description</th></tr>
+<tr><td>Power-On Reset (T<sub>POR</sub>)</td><td>1.3 – 2.4 ms</td><td>Du power-on au mode IDLE. Memory Recall automatique.</td></tr>
+<tr><td>Initialisation (T<sub>INIT</sub>)</td><td>165 µs</td><td>Du mode IDLE au début de la première conversion</td></tr>
+<tr><td>Surge courant</td><td>&lt; 3 µs</td><td>Pic de 25–250 mA au power-on</td></tr>
+</table>
+
+<div class="warn">Attendre <strong>au minimum 2.4 ms</strong> après la mise sous tension avant d'envoyer la première commande SPI.</div>
+
+<h3>11.3 Stockage NVRAM (commande HS)</h3>
+<ul>
+  <li>Attendre <strong>minimum 15 ms</strong> après HS avant toute autre commande</li>
+  <li>Endurance NVRAM : <strong>1000 cycles d'écriture</strong> garantis à 125°C</li>
+  <li>Ne pas écrire la NVRAM de manière répétitive en fonctionnement normal</li>
+  <li>Si VDD &lt; 3.0V et T &gt; 90°C : performances NVRAM non garanties</li>
+</ul>
+
+<h3>11.4 Tension VDD à haute température</h3>
+<div class="warn">
+Au-dessus de 90°C, la tension minimale passe de <strong>2.6V à 3.0V</strong>. S'assurer que le régulateur 3.3V maintient ≥ 3.0V en toutes conditions de charge et de température.
+</div>
+
+<h3>11.5 Seuils logiques des entrées</h3>
+<table>
+<tr><th>Signal</th><th>V<sub>IH</sub> (HIGH min)</th><th>V<sub>IL</sub> (LOW max)</th><th>Hystérésis</th></tr>
+<tr><td>SCLK, MOSI</td><td>75% VDD (2.475V)</td><td>25% VDD (0.825V)</td><td>15–27% VDD</td></tr>
+<tr><td>CS, INT/TRG</td><td>70% VDD (2.31V)</td><td>20% VDD (0.66V)</td><td>17–22% VDD</td></tr>
+</table>
+
+<div class="info">Avec VDD = 3.3V, le STM32H747 (sorties push-pull 3.3V) est largement compatible.</div>
+
+<h3>11.6 ESD</h3>
+<table>
+<tr><th>Modèle</th><th>Valeur</th><th>Norme</th></tr>
+<tr><td>HBM (Human Body Model)</td><td>±2 kV</td><td>AEC-Q100-002</td></tr>
+<tr><td>CDM (Charged Device Model)</td><td>±750 V</td><td>AEC-Q100-011</td></tr>
+</table>
+
+<h3>11.7 Possibilité 3-wire SPI</h3>
+<p>Le datasheet mentionne que MISO et MOSI peuvent être court-circuités pour un mode SPI 3 fils (half-duplex). Cela permet d'économiser une piste mais attention à la capacité accrue et aux collisions en cas de commande illégale.</p>
+<div class="warn">
+En mode 3-wire SPI, une commande illégale (ex: RR pendant le mode Burst) provoque une <strong>collision sur le bus</strong> car l'IC envoie immédiatement le status byte sur la même ligne que le MOSI.
+<br>→ <strong>Non recommandé</strong> pour ce projet (utiliser le mode 4-wire standard).
+</div>
+
+<!-- =============================================================== -->
+<h2 id="s12">12. Checklist schéma &amp; PCB</h2>
+
+<h3>Schéma</h3>
+<table>
+<tr><th>✓</th><th>Élément</th></tr>
+<tr><td>☐</td><td>Pin 15 (VDD) → 3V3 avec C1 (100nF) + C2 (1µF) + C3 (100pF) en parallèle vers GND</td></tr>
+<tr><td>☐</td><td>Pin 13 (VSS) → GND</td></tr>
+<tr><td>☐</td><td>Pad thermique → GND avec vias thermiques</td></tr>
+<tr><td>☐</td><td>Pin 3 (SCLK) → PD3 (SPI2_SCK)</td></tr>
+<tr><td>☐</td><td>Pin 5 (MOSI) → PB15 (SPI2_MOSI)</td></tr>
+<tr><td>☐</td><td>Pin 6 (MISO) → PB14 (SPI2_MISO) + C4 (47pF) vers GND</td></tr>
+<tr><td>☐</td><td>Pin 2 (/CS) → PB9 (SPI2_NSS) + R1 (10kΩ pull-up → VDD)</td></tr>
+<tr><td>☐</td><td>Pin 1 (INT) → PJ8 (MEMS_INT) + C5 (100pF GND)</td></tr>
+<tr><td>☐</td><td>Pin 7 (INT/TRG) → C6 (100pF GND). Si trigger : aussi relier à PA15</td></tr>
+<tr><td>☐</td><td>Pins 11, 12 (A0, A1) → GND directement</td></tr>
+<tr><td>☐</td><td>Pins 4, 8, 9, 10, 14, 16 (NC) → GND</td></tr>
+</table>
+
+<h3>PCB</h3>
+<table>
+<tr><th>✓</th><th>Élément</th></tr>
+<tr><td>☐</td><td>C1, C2, C3 à &lt; 0.5 mm du pin VDD</td></tr>
+<tr><td>☐</td><td>Via de masse sous chaque condensateur de découplage</td></tr>
+<tr><td>☐</td><td>4 vias thermiques minimum sous le pad QFN</td></tr>
+<tr><td>☐</td><td>Pistes SPI &lt; 50 mm, largeur ≥ 0.15 mm</td></tr>
+<tr><td>☐</td><td>Espacement ≥ 3× largeur entre pistes SPI</td></tr>
+<tr><td>☐</td><td>Plan GND continu sous le MLX90395 et les pistes SPI</td></tr>
+<tr><td>☐</td><td>Aucun matériau ferromagnétique dans rayon 10 mm</td></tr>
+<tr><td>☐</td><td>Aucune piste de fort courant (&gt; 100 mA) à moins de 5 mm</td></tr>
+<tr><td>☐</td><td>Résistances série (22–47 Ω) sur SCLK/MOSI si câble &gt; 50 mm</td></tr>
+</table>
+
+<!-- =============================================================== -->
+<h2 id="s13">13. Références</h2>
+
+<ul>
+  <li>Datasheet MLX90395 Rev 6.0 — Melexis, Septembre 2020 (3901090395)</li>
+  <li>Section 19.2.1 : « Wiring with the MLX90395 in QFN-16 Package — SPI Mode »</li>
+  <li>Section 7.3 : « Pin Definition for QFN-16 Package »</li>
+  <li>Section 17.6 : « SPI Communication »</li>
+  <li>Section 18.10 : « External Trigger »</li>
+  <li>Tableau 29 : « Recommended values for QFN-16 in SPI mode, BBA version »</li>
+</ul>
+
+<footer>
+  <p><strong>Projet Sp3ctra CIS</strong> — MLX90395 Hardware Integration Guide — v1.0<br>
+  STM32H747XIHx — SPI2 (PD3/PB15/PB14/PB9) — QFN-16 package<br>
+  Généré le 31/03/2026</p>
+</footer>
+
+</body>
+</html>

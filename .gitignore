@@ -30,3 +30,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+
+# Editor local history / autosave
+.history/
+\#auto_saved_files#
