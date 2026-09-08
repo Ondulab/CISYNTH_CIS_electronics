@@ -1869,4 +1869,9 @@
   (pad "V" thru_hole circle (at 1.9685 -0.3937) (size 0.508 0.508) (drill 0.254) (layers *.Cu *.Mask))
   (pad "V" thru_hole circle (at 1.9685 -1.1811) (size 0.508 0.508) (drill 0.254) (layers *.Cu *.Mask))
   (pad "V" thru_hole circle (at 1.9685 -1.9685) (size 0.508 0.508) (drill 0.254) (layers *.Cu *.Mask))
+	(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm.step"
+		(offset (xyz 0 0 0))
+		(scale (xyz 1 1 1))
+		(rotate (xyz 0 0 0))
+	)
 )

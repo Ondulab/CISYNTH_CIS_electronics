@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "mod")(type "KiCad")(uri "${KIPRJMOD}/Lib/mod.pretty")(options "")(descr "")(disabled))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "DISP")(type "KiCad")(uri "${KIPRJMOD}/DISP.pretty")(options "")(descr "Connecteurs écran / tactile Touch Bar"))
 )
