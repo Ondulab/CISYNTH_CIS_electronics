@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "filename": "CIS_Integration_V4.kicad_pro",
+    "version": 1
+  },
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_copper_edge_clearance": 0.2,
+        "min_clearance": 0.15
+      }
+    }
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.15
+      }
+    ]
+  }
+}
