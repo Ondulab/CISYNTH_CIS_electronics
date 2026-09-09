@@ -1,0 +1,532 @@
+{
+  "V3": {
+    "symbol_instances": 360,
+    "nonpower_instances": 176,
+    "refs": 176,
+    "counts": {
+      "R": 50,
+      "C": 86,
+      "U": 13,
+      "J": 1,
+      "D": 4,
+      "Q": 3,
+      "L": 10
+    },
+    "angles": {
+      "R": {
+        "180": 8,
+        "270": 9,
+        "0": 27,
+        "90": 6
+      },
+      "C": {
+        "0": 57,
+        "180": 23,
+        "90": 5,
+        "270": 1
+      },
+      "U": {
+        "0": 11,
+        "270": 2
+      },
+      "J": {
+        "0": 1
+      },
+      "D": {
+        "270": 3,
+        "180": 1
+      },
+      "Q": {
+        "0": 3
+      },
+      "L": {
+        "0": 2,
+        "90": 4,
+        "270": 2,
+        "180": 2
+      }
+    },
+    "multiunits": {},
+    "grid_absolute_coordinates": {
+      "1.27": {
+        "symbols": 323,
+        "symbol_total": 720,
+        "wire_endpoints": 568,
+        "wire_total": 1152
+      },
+      "0.635": {
+        "symbols": 720,
+        "symbol_total": 720,
+        "wire_endpoints": 1152,
+        "wire_total": 1152
+      },
+      "0.3175": {
+        "symbols": 720,
+        "symbol_total": 720,
+        "wire_endpoints": 1152,
+        "wire_total": 1152
+      },
+      "0.254": {
+        "symbols": 323,
+        "symbol_total": 720,
+        "wire_endpoints": 568,
+        "wire_total": 1152
+      },
+      "0.127": {
+        "symbols": 720,
+        "symbol_total": 720,
+        "wire_endpoints": 1152,
+        "wire_total": 1152
+      }
+    },
+    "wire_orientations": {
+      "H": 209,
+      "V": 74,
+      "diagonal": 5
+    },
+    "wire_lengths_g": {
+      "p25": 4.0,
+      "p50": 10.0,
+      "p75": 20.0,
+      "p90": 44.0,
+      "max": 99.0,
+      "common": [
+        [
+          4.0,
+          85
+        ],
+        [
+          10.0,
+          29
+        ],
+        [
+          8.0,
+          18
+        ],
+        [
+          12.0,
+          12
+        ],
+        [
+          16.0,
+          8
+        ],
+        [
+          15.0,
+          8
+        ],
+        [
+          44.0,
+          7
+        ],
+        [
+          2.0,
+          7
+        ],
+        [
+          17.0,
+          6
+        ],
+        [
+          14.0,
+          6
+        ],
+        [
+          20.0,
+          5
+        ],
+        [
+          6.0,
+          5
+        ]
+      ]
+    },
+    "label_kinds": {
+      "label": 146
+    },
+    "label_angles": {
+      "0": 67,
+      "270": 10,
+      "180": 62,
+      "90": 7
+    },
+    "field_sizes": [
+      [
+        "[1.27, 1.27]",
+        443
+      ],
+      [
+        "[0, 0]",
+        80
+      ],
+      [
+        "[1.524, 1.524]",
+        3
+      ]
+    ],
+    "ground_angles": {
+      "0": 95,
+      "270": 10,
+      "180": 7,
+      "90": 15
+    },
+    "power_angles": {
+      "0": 43,
+      "270": 1,
+      "90": 1,
+      "180": 2
+    },
+    "measurement_grid_mm": 0.635,
+    "resistor_value_at_anchor": 40,
+    "capacitor_reference_above_anchor": 75,
+    "strict_interior_HV_crossings": {
+      "total": 53,
+      "with_junction": 0,
+      "definition": "Croisements strictement intérieurs aux deux segments, hors T et diagonales."
+    }
+  },
+  "V4_AUTO": {
+    "symbol_instances": 516,
+    "nonpower_instances": 236,
+    "refs": 236,
+    "counts": {
+      "R": 69,
+      "C": 130,
+      "U": 16,
+      "J": 4,
+      "D": 3,
+      "Q": 3,
+      "L": 6
+    },
+    "angles": {
+      "R": {
+        "180": 14,
+        "90": 23,
+        "0": 18,
+        "270": 14
+      },
+      "C": {
+        "0": 99,
+        "180": 31
+      },
+      "U": {
+        "0": 16
+      },
+      "J": {
+        "0": 4
+      },
+      "D": {
+        "90": 3
+      },
+      "Q": {
+        "0": 3
+      },
+      "L": {
+        "90": 3,
+        "180": 1,
+        "0": 1,
+        "270": 1
+      }
+    },
+    "multiunits": {},
+    "grid_absolute_coordinates": {
+      "1.27": {
+        "symbols": 437,
+        "symbol_total": 1032,
+        "wire_endpoints": 1164,
+        "wire_total": 2576
+      },
+      "0.635": {
+        "symbols": 1031,
+        "symbol_total": 1032,
+        "wire_endpoints": 2575,
+        "wire_total": 2576
+      },
+      "0.3175": {
+        "symbols": 1031,
+        "symbol_total": 1032,
+        "wire_endpoints": 2575,
+        "wire_total": 2576
+      },
+      "0.254": {
+        "symbols": 437,
+        "symbol_total": 1032,
+        "wire_endpoints": 1164,
+        "wire_total": 2576
+      },
+      "0.127": {
+        "symbols": 1031,
+        "symbol_total": 1032,
+        "wire_endpoints": 2575,
+        "wire_total": 2576
+      }
+    },
+    "wire_orientations": {
+      "H": 537,
+      "V": 107
+    },
+    "wire_lengths_g": {
+      "p25": 10.0,
+      "p50": 12.0,
+      "p75": 28.0,
+      "p90": 32.0,
+      "max": 92.0,
+      "common": [
+        [
+          28.0,
+          95
+        ],
+        [
+          12.0,
+          81
+        ],
+        [
+          4.0,
+          75
+        ],
+        [
+          11.0,
+          52
+        ],
+        [
+          10.0,
+          35
+        ],
+        [
+          16.0,
+          27
+        ],
+        [
+          2.0,
+          23
+        ],
+        [
+          8.0,
+          22
+        ],
+        [
+          24.0,
+          21
+        ],
+        [
+          14.0,
+          17
+        ],
+        [
+          13.0,
+          14
+        ],
+        [
+          18.0,
+          14
+        ]
+      ]
+    },
+    "label_kinds": {
+      "label": 267
+    },
+    "label_angles": {
+      "180": 137,
+      "0": 124,
+      "90": 6
+    },
+    "field_sizes": [
+      [
+        "[1, 1]",
+        610
+      ]
+    ],
+    "ground_angles": {
+      "0": 125,
+      "90": 17,
+      "270": 26,
+      "180": 2
+    },
+    "power_angles": {
+      "0": 81,
+      "270": 12,
+      "90": 8
+    },
+    "measurement_grid_mm": 0.635,
+    "resistor_value_at_anchor": 69,
+    "capacitor_reference_above_anchor": 127,
+    "strict_interior_HV_crossings": {
+      "total": 80,
+      "with_junction": 0,
+      "definition": "Croisements strictement intérieurs aux deux segments, hors T et diagonales."
+    }
+  },
+  "V4_REF": {
+    "symbol_instances": 582,
+    "nonpower_instances": 267,
+    "refs": 267,
+    "counts": {
+      "R": 87,
+      "C": 142,
+      "U": 16,
+      "J": 4,
+      "D": 3,
+      "Q": 3,
+      "L": 7
+    },
+    "angles": {
+      "R": {
+        "180": 12,
+        "90": 23,
+        "0": 36,
+        "270": 16
+      },
+      "C": {
+        "0": 110,
+        "180": 32
+      },
+      "U": {
+        "0": 16
+      },
+      "J": {
+        "0": 4
+      },
+      "D": {
+        "90": 3
+      },
+      "Q": {
+        "0": 3
+      },
+      "L": {
+        "270": 2,
+        "90": 3,
+        "180": 1,
+        "0": 1
+      }
+    },
+    "multiunits": {},
+    "grid_absolute_coordinates": {
+      "1.27": {
+        "symbols": 540,
+        "symbol_total": 1164,
+        "wire_endpoints": 1261,
+        "wire_total": 2716
+      },
+      "0.635": {
+        "symbols": 1163,
+        "symbol_total": 1164,
+        "wire_endpoints": 2715,
+        "wire_total": 2716
+      },
+      "0.3175": {
+        "symbols": 1163,
+        "symbol_total": 1164,
+        "wire_endpoints": 2715,
+        "wire_total": 2716
+      },
+      "0.254": {
+        "symbols": 540,
+        "symbol_total": 1164,
+        "wire_endpoints": 1261,
+        "wire_total": 2716
+      },
+      "0.127": {
+        "symbols": 1163,
+        "symbol_total": 1164,
+        "wire_endpoints": 2715,
+        "wire_total": 2716
+      }
+    },
+    "wire_orientations": {
+      "H": 560,
+      "V": 119
+    },
+    "wire_lengths_g": {
+      "p25": 8.0,
+      "p50": 12.0,
+      "p75": 27.0,
+      "p90": 31.0,
+      "max": 92.0,
+      "common": [
+        [
+          28.0,
+          96
+        ],
+        [
+          4.0,
+          81
+        ],
+        [
+          12.0,
+          76
+        ],
+        [
+          11.0,
+          52
+        ],
+        [
+          10.0,
+          36
+        ],
+        [
+          8.0,
+          34
+        ],
+        [
+          16.0,
+          28
+        ],
+        [
+          2.0,
+          24
+        ],
+        [
+          24.0,
+          19
+        ],
+        [
+          14.0,
+          19
+        ],
+        [
+          13.0,
+          15
+        ],
+        [
+          18.0,
+          15
+        ]
+      ]
+    },
+    "label_kinds": {
+      "label": 270
+    },
+    "label_angles": {
+      "180": 141,
+      "0": 121,
+      "90": 7,
+      "270": 1
+    },
+    "field_sizes": [
+      [
+        "[1, 1]",
+        673
+      ]
+    ],
+    "ground_angles": {
+      "0": 146,
+      "90": 17,
+      "270": 26,
+      "180": 2
+    },
+    "power_angles": {
+      "0": 89,
+      "270": 12,
+      "180": 1,
+      "90": 9
+    },
+    "measurement_grid_mm": 0.635,
+    "resistor_value_at_anchor": 73,
+    "capacitor_reference_above_anchor": 139,
+    "strict_interior_HV_crossings": {
+      "total": 84,
+      "with_junction": 0,
+      "definition": "Croisements strictement intérieurs aux deux segments, hors T et diagonales."
+    }
+  }
+}

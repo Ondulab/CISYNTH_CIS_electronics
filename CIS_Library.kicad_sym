@@ -1551,7 +1551,7 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 0 0)
 				(length 7.62)
 				(name "TEST"
@@ -1569,7 +1569,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "AVDD_LDO"
@@ -1623,7 +1623,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 -10.16 0)
 				(length 7.62)
 				(name "AINGND1"
@@ -1659,7 +1659,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 -15.24 0)
 				(length 7.62)
 				(name "AINGND2"
@@ -1695,7 +1695,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 -20.32 0)
 				(length 7.62)
 				(name "AINGND3"
@@ -1731,7 +1731,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin input line
 				(at 0 -25.4 0)
 				(length 7.62)
 				(name "AINGND4"
@@ -1785,7 +1785,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 0 -33.02 0)
 				(length 7.62)
 				(name "ISET"
@@ -1821,7 +1821,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 0 -38.1 0)
 				(length 7.62)
 				(name "REFP"
@@ -1839,7 +1839,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 0 -40.64 0)
 				(length 7.62)
 				(name "REFN"
@@ -1965,7 +1965,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -58.42 0)
 				(length 7.62)
 				(name "GPIO0"
@@ -1983,7 +1983,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 0 -60.96 0)
 				(length 7.62)
 				(name "SDO/GPIO2"
@@ -2073,7 +2073,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 86.36 -68.58 180)
 				(length 7.62)
 				(name "SEN"
@@ -2091,7 +2091,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 86.36 -66.04 180)
 				(length 7.62)
 				(name "SDI"
@@ -2109,7 +2109,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 86.36 -63.5 180)
 				(length 7.62)
 				(name "SCLK"
@@ -2343,7 +2343,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 86.36 -30.48 180)
 				(length 7.62)
 				(name "XLSYNC"
@@ -2361,7 +2361,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 86.36 -27.94 180)
 				(length 7.62)
 				(name "SDO/GPIO1"
@@ -2379,7 +2379,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 86.36 -25.4 180)
 				(length 7.62)
 				(name "XST/GPIO3"
@@ -2559,7 +2559,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 86.36 0 180)
 				(length 7.62)
 				(name "EPAD"

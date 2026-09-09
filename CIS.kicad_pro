@@ -262,7 +262,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "4.0.0"
+      "sch_revision": "5.0.0-dev"
     },
     "layer_pairs": [],
     "layer_presets": [
@@ -789,7 +789,7 @@
         "uuid": "d8500201-4f46-441f-9018-fb8940f187fe"
       }
     ],
-    "used_designators": "C129,#PWR175",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -3,4 +3,6 @@
   (lib (name "mod")(type "KiCad")(uri "${KIPRJMOD}/Lib/mod.pretty")(options "")(descr "")(disabled))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
   (lib (name "DISP")(type "KiCad")(uri "${KIPRJMOD}/DISP.pretty")(options "")(descr "Connecteurs écran / tactile Touch Bar"))
+
+ (lib (name "Power_V5") (type "KiCad") (uri "${KIPRJMOD}/Power_V5.pretty") (options "") (descr "Alimentation V5"))
 )

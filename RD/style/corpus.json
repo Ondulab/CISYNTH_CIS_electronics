@@ -1,0 +1,20 @@
+{
+  "V3": {
+    "source": "Sp3ctra_CIS_Hardware/CIS/Electronique/Sp3ctra_CIS_electronics_v3/CIS.kicad_sch",
+    "sha256": "86655f865f5938f1ab0d69102fc3a7967b7e77b886da50e1fe44bb7b61f755c4",
+    "mtime": 1770066323.3679376,
+    "copy": "/private/tmp/sp3ctra-style-study/V3/CIS.kicad_sch"
+  },
+  "V4_AUTO": {
+    "source": "Sp3ctra_CIS_Hardware/CIS/Electronique/Sp3ctra_CIS_electronics_v4/_autosave-CIS.kicad_sch",
+    "sha256": "6032041e0e5f88a5f30299b99001687bfdb326d0df614a124c89b0b4c91d23fd",
+    "mtime": 1775163382.0616596,
+    "copy": "/private/tmp/sp3ctra-style-study/V4_AUTO/CIS.kicad_sch"
+  },
+  "V4_REF": {
+    "source": "Corrections_Schema_2026-09-08/avant/CIS.kicad_sch",
+    "sha256": "b4e847dcb06167df02edef7ffdd91c18bf50d906b3fa0e933843d6cbdcf5bcea",
+    "mtime": 1788871478.7124949,
+    "copy": "/private/tmp/sp3ctra-style-study/V4_REF/CIS.kicad_sch"
+  }
+}

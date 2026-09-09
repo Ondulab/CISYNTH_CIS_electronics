@@ -1,0 +1,15 @@
+{
+  "date": "2026-09-08",
+  "monitored_files": 46,
+  "changed_files": [],
+  "sources_match_manifest": true,
+  "reference_pdf_exports": 3,
+  "reference_netlist_exports": 3,
+  "atlas_pages": 9,
+  "guide_local_links_checked": 5,
+  "missing_links": [],
+  "production_schematic_edits": false,
+  "erc_run": false,
+  "erc_reason": "Étude documentaire en lecture seule ; aucune réorganisation appliquée.",
+  "style_validation": "pending"
+}
