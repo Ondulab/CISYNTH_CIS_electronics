@@ -1,3 +1,5 @@
+> **Version du 10 septembre :** [Montage_Photos](Montage_Photos/README.md) contient les positions synchronisées et l’écran avec ses nappes dans la vue 3D KiCad. Le document ci-dessous concerne la première maquette.
+
 # Base de placement mécanique V4
 
 Ouvrir **CIS_Integration_V4.kicad_pro** puis le PCB associé. Carte de 256 × 18 × 1 mm, contour exact de FreeCAD, avec J1 écran, J2 tactile et J4 Ethernet sur F.Cu. Les centres J1/J2 proviennent des deux esquisses utilisateur. J4 ouvre vers X négatif, à l'extrémité où arrivent les nappes. Les trois empreintes sont verrouillées pour conserver le repérage.

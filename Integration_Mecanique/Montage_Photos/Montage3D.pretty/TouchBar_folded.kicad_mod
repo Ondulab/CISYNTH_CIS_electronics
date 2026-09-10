@@ -1,0 +1,4 @@
+(footprint "TouchBar_folded" (version 20241229) (generator "pcbnew") (layer "F.Cu")
+ (attr board_only exclude_from_pos_files exclude_from_bom)
+ (model "${KIPRJMOD}/models/TouchBar_folded.step" (offset (xyz 0 0 0)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)))
+)

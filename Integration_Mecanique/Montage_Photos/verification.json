@@ -1,0 +1,77 @@
+{
+  "board_thickness_mm": 1.0,
+  "connectors": {
+    "J1": {
+      "kicad_xy_mm": [
+        91.293362,
+        56.68
+      ],
+      "pcb_local_xy_mm": [
+        41.293362938564094,
+        11.32
+      ],
+      "angle_deg": 0,
+      "layer": "F.Cu",
+      "locked": true,
+      "pads": 38,
+      "netlist_assignments_checked": 38
+    },
+    "J2": {
+      "kicad_xy_mm": [
+        75.150637,
+        58.5245
+      ],
+      "pcb_local_xy_mm": [
+        25.150637061435923,
+        9.4755
+      ],
+      "angle_deg": 270,
+      "layer": "F.Cu",
+      "locked": true,
+      "pads": 26,
+      "netlist_assignments_checked": 26
+    },
+    "J4": {
+      "kicad_xy_mm": [
+        58.826499,
+        59.0
+      ],
+      "pcb_local_xy_mm": [
+        8.8265,
+        9
+      ],
+      "angle_deg": 270,
+      "layer": "F.Cu",
+      "locked": true,
+      "pads": 14,
+      "netlist_assignments_checked": 12
+    }
+  },
+  "model_files_present": [
+    {
+      "ref": "J4",
+      "path": "../models/J4_envelope.step"
+    },
+    {
+      "ref": "J1",
+      "path": "../models/J1_envelope.step"
+    },
+    {
+      "ref": "MECH1",
+      "path": "models/TouchBar_folded.step"
+    },
+    {
+      "ref": "J2",
+      "path": "../models/J2_envelope.step"
+    }
+  ],
+  "drc_violations": 6,
+  "drc_unconnected_items": 34,
+  "drc_types": {
+    "copper_edge_clearance": 2,
+    "hole_clearance": 2,
+    "silk_edge_clearance": 2
+  },
+  "J1_J2_placement_violations": 0,
+  "fabrication_status": "Not fabrication-ready: J2 is a mockup; J4 has four errors and two warnings; board is unrouted."
+}
