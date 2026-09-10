@@ -34,3 +34,6 @@ fp-info-cache
 # Editor local history / autosave
 .history/
 \#auto_saved_files#
+
+# KiCad lock files
+~*.lck
